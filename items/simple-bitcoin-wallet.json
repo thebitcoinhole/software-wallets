@@ -1,0 +1,480 @@
+{
+    "id": "simple-bitcoin-wallet",
+    "name": "Simple Bitcoin Wallet",
+    "basic-information": {
+      "year": {
+        "value": "2015"
+      }
+    },
+    "company": {
+      "brand": {
+        "value": "-"
+      },
+      "headquarters": {
+        "value": "-"
+      },
+      "website": {
+        "value": "Website",
+        "url": "https://sbw.app/"
+      },
+      "blog": {
+        "value": "-"
+      },
+      "twitter": {
+        "value": "@SimpleBtcWallet",
+        "url": "https://twitter.com/SimpleBtcWallet"
+      },
+      "nostr": {
+        "value": "@SBW",
+        "url": "https://snort.social/p/npub1chxa2um7gl65ymyaagjrqys39mtzlwnm2drcs6qkqmme7k4edq4qghrjdd"
+      },
+      "youtube": {
+        "value": "@anton00002",
+        "url": "https://www.youtube.com/channel/UCG0KJvk7p_6fWbkTVJ_hvNw"
+      },
+      "github": {
+        "value": "akumaigorodski",
+        "url": "https://github.com/akumaigorodski"
+      },
+      "slack": {
+        "value": "-"
+      },
+      "discord": {
+        "value": "-"
+      }
+    },
+    "communities": {
+      "telegram": {
+        "value": "-"
+      },
+      "reddit": {
+        "value": "-"
+      }
+    },
+    "networks": {
+      "btc-mainnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-testnet": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "btc-regtest": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "btc-signet": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "lightning-network": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "liquid": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "source-code": {
+      "release-notes": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Release Notes",
+            "url": "https://github.com/akumaigorodski/wallet/releases"
+          }
+        ]
+      },
+      "source-available": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Source Code",
+            "url": "https://github.com/akumaigorodski/wallet"
+          }
+        ]
+      },
+      "open-source": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "license": {
+        "value": "Apache 2.0",
+        "supported": true,
+        "links": [
+          {
+            "title": "License",
+            "url": "https://github.com/akumaigorodski/wallet/blob/master/LICENSE.md"
+          }
+        ]
+      },
+      "reproducible-builds": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Wallet Scrutiny",
+            "url": "https://walletscrutiny.com/android/com.btcontract.wallet/"
+          }
+        ]
+      }
+    },
+    "platforms": {
+      "web": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "windows": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "macos": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "linux": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "android": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Download from Google Play",
+            "url": "https://play.google.com/store/apps/details?id=com.btcontract.wallet"
+          }
+        ],
+        "latest-version": "v2.5.1",
+        "latest-release-date": "Sep 9, 2023"
+      },
+      "ios": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "connectivity": {
+      "usb-data": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "nfc": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "qr-scanner": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "app-lock": {
+      "pin-lock": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "duress-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "dynamic-keypad": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "countdown-reset-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "alphanumeric-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "pattern-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "fingerprint-lock": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "private-keys": {
+      "user-added-entropy": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "passphrase-support": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "master-key-fingerprint": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "backup-recovery-seedphrase": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-24-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "import-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "import-24-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "seed-qr": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "fees": {
+      "fee-control": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "replace-by-fee": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "RBF-boosting of outgoing tx (standard tx with change)",
+            "url": "https://www.youtube.com/watch?v=C0E2zZzoTZY"
+          },
+          {
+            "title": "RBF-cancelling of outgoing tx",
+            "url": "https://www.youtube.com/watch?v=pUs4HwC12Wg"
+          }
+        ]
+      },
+      "child-pays-for-parent": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "CPFP-boosting of incoming tx",
+            "url": "https://www.youtube.com/watch?v=yujABXoECUI"
+          }
+        ]
+      }
+    },
+    "privacy": {
+      "coin-control": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Coin control",
+            "url": "https://www.youtube.com/watch?v=5hZ31x7iik0"
+          }
+        ]
+      },
+      "custom-node": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "tor": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "coinjoin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "hide-sensitive-data": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "stealth-mode": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "built-in-secure-communication": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "other-features": {
+      "multi-sig": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "batch-transactions": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Batching (sending to many addresses in a single Bitcoin transaction)",
+            "url": "https://www.youtube.com/shorts/z_b-OBEi500"
+          }
+        ]
+      },
+      "miniscript": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "taproot": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "timelocks": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "encrypted-storage": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "hardware-wallets-support": {
+      "jade": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "coldcard-mk4": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "bitbox02-btconly": {
+        "value": "Watch-only",
+        "supported": true,
+        "flag": "neutral"
+      },
+      "keystone-3-pro": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Simple Bitcoin Wallet",
+            "url": "https://support.keyst.one/3rd-party-wallets/bitcoin-wallets/simple-bitcoin-wallet"
+          }
+        ]
+      },
+      "passport-batch-2": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Adding a hardware wallet, then spending from it",
+            "url": "https://www.youtube.com/watch?v=93EZrNC7AN0"
+          },
+          {
+            "title": "Passport Tutorial - Simple Bitcoin Wallet Set Up - #FoundersEdition",
+            "url": "https://bitcointv.com/w/opzrkBXrWiRJY5dWBFDLSK"
+          }
+        ]
+      },
+      "trezor-model-one": {
+        "value": "Watch-only",
+        "supported": true,
+        "flag": "neutral"
+      },
+      "trezor-model-t": {
+        "value": "Watch-only",
+        "supported": true,
+        "flag": "neutral"
+      },
+      "ledger-nano-s-plus": {
+        "value": "Watch-only",
+        "supported": true,
+        "flag": "neutral"
+      },
+      "ledger-nano-x": {
+        "value": "Watch-only",
+        "supported": true,
+        "flag": "neutral"
+      },
+      "seedsigner": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "specter-diy": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "tapsigner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "paid-services": {
+      "assisted-self-custody": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "inheritance-planning": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    }
+  }

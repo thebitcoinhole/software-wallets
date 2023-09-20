@@ -1,0 +1,432 @@
+{
+    "id": "mutiny",
+    "name": "Mutiny",
+    "basic-information": {
+      "year": {
+        "value": "2023"
+      }
+    },
+    "company": {
+      "brand": {
+        "value": "-"
+      },
+      "headquarters": {
+        "value": "-"
+      },
+      "website": {
+        "value": "Website",
+        "url": "https://www.mutinywallet.com/"
+      },
+      "blog": {
+        "value": "Blog",
+        "url": "https://blog.mutinywallet.com/"
+      },
+      "twitter": {
+        "value": "@MutinyWallet",
+        "url": "https://twitter.com/MutinyWallet"
+      },
+      "nostr": {
+        "value": "@Mutiny",
+        "url": "https://snort.social/p/npub1mutnyacc9uc4t5mmxvpprwsauj5p2qxq95v4a9j0jxl8wnkfvuyque23vg"
+      },
+      "youtube": {
+        "value": "-"
+      },
+      "github": {
+        "value": "MutinyWallet",
+        "url": "https://github.com/MutinyWallet/"
+      },
+      "slack": {
+        "value": "-"
+      },
+      "discord": {
+        "value": "-"
+      }
+    },
+    "communities": {
+      "telegram": {
+        "value": "-"
+      },
+      "reddit": {
+        "value": "-"
+      }
+    },
+    "networks": {
+      "btc-mainnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-testnet": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "btc-regtest": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "btc-signet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Mutiny Wallet Signet Release",
+            "url": "https://blog.mutinywallet.com/mutiny-wallet-signet-release/"
+          }
+        ]
+      },
+      "lightning-network": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "liquid": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "source-code": {
+      "release-notes": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Release Notes",
+            "url": "https://github.com/MutinyWallet/mutiny-web/releases"
+          }
+        ]
+      },
+      "source-available": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Source Code",
+            "url": "https://github.com/MutinyWallet/mutiny-web"
+          }
+        ]
+      },
+      "open-source": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "license": {
+        "value": "MIT",
+        "supported": true,
+        "links": [
+          {
+            "title": "License",
+            "url": "https://github.com/MutinyWallet/mutiny-web/blob/master/LICENSE"
+          }
+        ]
+      },
+      "reproducible-builds": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "platforms": {
+      "web": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "latest-version": "?",
+        "latest-release-date": "?"
+      },
+      "windows": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "macos": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "linux": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "android": {
+        "value": "SOON",
+        "supported": false,
+        "flag": "negative",
+        "latest-version": "v0.4.16",
+        "latest-release-date": "Sep 6, 2023"
+      },
+      "ios": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "connectivity": {
+      "usb-data": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "nfc": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "qr-scanner": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "app-lock": {
+      "pin-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "duress-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "dynamic-keypad": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "countdown-reset-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "alphanumeric-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "pattern-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "fingerprint-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "private-keys": {
+      "user-added-entropy": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "passphrase-support": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "master-key-fingerprint": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "backup-recovery-seedphrase": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-24-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "import-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "import-24-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "seed-qr": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "fees": {
+      "fee-control": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "replace-by-fee": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "child-pays-for-parent": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "privacy": {
+      "coin-control": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "custom-node": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "tor": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "coinjoin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "hide-sensitive-data": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "stealth-mode": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "built-in-secure-communication": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "other-features": {
+      "multi-sig": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "batch-transactions": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "miniscript": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "taproot": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "timelocks": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "encrypted-storage": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "hardware-wallets-support": {
+      "jade": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "coldcard-mk4": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "bitbox02-btconly": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "keystone-3-pro": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "passport-batch-2": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "trezor-model-one": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "trezor-model-t": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "ledger-nano-s-plus": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "ledger-nano-x": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "seedsigner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "specter-diy": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "tapsigner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "paid-services": {
+      "assisted-self-custody": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "inheritance-planning": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    }
+  }

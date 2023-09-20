@@ -1,0 +1,444 @@
+{
+    "id": "my-citadel",
+    "name": "MyCitadel",
+    "basic-information": {
+      "year": {
+        "value": "2021"
+      }
+    },
+    "company": {
+      "brand": {
+        "value": "Pandora Prime SA"
+      },
+      "headquarters": {
+        "value": "Switzerland"
+      },
+      "website": {
+        "value": "Website",
+        "url": "https://mycitadel.io/"
+      },
+      "blog": {
+        "value": "-"
+      },
+      "twitter": {
+        "value": "@mycitadel_io",
+        "url": "https://twitter.com/mycitadel_io"
+      },
+      "nostr": {
+        "value": "-"
+      },
+      "youtube": {
+        "value": "-"
+      },
+      "github": {
+        "value": "mycitadel",
+        "url": "https://github.com/mycitadel"
+      },
+      "slack": {
+        "value": "-"
+      },
+      "discord": {
+        "value": "-"
+      }
+    },
+    "communities": {
+      "telegram": {
+        "value": "MyCitadel",
+        "url": "https://t.me/mycitadel"
+      },
+      "reddit": {
+        "value": "-"
+      }
+    },
+    "networks": {
+      "btc-mainnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-testnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-regtest": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "btc-signet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "lightning-network": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "liquid": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "source-code": {
+      "release-notes": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Desktop Release Notes",
+            "url": "https://github.com/mycitadel/mycitadel-desktop/releases"
+          },
+          {
+            "title": "iOS Release Notes",
+            "url": "https://github.com/mycitadel/mycitadel-apple/releases"
+          }
+        ]
+      },
+      "source-available": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Desktop Source Code",
+            "url": "https://github.com/mycitadel/mycitadel-desktop"
+          },
+          {
+            "title": "iOS Source Code",
+            "url": "https://github.com/mycitadel/mycitadel-apple"
+          }
+        ]
+      },
+      "open-source": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "license": {
+        "value": "Affero GPLv3",
+        "supported": true,
+        "links": [
+          {
+            "title": "License",
+            "url": "https://github.com/mycitadel/mycitadel-desktop/blob/master/LICENSE"
+          }
+        ]
+      },
+      "reproducible-builds": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "platforms": {
+      "web": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "windows": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "latest-version": "v1.5",
+        "latest-release-date": "Sep 12, 2023"
+      },
+      "macos": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "latest-version": "v1.5",
+        "latest-release-date": "Sep 12, 2023"
+      },
+      "linux": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "latest-version": "v1.5",
+        "latest-release-date": "Sep 12, 2023"
+      },
+      "android": {
+        "value": "SOON",
+        "supported": false,
+        "flag": "neutral"
+      },
+      "ios": {
+        "value": "BETA",
+        "supported": true,
+        "flag": "neutral",
+        "latest-version": "v0.1",
+        "latest-release-date": "Mar 19, 2021"
+      }
+    },
+    "connectivity": {
+      "usb-data": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "nfc": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "qr-scanner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "app-lock": {
+      "pin-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "duress-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "dynamic-keypad": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "countdown-reset-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "alphanumeric-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "pattern-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "fingerprint-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "private-keys": {
+      "user-added-entropy": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "passphrase-support": {
+        "value": "YES",
+        "supported": true,
+        "flag": "neutral",
+        "texts": [
+          "Available when connecting a hardware wallet."
+        ]
+      },
+      "master-key-fingerprint": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "backup-recovery-seedphrase": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "create-12-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "create-24-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "import-12-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "import-24-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "seed-qr": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "fees": {
+      "fee-control": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "replace-by-fee": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "child-pays-for-parent": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "privacy": {
+      "coin-control": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "custom-node": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "tor": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "coinjoin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "hide-sensitive-data": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "stealth-mode": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "built-in-secure-communication": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "other-features": {
+      "multi-sig": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "batch-transactions": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "miniscript": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "taproot": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "texts": [
+          "Not just addresses and key-path spendings, but also multisigs and complex scripts (timelocks, miniscript)"
+        ]
+      },
+      "timelocks": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "encrypted-storage": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "hardware-wallets-support": {
+      "jade": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "coldcard-mk4": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "bitbox02-btconly": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "keystone-3-pro": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "passport-batch-2": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "trezor-model-one": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "trezor-model-t": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "ledger-nano-s-plus": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "ledger-nano-x": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "seedsigner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "specter-diy": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "tapsigner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "paid-services": {
+      "assisted-self-custody": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "inheritance-planning": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    }
+  }

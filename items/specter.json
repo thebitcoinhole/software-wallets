@@ -1,0 +1,445 @@
+{
+    "id": "specter",
+    "name": "Specter",
+    "basic-information": {
+      "year": {
+        "value": "2020"
+      }
+    },
+    "company": {
+      "brand": {
+        "value": "Specter Solutions"
+      },
+      "headquarters": {
+        "value": "Liechtenstein"
+      },
+      "website": {
+        "value": "Website",
+        "url": "https://specter.solutions/desktop/"
+      },
+      "blog": {
+        "value": "Blog",
+        "url": "https://specter.solutions/blog/"
+      },
+      "twitter": {
+        "value": "@SpecterWallet",
+        "url": "https://twitter.com/SpecterWallet"
+      },
+      "nostr": {
+        "value": "-"
+      },
+      "youtube": {
+        "value": "-"
+      },
+      "github": {
+        "value": "cryptoadvance",
+        "url": "https://github.com/cryptoadvance"
+      },
+      "slack": {
+        "value": "-"
+      },
+      "discord": {
+        "value": "-"
+      }
+    },
+    "networks": {
+      "btc-mainnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-testnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-regtest": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-signet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "lightning-network": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "liquid": {
+        "value": "YES",
+        "supported": true,
+        "links": [
+          {
+            "title": "Liquid for Bitcoiners (1/4) - Confidential Transactions",
+            "url": "https://specter.solutions/liquid-for-bitcoiners-1-4-confidential-transactions/"
+          },
+          {
+            "title": "Liquid for Bitcoiners (2/4) - Stablecoin Self-Custody",
+            "url": "https://specter.solutions/liquid-for-bitcoiners-2-4-stablecoin-self-custody/"
+          },
+          {
+            "title": "Liquid for Bitcoiners (3/4) - Working Capital Stability, Remittances & Bitcoin-Backed Loans",
+            "url": "https://specter.solutions/liquid-for-bitcoiners-3-4-stablecoins-for-working-capital-stability-remittances-and-bitcoin-backed-loans/"
+          },
+          {
+            "title": "Liquid for Bitcoiners (4/4) - Financial Securities Infrastructure",
+            "url": "https://specter.solutions/liquid-for-bitcoiners-4-4-financial-securities-infrastructure/"
+          }
+        ]
+      }
+    },
+    "communities": {
+      "telegram": {
+        "value": "-"
+      },
+      "reddit": {
+        "value": "-"
+      }
+    },
+    "source-code": {
+      "release-notes": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Release Notes",
+            "url": "https://github.com/cryptoadvance/specter-desktop/releases"
+          }
+        ]
+      },
+      "source-available": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Source Code",
+            "url": "https://github.com/cryptoadvance/specter-desktop"
+          }
+        ]
+      },
+      "open-source": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "license": {
+        "value": "MIT",
+        "supported": true,
+        "links": [
+          {
+            "title": "License",
+            "url": "https://github.com/cryptoadvance/specter-desktop/blob/master/LICENSE"
+          }
+        ]
+      },
+      "reproducible-builds": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "platforms": {
+      "web": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "windows": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "latest-version": "v2.0.1",
+        "latest-release-date": "Mar 27, 2023"
+      },
+      "macos": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "latest-version": "v2.0.1",
+        "latest-release-date": "Mar 27, 2023"
+      },
+      "linux": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "latest-version": "v2.0.1",
+        "latest-release-date": "Mar 27, 2023"
+      },
+      "android": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "ios": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "connectivity": {
+      "usb-data": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "nfc": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "qr-scanner": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "app-lock": {
+      "pin-lock": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "duress-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "dynamic-keypad": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "countdown-reset-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "alphanumeric-pin": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "pattern-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "fingerprint-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "private-keys": {
+      "user-added-entropy": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "passphrase-support": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "master-key-fingerprint": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "backup-recovery-seedphrase": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-24-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "import-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "import-24-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "seed-qr": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "fees": {
+      "fee-control": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "replace-by-fee": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "child-pays-for-parent": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "privacy": {
+      "coin-control": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "custom-node": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "tor": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "coinjoin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "hide-sensitive-data": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "stealth-mode": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "built-in-secure-communication": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "other-features": {
+      "multi-sig": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "batch-transactions": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "miniscript": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "taproot": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "timelocks": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "encrypted-storage": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "hardware-wallets-support": {
+      "jade": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "coldcard-mk4": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "bitbox02-btconly": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "keystone-3-pro": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "passport-batch-2": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "trezor-model-one": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "trezor-model-t": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "ledger-nano-s-plus": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "ledger-nano-x": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "seedsigner": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "specter-diy": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "tapsigner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "paid-services": {
+      "assisted-self-custody": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "inheritance-planning": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    }
+  }

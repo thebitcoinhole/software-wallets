@@ -1,0 +1,444 @@
+{
+    "id": "bitcoin-keeper",
+    "name": "Bitcoin Keeper",
+    "basic-information": {
+      "year": {
+        "value": "2022"
+      }
+    },
+    "company": {
+      "brand": {
+        "value": "BitHyve"
+      },
+      "headquarters": {
+        "value": "United Kingdom"
+      },
+      "website": {
+        "value": "Website",
+        "url": "https://bitcoinkeeper.app/"
+      },
+      "blog": {
+        "value": "Blog",
+        "url": "https://medium.com/bitbees"
+      },
+      "twitter": {
+        "value": "@bitcoinKeeper_",
+        "url": "https://twitter.com/bitcoinKeeper_"
+      },
+      "nostr": {
+        "value": "-"
+      },
+      "youtube": {
+        "value": "@bithyve3330",
+        "url": "https://www.youtube.com/@bithyve3330"
+      },
+      "github": {
+        "value": "bithyve",
+        "url": "https://github.com/bithyve"
+      },
+      "slack": {
+        "value": "-"
+      },
+      "discord": {
+        "value": "-"
+      }
+    },
+    "communities": {
+      "telegram": {
+        "value": "Bitcoin Keeper",
+        "url": "https://t.me/bitcoinkeeper"
+      },
+      "reddit": {
+        "value": "-"
+      }
+    },
+    "networks": {
+      "btc-mainnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-testnet": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "btc-regtest": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "btc-signet": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "lightning-network": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "liquid": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "connectivity": {
+      "usb-data": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "nfc": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "qr-scanner": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "source-code": {
+      "release-notes": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Release Notes",
+            "url": "https://github.com/bithyve/bitcoin-keeper/releases"
+          }
+        ]
+      },
+      "source-available": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Source Code",
+            "url": "https://github.com/bithyve/bitcoin-keeper/releases"
+          }
+        ]
+      },
+      "open-source": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "license": {
+        "value": "MIT",
+        "supported": true,
+        "links": [
+          {
+            "title": "License",
+            "url": "https://github.com/bithyve/bitcoin-keeper/blob/sprint/LICENSE"
+          }
+        ]
+      },
+      "reproducible-builds": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "platforms": {
+      "web": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "windows": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "macos": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "linux": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "android": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Download from Google Play",
+            "url": "https://play.google.com/store/apps/details?id=io.hexawallet.bitcoinkeeper"
+          }
+        ],
+        "latest-version": "v1.1.2",
+        "latest-release-date": "Aug 2, 2023"
+      },
+      "ios": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Download from Apple Store",
+            "url": "https://apps.apple.com/us/app/bitcoin-keeper/id1545535925"
+          }
+        ],
+        "latest-version": "v1.1.2",
+        "latest-release-date": "Aug 2, 2023"
+      }
+    },
+    "app-lock": {
+      "pin-lock": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "duress-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "dynamic-keypad": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "countdown-reset-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "alphanumeric-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "pattern-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "fingerprint-lock": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "private-keys": {
+      "user-added-entropy": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "passphrase-support": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "master-key-fingerprint": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "backup-recovery-seedphrase": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-24-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "import-12-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "import-24-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "seed-qr": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "fees": {
+      "fee-control": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "replace-by-fee": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "child-pays-for-parent": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "privacy": {
+      "coin-control": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "custom-node": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "tor": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "coinjoin": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "hide-sensitive-data": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "stealth-mode": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "built-in-secure-communication": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "other-features": {
+      "multi-sig": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Multisig Demo using Tap Signer + Ledger + Seedsigner + Coldcard",
+            "url": "https://www.youtube.com/watch?v=uhpLbFfMEZU"
+          }
+        ]
+      },
+      "batch-transactions": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "miniscript": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "taproot": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "timelocks": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "encrypted-storage": {
+        "value": "?",
+        "supported": true
+      }
+    },
+    "hardware-wallets-support": {
+      "jade": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "coldcard-mk4": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "bitbox02-btconly": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "keystone-3-pro": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "passport-batch-2": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "trezor-model-one": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "trezor-model-t": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "ledger-nano-s-plus": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "ledger-nano-x": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "seedsigner": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "specter-diy": {
+        "value": "Watch-only",
+        "supported": true,
+        "flag": "neutral"
+      },
+      "tapsigner": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "paid-services": {
+      "assisted-self-custody": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "inheritance-planning": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    }
+  }

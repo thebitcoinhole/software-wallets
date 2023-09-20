@@ -1,0 +1,446 @@
+{
+    "id": "liana",
+    "name": "Liana",
+    "basic-information": {
+      "year": {
+        "value": "2022"
+      }
+    },
+    "company": {
+      "brand": {
+        "value": "Wizardsardine"
+      },
+      "headquarters": {
+        "value": "Portugal"
+      },
+      "website": {
+        "value": "Website",
+        "url": "https://wizardsardine.com/liana/"
+      },
+      "blog": {
+        "value": "Blog",
+        "url": "https://wizardsardine.com/blog/"
+      },
+      "twitter": {
+        "value": "@Wizardsardine",
+        "url": "https://twitter.com/Wizardsardine"
+      },
+      "nostr": {
+        "value": "-"
+      },
+      "youtube": {
+        "value": "@wizardsardine",
+        "url": "https://www.youtube.com/@wizardsardine"
+      },
+      "github": {
+        "value": "wizardsardine",
+        "url": "https://github.com/wizardsardine"
+      },
+      "slack": {
+        "value": "-"
+      },
+      "discord": {
+        "value": "-"
+      }
+    },
+    "communities": {
+      "telegram": {
+        "value": "Liana",
+        "url": "https://t.me/lianabitcoin"
+      },
+      "reddit": {
+        "value": "-"
+      }
+    },
+    "networks": {
+      "btc-mainnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-testnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-regtest": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-signet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "lightning-network": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "liquid": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "source-code": {
+      "release-notes": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Release Notes",
+            "url": "https://github.com/wizardsardine/liana/releases"
+          }
+        ]
+      },
+      "source-available": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Source Code",
+            "url": "https://github.com/wizardsardine/liana"
+          }
+        ]
+      },
+      "open-source": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "license": {
+        "value": "BSD 3-Clause",
+        "supported": true,
+        "links": [
+          {
+            "title": "License",
+            "url": "https://github.com/wizardsardine/liana/blob/master/LICENCE"
+          }
+        ]
+      },
+      "reproducible-builds": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Reproducible builds",
+            "url": "https://github.com/wizardsardine/liana#reproducible-builds"
+          }
+        ]
+      }
+    },
+    "platforms": {
+      "web": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "windows": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "latest-version": "v2.0",
+        "latest-release-date": "Sep 7, 2023"
+      },
+      "macos": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "latest-version": "v2.0",
+        "latest-release-date": "Sep 7, 2023"
+      },
+      "linux": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "latest-version": "v2.0",
+        "latest-release-date": "Sep 7, 2023"
+      },
+      "android": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "ios": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "connectivity": {
+      "usb-data": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "nfc": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "qr-scanner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "app-lock": {
+      "pin-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "duress-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "dynamic-keypad": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "countdown-reset-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "alphanumeric-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "pattern-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "fingerprint-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "private-keys": {
+      "user-added-entropy": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "passphrase-support": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "master-key-fingerprint": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "backup-recovery-seedphrase": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-24-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "import-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "import-24-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "seed-qr": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "fees": {
+      "fee-control": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "replace-by-fee": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "child-pays-for-parent": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "privacy": {
+      "coin-control": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "custom-node": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "tor": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "coinjoin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "hide-sensitive-data": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "stealth-mode": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "built-in-secure-communication": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "other-features": {
+      "multi-sig": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "batch-transactions": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "miniscript": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "taproot": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "timelocks": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "The state of Bitcoin inheritance planning",
+            "url": "https://wizardsardine.com/blog/the-state-of-bitcoin-inheritance-planning/"
+          }
+        ]
+      },
+      "encrypted-storage": {
+        "value": "?",
+        "supported": true
+      }
+    },
+    "hardware-wallets-support": {
+      "jade": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "coldcard-mk4": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "bitbox02-btconly": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "keystone-3-pro": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "passport-batch-2": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "trezor-model-one": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "trezor-model-t": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "ledger-nano-s-plus": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "ledger-nano-x": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "seedsigner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "specter-diy": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "tapsigner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "paid-services": {
+      "assisted-self-custody": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "inheritance-planning": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "The state of Bitcoin inheritance planning",
+            "url": "https://wizardsardine.com/blog/the-state-of-bitcoin-inheritance-planning/"
+          }
+        ]
+      }
+    }
+  }

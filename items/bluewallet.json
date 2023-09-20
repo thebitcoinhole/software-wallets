@@ -1,0 +1,506 @@
+{
+    "id": "bluewallet",
+    "name": "Bluewallet",
+    "basic-information": {
+      "year": {
+        "value": "2017"
+      }
+    },
+    "company": {
+      "brand": {
+        "value": "BlueWallet"
+      },
+      "headquarters": {
+        "value": "Spain"
+      },
+      "website": {
+        "value": "Website",
+        "url": "https://bluewallet.io/"
+      },
+      "blog": {
+        "value": "Blog",
+        "url": "https://bluewallet.io/blog/"
+      },
+      "twitter": {
+        "value": "@bluewalletio",
+        "url": "https://twitter.com/bluewalletio"
+      },
+      "nostr": {
+        "value": "-"
+      },
+      "youtube": {
+        "value": "@bluewallet4755",
+        "url": "https://www.youtube.com/@bluewallet4755"
+      },
+      "github": {
+        "value": "BlueWallet",
+        "url": "https://github.com/BlueWallet"
+      },
+      "slack": {
+        "value": "-"
+      },
+      "discord": {
+        "value": "Bluewallet",
+        "url": "https://discord.com/invite/btWq2Aby2z"
+      }
+    },
+    "communities": {
+      "telegram": {
+        "value": "Blue Wallet",
+        "url": "http://t.me/Bluewallet"
+      },
+      "reddit": {
+        "value": "bluewallet",
+        "url": "https://www.reddit.com/r/bluewallet/"
+      }
+    },
+    "networks": {
+      "btc-mainnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-testnet": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "btc-regtest": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "btc-signet": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "lightning-network": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Sunsetting Lndhub.io",
+            "url": "https://bluewallet.io/sunsetting-lndhub/"
+          }
+        ]
+      },
+      "liquid": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "source-code": {
+      "release-notes": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Release Notes",
+            "url": "https://github.com/BlueWallet/BlueWallet/releases"
+          }
+        ]
+      },
+      "source-available": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Source Code",
+            "url": "https://github.com/BlueWallet/BlueWallet"
+          }
+        ]
+      },
+      "open-source": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "license": {
+        "value": "MIT",
+        "supported": true,
+        "links": [
+          {
+            "title": "License",
+            "url": "https://github.com/BlueWallet/BlueWallet/blob/master/LICENSE"
+          }
+        ]
+      },
+      "reproducible-builds": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Wallet Scrutiny",
+            "url": "https://walletscrutiny.com/android/io.bluewallet.bluewallet/"
+          }
+        ]
+      }
+    },
+    "platforms": {
+      "web": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "windows": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "macos": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Download from Mac Store",
+            "url": "https://apps.apple.com/app/bluewallet-bitcoin-wallet/id1376878040"
+          },
+          {
+            "title": "Bitcoin Wallet for Desktop - v5.5.6",
+            "url": "https://bluewallet.io/Bitcoin-Wallet-for-Desktop-v5-5-6-4f2172406155/"
+          }
+        ],
+        "latest-version": "v6.4.8",
+        "latest-release-date": "Jul 27, 2023"
+      },
+      "linux": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "android": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Download from Google Play",
+            "url": "https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet"
+          }
+        ],
+        "latest-version": "v6.4.8",
+        "latest-release-date": "Jul 27, 2023"
+      },
+      "ios": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Download from Apple Store",
+            "url": "https://apps.apple.com/app/bluewallet-bitcoin-wallet/id1376878040"
+          }
+        ],
+        "latest-version": "v6.4.8",
+        "latest-release-date": "Jul 27, 2023"
+      }
+    },
+    "connectivity": {
+      "usb-data": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "nfc": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "qr-scanner": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "app-lock": {
+      "pin-lock": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "duress-pin": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "dynamic-keypad": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "countdown-reset-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "alphanumeric-pin": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "pattern-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "fingerprint-lock": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "private-keys": {
+      "user-added-entropy": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "passphrase-support": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "master-key-fingerprint": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "backup-recovery-seedphrase": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-24-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "import-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "import-24-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "seed-qr": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "fees": {
+      "fee-control": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "replace-by-fee": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "High fees and transactions pending - What to do",
+            "url": "https://bluewallet.io/high-fees-and-transactions-pending-what-to-do/"
+          }
+        ]
+      },
+      "child-pays-for-parent": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "privacy": {
+      "coin-control": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "custom-node": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "tor": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "coinjoin": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "texts": [
+          "Payjoin"
+        ]
+      },
+      "hide-sensitive-data": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "stealth-mode": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "built-in-secure-communication": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "other-features": {
+      "multi-sig": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Multisig Vault",
+            "url": "https://bluewallet.io/multisig-wallet/"
+          },
+          {
+            "title": "Introducing v6 with Multisig",
+            "url": "https://bluewallet.io/introducing-v6-with-multisig/"
+          },
+          {
+            "title": "How to create a Multisig wallet Vault between 2 BlueWallet apps",
+            "url": "https://www.youtube.com/watch?v=UszgwtbkNmg"
+          }
+        ]
+      },
+      "batch-transactions": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "High fees and transactions pending - What to do",
+            "url": "https://bluewallet.io/high-fees-and-transactions-pending-what-to-do/"
+          }
+        ]
+      },
+      "miniscript": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "taproot": {
+        "value": "Partially supported",
+        "supported": true,
+        "flag": "neutral"
+      },
+      "timelocks": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "encrypted-storage": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "hardware-wallets-support": {
+      "jade": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "See Hardware Wallet details",
+            "url": "https://thebitcoinhole.com/wallets/jade.html"
+          }
+        ]
+      },
+      "coldcard-mk4": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Coldcard with Bluewallet",
+            "url": "https://bluewallet.io/docs/coldcard/"
+          }
+        ]
+      },
+      "bitbox02-btconly": {
+        "value": "Watch-only",
+        "supported": true,
+        "flag": "neutral"
+      },
+      "keystone-3-pro": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "passport-batch-2": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "trezor-model-one": {
+        "value": "Watch-only",
+        "supported": true,
+        "flag": "neutral"
+      },
+      "trezor-model-t": {
+        "value": "Watch-only",
+        "supported": true,
+        "flag": "neutral"
+      },
+      "ledger-nano-s-plus": {
+        "value": "Watch-only",
+        "supported": true,
+        "flag": "neutral"
+      },
+      "ledger-nano-x": {
+        "value": "Watch-only",
+        "supported": true,
+        "flag": "neutral"
+      },
+      "seedsigner": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "specter-diy": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "tapsigner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "paid-services": {
+      "assisted-self-custody": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "inheritance-planning": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    }
+  }

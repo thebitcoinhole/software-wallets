@@ -1,0 +1,520 @@
+{
+    "id": "samourai",
+    "name": "Samourai",
+    "basic-information": {
+      "year": {
+        "value": "2016"
+      }
+    },
+    "company": {
+      "brand": {
+        "value": "Streetside Development"
+      },
+      "headquarters": {
+        "value": "United Kingdom"
+      },
+      "website": {
+        "value": "Website",
+        "url": "https://samouraiwallet.com/"
+      },
+      "blog": {
+        "value": "Blog",
+        "url": "https://medium.com/@SamouraiWallet"
+      },
+      "twitter": {
+        "value": "@samouraiwallet",
+        "url": "https://twitter.com/samouraiwallet"
+      },
+      "nostr": {
+        "value": "-"
+      },
+      "youtube": {
+        "value": "@Samouraiwallet",
+        "url": "https://www.youtube.com/@Samouraiwallet"
+      },
+      "github": {
+        "value": "Samourai",
+        "url": "https://code.samourai.io/wallet"
+      },
+      "slack": {
+        "value": "-"
+      },
+      "discord": {
+        "value": "-"
+      }
+    },
+    "communities": {
+      "telegram": {
+        "value": "Samourai Wallet",
+        "url": "https://t.me/SamouraiWallet"
+      },
+      "reddit": {
+        "value": "Samourai",
+        "url": "https://www.reddit.com/r/Samourai/"
+      }
+    },
+    "networks": {
+      "btc-mainnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-testnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "texts": [
+          "You need to sideload the APK to see the testnet option. Installing from Google Play doesn't show the option to use testnet"
+        ]
+      },
+      "btc-regtest": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "btc-signet": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "lightning-network": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "liquid": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "source-code": {
+      "release-notes": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Release Notes",
+            "url": "https://docs.samourai.io/en/wallet/releases"
+          }
+        ]
+      },
+      "source-available": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Source Code",
+            "url": "https://code.samourai.io/wallet/samourai-wallet-android"
+          }
+        ]
+      },
+      "open-source": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "license": {
+        "value": "GPLv3",
+        "supported": true,
+        "links": [
+          {
+            "title": "License",
+            "url": "https://code.samourai.io/wallet/samourai-wallet-android/-/blob/develop/LICENSE"
+          }
+        ]
+      },
+      "reproducible-builds": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Wallet Scrutiny",
+            "url": "https://walletscrutiny.com/android/com.samourai.wallet/"
+          }
+        ]
+      }
+    },
+    "platforms": {
+      "web": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "windows": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "macos": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "linux": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "android": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Download from Google Play",
+            "url": "https://play.google.com/store/apps/details?id=com.samourai.wallet"
+          }
+        ],
+        "latest-version": "?",
+        "latest-release-date": "?"
+      },
+      "ios": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative",
+        "latest-version": "?",
+        "latest-release-date": "?"
+      }
+    },
+    "connectivity": {
+      "usb-data": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "nfc": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "qr-scanner": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "app-lock": {
+      "pin-lock": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "duress-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "dynamic-keypad": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Scrambled PIN",
+            "url": "https://samouraiwallet.com/pin"
+          }
+        ]
+      },
+      "countdown-reset-pin": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "alphanumeric-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "pattern-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "fingerprint-lock": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "private-keys": {
+      "user-added-entropy": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "passphrase-support": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "master-key-fingerprint": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "backup-recovery-seedphrase": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-24-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "import-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "import-24-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "seed-qr": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "fees": {
+      "fee-control": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Fees",
+            "url": "https://samouraiwallet.com/fees"
+          }
+        ]
+      },
+      "replace-by-fee": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Fees",
+            "url": "https://samouraiwallet.com/fees"
+          }
+        ]
+      },
+      "child-pays-for-parent": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Fees",
+            "url": "https://samouraiwallet.com/fees"
+          }
+        ]
+      }
+    },
+    "privacy": {
+      "coin-control": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Labelling Transactions and UTXOs in Samourai Wallet",
+            "url": "https://www.youtube.com/watch?v=TGvjScMLXu4"
+          }
+        ]
+      },
+      "custom-node": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "How to Connect to Your Own Dojo",
+            "url": "https://www.youtube.com/watch?v=WVt6oMExTQY"
+          }
+        ]
+      },
+      "tor": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "coinjoin": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Whirlpool",
+            "url": "https://samouraiwallet.com/whirlpool"
+          },
+          {
+            "title": "Introducing Whirlpool Surge Cycles",
+            "url": "https://medium.com/samourai-wallet/introducing-whirlpool-surge-cycles-b5b484a1670f"
+          }
+        ]
+      },
+      "hide-sensitive-data": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "stealth-mode": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Wallet Update 0.99.98g — The Stealth Mode update!",
+            "url": "https://medium.com/samourai-wallet/wallet-update-0-99-98g-the-stealth-mode-update-b11942f6cd74"
+          }
+        ]
+      },
+      "built-in-secure-communication": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Collaborate in style",
+            "url": "https://blog.samourai.is/wallet-update-0-99-98f-collaborate-in-style/"
+          }
+        ]
+      }
+    },
+    "other-features": {
+      "multi-sig": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "batch-transactions": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Batch Spending",
+            "url": "https://samouraiwallet.com/batch"
+          },
+          {
+            "title": "Creating A Batch Spend",
+            "url": "https://www.youtube.com/watch?v=AvtZF4djofg"
+          }
+        ]
+      },
+      "miniscript": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "taproot": {
+        "value": "Partially supported",
+        "supported": true,
+        "flag": "neutral",
+        "texts": [
+          "You can send to taproot, and you can sweep taproot private keys. But you can't receive to taproot address."
+        ]
+      },
+      "timelocks": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "encrypted-storage": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "hardware-wallets-support": {
+      "jade": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative",
+        "links": [
+          {
+            "title": "See Hardware Wallet details",
+            "url": "https://thebitcoinhole.com/wallets/jade.html"
+          }
+        ]
+      },
+      "coldcard-mk4": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "bitbox02-btconly": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "keystone-3-pro": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "passport-batch-2": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "trezor-model-one": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "trezor-model-t": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "ledger-nano-s-plus": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "ledger-nano-x": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "seedsigner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "specter-diy": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "tapsigner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "paid-services": {
+      "assisted-self-custody": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "inheritance-planning": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    }
+  }
