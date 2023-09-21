@@ -47,6 +47,26 @@ The following is a sample of the JSON format:
 }
 ```
 
+JSON fields:
+
+| Field | Type | Required | Description |
+| --- | --- | --- | --- |
+| id | string | true | The wallet id. It matches with the JSON file name. |
+| name | string | true | The wallet name. |
+| category-name.feature-name-1.value | string | yes | The visible feature value. For example: `"YES"`, `"NO"`, `"Experimental"`, etc |
+| category-name.feature-name-1.flag | string | no | The flag of the wallet feature. Possible values: `"positive"`, `"neutral"` or `"negative"` |
+| category-name.feature-name-1.supported | boolean | no | If the feature is supported by the wallet. This is used to filter by this feature |
+| category-name.feature-name-1.texts | array of strings | no | Official Texts with info about the feature |
+| category-name.feature-name-1.links | array of objects | no | Official links with info about the feature |
+| category-name.feature-name-1.links.title | string | yes | The title of the link |
+| category-name.feature-name-1.links.url | string | yes | The url of the link |
+
+On each pull request, the JSON files are verified to be sure they are valid and well-formatted. You can run the following command inside the `scripts` directory to format the JSON before sending a pull request:
+
+```
+node json-format.js
+```
+
 All the features supported:
 
 | Category | Category Id | Feature | Feature Id |
