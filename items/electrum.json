@@ -1,457 +1,457 @@
 {
-    "id": "electrum",
-    "name": "Electrum",
-    "basic-information": {
-      "year": {
-        "value": "2011"
-      }
+  "id": "electrum",
+  "name": "Electrum",
+  "basic-information": {
+    "year": {
+      "value": "2011"
+    }
+  },
+  "company": {
+    "brand": {
+      "value": "Electrum"
     },
-    "company": {
-      "brand": {
-        "value": "Electrum"
-      },
-      "headquarters": {
-        "value": "-"
-      },
-      "website": {
-        "value": "Website",
-        "url": "https://electrum.org/"
-      },
-      "blog": {
-        "value": "-"
-      },
-      "twitter": {
-        "value": "@ElectrumWallet",
-        "url": "https://twitter.com/ElectrumWallet"
-      },
-      "nostr": {
-        "value": "-"
-      },
-      "youtube": {
-        "value": "-"
-      },
-      "github": {
-        "value": "spesmilo",
-        "url": "https://github.com/spesmilo"
-      },
-      "slack": {
-        "value": "-"
-      },
-      "discord": {
-        "value": "-"
-      }
+    "headquarters": {
+      "value": "-"
     },
-    "communities": {
-      "telegram": {
-        "value": "-"
-      },
-      "reddit": {
-        "value": "Electrum",
-        "url": "https://www.reddit.com/r/Electrum/"
-      }
+    "website": {
+      "value": "Website",
+      "url": "https://electrum.org/"
     },
-    "networks": {
-      "btc-mainnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "btc-testnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "btc-regtest": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "btc-signet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "lightning-network": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "liquid": {
-        "value": "NO",
-        "supported": false
-      }
+    "blog": {
+      "value": "-"
     },
-    "source-code": {
-      "release-notes": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Release Notes",
-            "url": "https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES"
-          }
-        ]
-      },
-      "source-available": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Source Code",
-            "url": "https://github.com/spesmilo/electrum"
-          }
-        ]
-      },
-      "open-source": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "license": {
-        "value": "MIT",
-        "supported": true,
-        "links": [
-          {
-            "title": "License",
-            "url": "https://github.com/spesmilo/electrum/blob/master/LICENCE"
-          }
-        ]
-      },
-      "reproducible-builds": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Creating Binaries",
-            "url": "https://github.com/spesmilo/electrum#creating-binaries"
-          },
-          {
-            "title": "Wallet Scrutiny",
-            "url": "https://walletscrutiny.com/android/org.electrum.electrum/"
-          }
-        ]
-      }
+    "twitter": {
+      "value": "@ElectrumWallet",
+      "url": "https://twitter.com/ElectrumWallet"
     },
-    "platforms": {
-      "web": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "windows": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "latest-version": "?",
-        "latest-release-date": "?"
-      },
-      "macos": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "latest-version": "?",
-        "latest-release-date": "?"
-      },
-      "linux": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "latest-version": "?",
-        "latest-release-date": "?"
-      },
-      "android": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Download from Google Play",
-            "url": "https://play.google.com/store/apps/details?id=org.electrum.electrum"
-          }
-        ],
-        "latest-version": "?",
-        "latest-release-date": "?"
-      },
-      "ios": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "nostr": {
+      "value": "-"
     },
-    "connectivity": {
-      "usb-data": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "nfc": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "qr-scanner": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      }
+    "youtube": {
+      "value": "-"
     },
-    "app-lock": {
-      "pin-lock": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "duress-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "dynamic-keypad": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "countdown-reset-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "alphanumeric-pin": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "pattern-lock": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "fingerprint-lock": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "github": {
+      "value": "spesmilo",
+      "url": "https://github.com/spesmilo"
     },
-    "private-keys": {
-      "user-added-entropy": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "passphrase-support": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "master-key-fingerprint": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "backup-recovery-seedphrase": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "create-12-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "create-24-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "import-12-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "import-24-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "seed-qr": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "slack": {
+      "value": "-"
     },
-    "fees": {
-      "fee-control": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "replace-by-fee": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "child-pays-for-parent": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      }
+    "discord": {
+      "value": "-"
+    }
+  },
+  "communities": {
+    "telegram": {
+      "value": "-"
     },
-    "privacy": {
-      "coin-control": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "custom-node": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "tor": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "coinjoin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "hide-sensitive-data": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "stealth-mode": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "built-in-secure-communication": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "reddit": {
+      "value": "Electrum",
+      "url": "https://www.reddit.com/r/Electrum/"
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
-    "other-features": {
-      "multi-sig": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "batch-transactions": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "miniscript": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "taproot": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative",
-        "links": [
-          {
-            "title": "Taproot support?",
-            "url": "https://github.com/spesmilo/electrum/issues/7544"
-          }
-        ]
-      },
-      "timelocks": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "encrypted-storage": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      }
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
-    "hardware-wallets-support": {
-      "jade": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "See Hardware Wallet details",
-            "url": "https://thebitcoinhole.com/wallets/jade.html"
-          }
-        ]
-      },
-      "coldcard-mk4": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "bitbox02-btconly": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "keystone-3-pro": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "passport-batch-2": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "trezor-model-one": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "trezor-model-t": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "ledger-nano-s-plus": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "ledger-nano-x": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "seedsigner": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "specter-diy": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "tapsigner": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "btc-regtest": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
-    "paid-services": {
-      "assisted-self-custody": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "inheritance-planning": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "btc-signet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "lightning-network": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "liquid": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "source-code": {
+    "release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/spesmilo/electrum"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/spesmilo/electrum/blob/master/LICENCE"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Creating Binaries",
+          "url": "https://github.com/spesmilo/electrum#creating-binaries"
+        },
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/org.electrum.electrum/"
+        }
+      ]
+    }
+  },
+  "platforms": {
+    "web": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "latest-version": "?",
+      "latest-release-date": "?"
+    },
+    "macos": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "latest-version": "?",
+      "latest-release-date": "?"
+    },
+    "linux": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "latest-version": "?",
+      "latest-release-date": "?"
+    },
+    "android": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.electrum.electrum"
+        }
+      ],
+      "latest-version": "?",
+      "latest-release-date": "?"
+    },
+    "ios": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "connectivity": {
+    "usb-data": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr-scanner": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "app-lock": {
+    "pin-lock": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "duress-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "private-keys": {
+    "user-added-entropy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "backup-recovery-seedphrase": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-12-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-24-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "import-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "child-pays-for-parent": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "coinjoin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "hide-sensitive-data": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "stealth-mode": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "built-in-secure-communication": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "batch-transactions": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Taproot support?",
+          "url": "https://github.com/spesmilo/electrum/issues/7544"
+        }
+      ]
+    },
+    "timelocks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "encrypted-storage": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "hardware-wallets-support": {
+    "jade": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "See Hardware Wallet details",
+          "url": "https://thebitcoinhole.com/wallets/jade.html"
+        }
+      ]
+    },
+    "coldcard-mk4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitbox02-btconly": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "keystone-3-pro": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "passport-batch-2": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-model-one": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-model-t": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ledger-nano-s-plus": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ledger-nano-x": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seedsigner": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-diy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tapsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "paid-services": {
+    "assisted-self-custody": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "inheritance-planning": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
+}

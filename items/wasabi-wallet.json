@@ -1,487 +1,487 @@
 {
-    "id": "wasabi-wallet",
-    "name": "Wasabi Wallet",
-    "basic-information": {
-      "year": {
-        "value": "2018"
-      }
+  "id": "wasabi-wallet",
+  "name": "Wasabi Wallet",
+  "basic-information": {
+    "year": {
+      "value": "2018"
+    }
+  },
+  "company": {
+    "brand": {
+      "value": "zksnacks"
     },
-    "company": {
-      "brand": {
-        "value": "zksnacks"
-      },
-      "headquarters": {
-        "value": "Gibraltar"
-      },
-      "website": {
-        "value": "Website",
-        "url": "https://wasabiwallet.io/"
-      },
-      "blog": {
-        "value": "Blog",
-        "url": "https://blog.wasabiwallet.io/"
-      },
-      "twitter": {
-        "value": "@wasabiwallet",
-        "url": "https://twitter.com/wasabiwallet"
-      },
-      "nostr": {
-        "value": "-"
-      },
-      "youtube": {
-        "value": "@WasabiWallet",
-        "url": "https://youtube.com/c/WasabiWallet"
-      },
-      "github": {
-        "value": "zkSNACKs",
-        "url": "https://github.com/zkSNACKs"
-      },
-      "slack": {
-        "value": "-"
-      },
-      "discord": {
-        "value": "Wasabi Wallet",
-        "url": "https://discord.gg/nm7YHEZnJs"
-      }
+    "headquarters": {
+      "value": "Gibraltar"
     },
-    "communities": {
-      "telegram": {
-        "value": "WasabiWallet",
-        "url": "https://t.me/WasabiWallet"
-      },
-      "reddit": {
-        "value": "WasabiWallet",
-        "url": "https://www.reddit.com/r/WasabiWallet/"
-      }
+    "website": {
+      "value": "Website",
+      "url": "https://wasabiwallet.io/"
     },
-    "networks": {
-      "btc-mainnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "btc-testnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Testnet",
-            "url": "https://docs.wasabiwallet.io/using-wasabi/Testnet.html"
-          }
-        ]
-      },
-      "btc-regtest": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "btc-signet": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "lightning-network": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "liquid": {
-        "value": "NO",
-        "supported": false
-      }
+    "blog": {
+      "value": "Blog",
+      "url": "https://blog.wasabiwallet.io/"
     },
-    "source-code": {
-      "release-notes": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Release Notes",
-            "url": "https://github.com/zkSNACKs/WalletWasabi/releases"
-          }
-        ]
-      },
-      "source-available": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Source Code",
-            "url": "https://github.com/zkSNACKs/WalletWasabi"
-          }
-        ]
-      },
-      "open-source": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "license": {
-        "value": "MIT",
-        "supported": true,
-        "links": [
-          {
-            "title": "License",
-            "url": "https://github.com/zkSNACKs/WalletWasabi/blob/master/LICENSE.md"
-          }
-        ]
-      },
-      "reproducible-builds": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Guide for deterministic builds",
-            "url": "https://github.com/zkSNACKs/WalletWasabi/blob/master/WalletWasabi.Documentation/Guides/DeterministicBuildGuide.md"
-          }
-        ]
-      }
+    "twitter": {
+      "value": "@wasabiwallet",
+      "url": "https://twitter.com/wasabiwallet"
     },
-    "platforms": {
-      "web": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "windows": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "latest-version": "?",
-        "latest-release-date": "?"
-      },
-      "macos": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "latest-version": "?",
-        "latest-release-date": "?"
-      },
-      "linux": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "latest-version": "?",
-        "latest-release-date": "?"
-      },
-      "android": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "ios": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "nostr": {
+      "value": "-"
     },
-    "connectivity": {
-      "usb-data": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "nfc": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "qr-scanner": {
-        "value": "Partially supported",
-        "supported": true,
-        "flag": "neutral",
-        "links": [
-          {
-            "title": "Coming Soon: QR Code Implementation",
-            "url": "https://blog.wasabiwallet.io/coming-soon-qr-code-implementation/"
-          }
-        ]
-      }
+    "youtube": {
+      "value": "@WasabiWallet",
+      "url": "https://youtube.com/c/WasabiWallet"
     },
-    "app-lock": {
-      "pin-lock": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "duress-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "dynamic-keypad": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "countdown-reset-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "alphanumeric-pin": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "pattern-lock": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "fingerprint-lock": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "github": {
+      "value": "zkSNACKs",
+      "url": "https://github.com/zkSNACKs"
     },
-    "private-keys": {
-      "user-added-entropy": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "passphrase-support": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "master-key-fingerprint": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "backup-recovery-seedphrase": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "create-12-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "create-24-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "import-12-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "import-24-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "seed-qr": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "slack": {
+      "value": "-"
     },
-    "fees": {
-      "fee-control": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "replace-by-fee": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "child-pays-for-parent": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      }
+    "discord": {
+      "value": "Wasabi Wallet",
+      "url": "https://discord.gg/nm7YHEZnJs"
+    }
+  },
+  "communities": {
+    "telegram": {
+      "value": "WasabiWallet",
+      "url": "https://t.me/WasabiWallet"
     },
-    "privacy": {
-      "coin-control": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "custom-node": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "tor": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "coinjoin": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "WabiSabi",
-            "url": "https://github.com/zkSNACKs/WabiSabi/"
-          },
-          {
-            "title": "Coinjoin",
-            "url": "https://docs.wasabiwallet.io/using-wasabi/CoinJoin.html"
-          },
-          {
-            "title": "zkSNACKs' Blacklisting Update",
-            "url": "https://blog.wasabiwallet.io/zksnacks-blacklisting-update/"
-          }
-        ]
-      },
-      "hide-sensitive-data": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "stealth-mode": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "built-in-secure-communication": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "reddit": {
+      "value": "WasabiWallet",
+      "url": "https://www.reddit.com/r/WasabiWallet/"
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
-    "other-features": {
-      "multi-sig": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative",
-        "links": [
-          {
-            "title": "Can I generate a multi signature script?",
-            "url": "https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#can-i-generate-a-multi-signature-script"
-          }
-        ]
-      },
-      "batch-transactions": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "miniscript": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "taproot": {
-        "value": "Partially supported",
-        "supported": true,
-        "flag": "neutral",
-        "links": [
-          {
-            "title": "Does Wasabi support Taproot?",
-            "url": "https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#does-wasabi-support-taproot"
-          }
-        ]
-      },
-      "timelocks": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "encrypted-storage": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "What is the password used for?",
-            "url": "https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-is-the-password-used-for"
-          }
-        ]
-      }
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Testnet",
+          "url": "https://docs.wasabiwallet.io/using-wasabi/Testnet.html"
+        }
+      ]
     },
-    "hardware-wallets-support": {
-      "jade": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "coldcard-mk4": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "bitbox02-btconly": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "keystone-3-pro": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Wasabi Wallet",
-            "url": "https://support.keyst.one/3rd-party-wallets/bitcoin-wallets/wasabi"
-          }
-        ]
-      },
-      "passport-batch-2": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "trezor-model-one": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "trezor-model-t": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "ledger-nano-s-plus": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "ledger-nano-x": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "seedsigner": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "specter-diy": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "tapsigner": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "btc-regtest": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
-    "paid-services": {
-      "assisted-self-custody": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "inheritance-planning": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "btc-signet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "lightning-network": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "liquid": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "source-code": {
+    "release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/zkSNACKs/WalletWasabi/releases"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/zkSNACKs/WalletWasabi"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/zkSNACKs/WalletWasabi/blob/master/LICENSE.md"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Guide for deterministic builds",
+          "url": "https://github.com/zkSNACKs/WalletWasabi/blob/master/WalletWasabi.Documentation/Guides/DeterministicBuildGuide.md"
+        }
+      ]
+    }
+  },
+  "platforms": {
+    "web": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "latest-version": "?",
+      "latest-release-date": "?"
+    },
+    "macos": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "latest-version": "?",
+      "latest-release-date": "?"
+    },
+    "linux": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "latest-version": "?",
+      "latest-release-date": "?"
+    },
+    "android": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "connectivity": {
+    "usb-data": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr-scanner": {
+      "value": "Partially supported",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Coming Soon: QR Code Implementation",
+          "url": "https://blog.wasabiwallet.io/coming-soon-qr-code-implementation/"
+        }
+      ]
+    }
+  },
+  "app-lock": {
+    "pin-lock": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "duress-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "private-keys": {
+    "user-added-entropy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "backup-recovery-seedphrase": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-24-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "import-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "child-pays-for-parent": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "coinjoin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "WabiSabi",
+          "url": "https://github.com/zkSNACKs/WabiSabi/"
+        },
+        {
+          "title": "Coinjoin",
+          "url": "https://docs.wasabiwallet.io/using-wasabi/CoinJoin.html"
+        },
+        {
+          "title": "zkSNACKs' Blacklisting Update",
+          "url": "https://blog.wasabiwallet.io/zksnacks-blacklisting-update/"
+        }
+      ]
+    },
+    "hide-sensitive-data": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "stealth-mode": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "built-in-secure-communication": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Can I generate a multi signature script?",
+          "url": "https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#can-i-generate-a-multi-signature-script"
+        }
+      ]
+    },
+    "batch-transactions": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot": {
+      "value": "Partially supported",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Does Wasabi support Taproot?",
+          "url": "https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#does-wasabi-support-taproot"
+        }
+      ]
+    },
+    "timelocks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "encrypted-storage": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "What is the password used for?",
+          "url": "https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-is-the-password-used-for"
+        }
+      ]
+    }
+  },
+  "hardware-wallets-support": {
+    "jade": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "coldcard-mk4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitbox02-btconly": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "keystone-3-pro": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Wasabi Wallet",
+          "url": "https://support.keyst.one/3rd-party-wallets/bitcoin-wallets/wasabi"
+        }
+      ]
+    },
+    "passport-batch-2": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-model-one": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-model-t": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ledger-nano-s-plus": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ledger-nano-x": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seedsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-diy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tapsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "paid-services": {
+    "assisted-self-custody": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "inheritance-planning": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
+}

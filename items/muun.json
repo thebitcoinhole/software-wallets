@@ -1,481 +1,481 @@
 {
-    "id": "muun",
-    "name": "Muun",
-    "basic-information": {
-      "year": {
-        "value": "2018"
-      }
+  "id": "muun",
+  "name": "Muun",
+  "basic-information": {
+    "year": {
+      "value": "2018"
+    }
+  },
+  "company": {
+    "brand": {
+      "value": "Muun"
     },
-    "company": {
-      "brand": {
-        "value": "Muun"
-      },
-      "headquarters": {
-        "value": "USA"
-      },
-      "website": {
-        "value": "Website",
-        "url": "https://muun.com/"
-      },
-      "blog": {
-        "value": "Blog",
-        "url": "https://blog.muun.com/"
-      },
-      "twitter": {
-        "value": "@muunwallet",
-        "url": "https://twitter.com/muunwallet"
-      },
-      "nostr": {
-        "value": "-"
-      },
-      "youtube": {
-        "value": "-"
-      },
-      "github": {
-        "value": "muun",
-        "url": "https://github.com/muun"
-      },
-      "slack": {
-        "value": "-"
-      },
-      "discord": {
-        "value": "-"
-      }
+    "headquarters": {
+      "value": "USA"
     },
-    "communities": {
-      "telegram": {
-        "value": "-"
-      },
-      "reddit": {
-        "value": "-"
-      }
+    "website": {
+      "value": "Website",
+      "url": "https://muun.com/"
     },
-    "networks": {
-      "btc-mainnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "btc-testnet": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "btc-regtest": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "btc-signet": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "lightning-network": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "liquid": {
-        "value": "NO",
-        "supported": false
-      }
+    "blog": {
+      "value": "Blog",
+      "url": "https://blog.muun.com/"
     },
-    "source-code": {
-      "release-notes": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "source-available": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Android Source Code",
-            "url": "https://github.com/muun/apollo"
-          },
-          {
-            "title": "iOS Source Code",
-            "url": "https://github.com/muun/falcon"
-          }
-        ]
-      },
-      "open-source": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "license": {
-        "value": "MIT",
-        "supported": true,
-        "links": [
-          {
-            "title": "Android License",
-            "url": "https://github.com/muun/apollo/blob/master/LICENSE"
-          },
-          {
-            "title": "iOS License",
-            "url": "https://github.com/muun/falcon/blob/master/LICENSE"
-          },
-          {
-            "title": "Muun's New Open Source Model",
-            "url": "https://blog.muun.com/muuns-new-open-source-model/"
-          }
-        ]
-      },
-      "reproducible-builds": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative",
-        "links": [
-          {
-            "title": "Wallet Scrutiny (Android)",
-            "url": "https://walletscrutiny.com/android/io.muun.apollo/"
-          },
-          {
-            "title": "Wallet Scrutiny (iOS)",
-            "url": "https://walletscrutiny.com/iphone/com.muun.falcon/"
-          }
-        ]
-      }
+    "twitter": {
+      "value": "@muunwallet",
+      "url": "https://twitter.com/muunwallet"
     },
-    "platforms": {
-      "web": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "windows": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "macos": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "linux": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "android": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Download from Google Play",
-            "url": "https://play.google.com/store/apps/details?id=io.muun.apollo"
-          }
-        ],
-        "latest-version": "?",
-        "latest-release-date": "?"
-      },
-      "ios": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Download from Apple Store",
-            "url": "https://apps.apple.com/us/app/muun-wallet/id1482037683"
-          }
-        ],
-        "latest-version": "?",
-        "latest-release-date": "?"
-      }
+    "nostr": {
+      "value": "-"
     },
-    "connectivity": {
-      "usb-data": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "nfc": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "qr-scanner": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      }
+    "youtube": {
+      "value": "-"
     },
-    "app-lock": {
-      "pin-lock": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "duress-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "dynamic-keypad": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "countdown-reset-pin": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "alphanumeric-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "pattern-lock": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "fingerprint-lock": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "github": {
+      "value": "muun",
+      "url": "https://github.com/muun"
     },
-    "private-keys": {
-      "user-added-entropy": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "passphrase-support": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "master-key-fingerprint": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "backup-recovery-seedphrase": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative",
-        "links": [
-          {
-            "title": "Self-Custody in Muun: Why Not just a Mnemonic?",
-            "url": "https://blog.muun.com/why-not-just-a-mnemonic/"
-          }
-        ]
-      },
-      "create-12-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "create-24-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "import-12-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "import-24-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "seed-qr": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "slack": {
+      "value": "-"
     },
-    "fees": {
-      "fee-control": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Why is Muun's fee estimator more efficient?",
-            "url": "https://blog.muun.com/why-is-muuns-fee-estimator-more-efficient/"
-          },
-          {
-            "title": "Save up to 30% in fees with Muun's new mempool-based estimator",
-            "url": "https://blog.muun.com/save-up-to-30-in-on-chain-fees-with-muuns-new-mempool-based-estimator/"
-          }
-        ]
-      },
-      "replace-by-fee": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "child-pays-for-parent": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "discord": {
+      "value": "-"
+    }
+  },
+  "communities": {
+    "telegram": {
+      "value": "-"
     },
-    "privacy": {
-      "coin-control": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "custom-node": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "tor": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "coinjoin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "hide-sensitive-data": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "stealth-mode": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "built-in-secure-communication": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
-    "other-features": {
-      "multi-sig": {
-        "value": "Non Standard",
-        "supported": false,
-        "flag": "negative",
-        "links": [
-          {
-            "title": "Muun's Multi-Signature Model",
-            "url": "https://blog.muun.com/muuns-multisig-model/"
-          }
-        ]
-      },
-      "batch-transactions": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "miniscript": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "taproot": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "timelocks": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "encrypted-storage": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      }
+    "btc-testnet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
-    "hardware-wallets-support": {
-      "jade": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative",
-        "links": [
-          {
-            "title": "See Hardware Wallet details",
-            "url": "https://thebitcoinhole.com/wallets/jade.html"
-          }
-        ]
-      },
-      "coldcard-mk4": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "bitbox02-btconly": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "keystone-3-pro": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "passport-batch-2": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "trezor-model-one": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "trezor-model-t": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "ledger-nano-s-plus": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "ledger-nano-x": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "seedsigner": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "specter-diy": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "tapsigner": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "btc-regtest": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
-    "paid-services": {
-      "assisted-self-custody": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "inheritance-planning": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "btc-signet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "lightning-network": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "liquid": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "source-code": {
+    "release-notes": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Android Source Code",
+          "url": "https://github.com/muun/apollo"
+        },
+        {
+          "title": "iOS Source Code",
+          "url": "https://github.com/muun/falcon"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "Android License",
+          "url": "https://github.com/muun/apollo/blob/master/LICENSE"
+        },
+        {
+          "title": "iOS License",
+          "url": "https://github.com/muun/falcon/blob/master/LICENSE"
+        },
+        {
+          "title": "Muun's New Open Source Model",
+          "url": "https://blog.muun.com/muuns-new-open-source-model/"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny (Android)",
+          "url": "https://walletscrutiny.com/android/io.muun.apollo/"
+        },
+        {
+          "title": "Wallet Scrutiny (iOS)",
+          "url": "https://walletscrutiny.com/iphone/com.muun.falcon/"
+        }
+      ]
+    }
+  },
+  "platforms": {
+    "web": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.muun.apollo"
+        }
+      ],
+      "latest-version": "?",
+      "latest-release-date": "?"
+    },
+    "ios": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/muun-wallet/id1482037683"
+        }
+      ],
+      "latest-version": "?",
+      "latest-release-date": "?"
+    }
+  },
+  "connectivity": {
+    "usb-data": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr-scanner": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "app-lock": {
+    "pin-lock": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "duress-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "private-keys": {
+    "user-added-entropy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "passphrase-support": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "master-key-fingerprint": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-seedphrase": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Self-Custody in Muun: Why Not just a Mnemonic?",
+          "url": "https://blog.muun.com/why-not-just-a-mnemonic/"
+        }
+      ]
+    },
+    "create-12-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-24-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "import-12-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "import-24-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Why is Muun's fee estimator more efficient?",
+          "url": "https://blog.muun.com/why-is-muuns-fee-estimator-more-efficient/"
+        },
+        {
+          "title": "Save up to 30% in fees with Muun's new mempool-based estimator",
+          "url": "https://blog.muun.com/save-up-to-30-in-on-chain-fees-with-muuns-new-mempool-based-estimator/"
+        }
+      ]
+    },
+    "replace-by-fee": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "child-pays-for-parent": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "custom-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coinjoin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "hide-sensitive-data": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "stealth-mode": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "built-in-secure-communication": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "multi-sig": {
+      "value": "Non Standard",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Muun's Multi-Signature Model",
+          "url": "https://blog.muun.com/muuns-multisig-model/"
+        }
+      ]
+    },
+    "batch-transactions": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "timelocks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "encrypted-storage": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "hardware-wallets-support": {
+    "jade": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "See Hardware Wallet details",
+          "url": "https://thebitcoinhole.com/wallets/jade.html"
+        }
+      ]
+    },
+    "coldcard-mk4": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitbox02-btconly": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "keystone-3-pro": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "passport-batch-2": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-model-one": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-model-t": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ledger-nano-s-plus": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ledger-nano-x": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seedsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-diy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tapsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "paid-services": {
+    "assisted-self-custody": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "inheritance-planning": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
+}
