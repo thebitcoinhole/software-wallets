@@ -37,11 +37,11 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-      working-directory: wallets-generator
+      working-directory: scripts
 
     - name: Run script
       run: node github-release.js ${{ inputs.item-id }} ${{ inputs.github-org }} ${{ inputs.github-repo }} ${{ inputs.platforms }} ${{ inputs.releases }} $GITHUB_TOKEN
-      working-directory: wallets-generator
+      working-directory: scripts
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v5.0.2
