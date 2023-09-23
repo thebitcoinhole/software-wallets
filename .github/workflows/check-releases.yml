@@ -1,0 +1,136 @@
+name: Check Releases
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"  # Runs every day at 12:00 AM UTC
+
+jobs:
+  bitcoin-keeper:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: bitcoin-keeper
+      github-org: bithyve
+      github-repo: bitcoin-keeper
+      platforms: android-ios
+  blueWallet:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: bluewallet
+      github-org: BlueWallet
+      github-repo: BlueWallet
+      platforms: android-ios-macos
+  envoy:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: envoy
+      github-org: Foundation-Devices
+      github-repo: envoy
+      platforms: android-ios
+  green-desktop:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: green
+      github-org: Blockstream
+      github-repo: green_qt
+      platforms: windows-macos-linux
+  green-android:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: green
+      github-org: Blockstream
+      github-repo: green_android
+      platforms: android
+  green-ios:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: green
+      github-org: Blockstream
+      github-repo: green_ios
+      platforms: ios
+  liana:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: liana
+      github-org: wizardsardine
+      github-repo: liana
+      platforms: windows-macos-linux
+  mutiny:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: mutiny
+      github-org: MutinyWallet
+      github-repo: mutiny-web
+      platforms: android
+  my-citadel-desktop:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: my-citadel
+      github-org: mycitadel
+      github-repo: mycitadel-desktop
+      platforms: windows-macos-linux
+  my-citadel-ios:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: my-citadel
+      github-org: mycitadel
+      github-repo: mycitadel-apple
+      platforms: ios
+  nunchuk-android:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: nunchuk
+      github-org: nunchuk-io
+      github-repo: nunchuk-android
+      platforms: android
+  phoenix:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: phoenix
+      github-org: ACINQ
+      github-repo: phoenix
+      platforms: android
+  simple-bitcoin-wallet:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: simple-bitcoin-wallet
+      github-org: akumaigorodski
+      github-repo: wallet
+      platforms: android
+  sparrow:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: sparrow
+      github-org: sparrowwallet
+      github-repo: sparrow
+      platforms: windows-macos-linux
+  specter:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: specter
+      github-org: cryptoadvance
+      github-repo: specter-desktop
+      platforms: windows-macos-linux
+  wasabi:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-type: software-wallets
+      item-id: wasabi
+      github-org: zkSNACKs
+      github-repo: WalletWasabi
+      platforms: windows-macos-linux

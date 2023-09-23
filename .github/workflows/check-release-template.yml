@@ -1,0 +1,53 @@
+name: Check Releases Template
+
+on:
+  workflow_call:
+    inputs:
+      item-id:
+        required: true
+        type: string
+      github-org:
+        required: true
+        type: string
+      github-repo:
+        required: true
+        type: string
+      releases:
+        required: false
+        default: true
+        type: boolean
+      platforms:
+        required: true
+        type: string
+
+jobs:
+  check-release:
+    runs-on: ubuntu-latest
+    env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+
+    - name: Install dependencies
+      run: npm install
+      working-directory: wallets-generator
+
+    - name: Run script
+      run: node github-release.js ${{ inputs.item-id }} ${{ inputs.github-org }} ${{ inputs.github-repo }} ${{ inputs.platforms }} ${{ inputs.releases }} $GITHUB_TOKEN
+      working-directory: wallets-generator
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v5.0.2
+      with:
+        title: "New ${{ inputs.item-id }} (${{ inputs.platforms }}) release"
+        commit-message: "New ${{ inputs.item-id }} (${{ inputs.platforms }}) release"
+        branch: "${{ inputs.item-id }}/${{ inputs.platforms }}/new-release"
+        add-paths: "items/*.json"
+        assignees: "${{ secrets.ASSIGNEE }}"
