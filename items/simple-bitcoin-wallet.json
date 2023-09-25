@@ -84,24 +84,24 @@
   },
   "currency": {
     "fiat": {
-        "value": "Many",
-        "supported": true,
-        "flag": "positive"
-    },        
+      "value": "Many",
+      "supported": true,
+      "flag": "positive"
+    },
     "btc": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "sats": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "exchange-rate-provider": {
-        "value": "?"
+      "value": "?"
     }
-},
+  },
   "source-code": {
     "release-notes": {
       "value": "YES",
