@@ -90,6 +90,10 @@ All the features supported:
 | Networks | networks | Bitcoin signet | btc-signet |
 | Networks | networks | Lightning Network | lightning-network |
 | Networks | networks | Liquid | liquid |
+| Currency | currency | Fiat Denominations | fiat |
+| Currency | currency | Bitcoin Unit (BTC) | btc |
+| Currency | currency | Bitcoin Unit (SAT) | sats |
+| Currency | currency | Exchange Rate Provider | exchange-rate-provider |
 | Source Code | source-code | Lastest Version | latest-version |
 | Source Code | source-code | Lastest Release Date | latest-release-date |
 | Source Code | source-code | Release Notes | release-notes |

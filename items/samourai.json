@@ -87,6 +87,26 @@
       "supported": false
     }
   },
+  "currency": {
+    "fiat": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+    },        
+    "btc": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+    },
+    "sats": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+    },
+    "exchange-rate-provider": {
+        "value": "-"
+    }
+},
   "source-code": {
     "release-notes": {
       "value": "YES",

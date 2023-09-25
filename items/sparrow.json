@@ -88,6 +88,26 @@
       "value": "-"
     }
   },
+  "currency": {
+    "fiat": {
+        "value": "Many",
+        "supported": true,
+        "flag": "positive"
+    },        
+    "btc": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+    },
+    "sats": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+    },
+    "exchange-rate-provider": {
+        "value": "Coinbase | Coingecko"
+    }
+  },
   "source-code": {
     "release-notes": {
       "value": "YES",
