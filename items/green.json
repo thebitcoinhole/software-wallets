@@ -320,6 +320,16 @@
     }
   },
   "private-keys": {
+    "hot-keys": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "multiple-wallets": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "user-added-entropy": {
       "value": "NO",
       "supported": false,
@@ -467,6 +477,11 @@
         }
       ]
     },
+    "transaction-labeling": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "batch-transactions": {
       "value": "NO",
       "supported": false,
@@ -509,6 +524,11 @@
           "url": "https://blog.blockstream.com/en-gain-privacy-with-the-encrypted-blob/"
         }
       ]
+    },
+    "dark-mode": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "hardware-wallets-support": {

@@ -117,6 +117,8 @@ All the features supported:
 | App Lock | app-lock | Alphanumeric PIN | alphanumeric-pin |
 | App Lock | app-lock | Pattern Lock | pattern-lock |
 | App Lock | app-lock | Fingerprint Lock | fingerprint-lock |
+| Private Keys | private-keys | Hot Keys Support | hot-keys |
+| Private Keys | private-keys | Mulitple Wallets at the same time | multiple-wallets |
 | Private Keys | private-keys | User Added Entropy | user-added-entropy |
 | Private Keys | private-keys | Passphrases support | passphrase-support |
 | Private Keys | private-keys | Master Key Fingerprint | master-key-fingerprint |
@@ -137,11 +139,13 @@ All the features supported:
 | Privacy | privacy | Stealth Mode | stealth-mode |
 | Privacy | privacy | Built-in secure communication | built-in-secure-communication |
 | Other Features | other-features | Multi-sig (PSBTs) | multi-sig |
+| Other Features | other-features | Transaction Labeling | transaction-labeling |
 | Other Features | other-features | Batch Transactions | batch-transactions |
 | Other Features | other-features | Miniscript | miniscript |
 | Other Features | other-features | Taproot | taproot |
 | Other Features | other-features | Timelocks | timelocks |
 | Other Features | other-features | Encrypted Storage | encrypted-storage |
+| Other Features | other-features | Dark Mode | dark-mode |
 | Hardware Wallets Support | hardware-wallets-support | Jade | jade |
 | Hardware Wallets Support | hardware-wallets-support | Colcard MK4 | coldcard-mk4 |
 | Hardware Wallets Support | hardware-wallets-support | BitBox02 | bitbox02-btconly |

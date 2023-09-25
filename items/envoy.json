@@ -252,6 +252,16 @@
     }
   },
   "private-keys": {
+    "hot-keys": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "multiple-wallets": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "user-added-entropy": {
       "value": "NO",
       "supported": false,
@@ -388,6 +398,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "transaction-labeling": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "batch-transactions": {
       "value": "NO",
       "supported": false,
@@ -418,6 +433,11 @@
           "url": "https://foundationdevices.com/2023/05/announcing-envoy-wallet-bitcoin-simplified/"
         }
       ]
+    },
+    "dark-mode": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "hardware-wallets-support": {

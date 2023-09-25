@@ -273,6 +273,16 @@
     }
   },
   "private-keys": {
+    "hot-keys": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "multiple-wallets": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "user-added-entropy": {
       "value": "NO",
       "supported": false,
@@ -403,6 +413,11 @@
         }
       ]
     },
+    "transaction-labeling": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "batch-transactions": {
       "value": "YES",
       "supported": true,
@@ -430,6 +445,11 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "dark-mode": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "hardware-wallets-support": {

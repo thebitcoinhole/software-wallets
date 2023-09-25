@@ -260,6 +260,16 @@
     }
   },
   "private-keys": {
+    "hot-keys": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "multiple-wallets": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "user-added-entropy": {
       "value": "NO",
       "supported": false,
@@ -386,6 +396,11 @@
         }
       ]
     },
+    "transaction-labeling": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "batch-transactions": {
       "value": "NO",
       "supported": false,
@@ -422,6 +437,11 @@
           "url": "https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-is-the-password-used-for"
         }
       ]
+    },
+    "dark-mode": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "hardware-wallets-support": {
