@@ -164,21 +164,21 @@
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "latest-version": "v1.5",
+      "latest-version": "vVersion 1.5",
       "latest-release-date": "Sep 12, 2023"
     },
     "macos": {
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "latest-version": "v1.5",
+      "latest-version": "vVersion 1.5",
       "latest-release-date": "Sep 12, 2023"
     },
     "linux": {
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "latest-version": "v1.5",
+      "latest-version": "vVersion 1.5",
       "latest-release-date": "Sep 12, 2023"
     },
     "android": {
