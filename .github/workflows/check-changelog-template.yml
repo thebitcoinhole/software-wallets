@@ -1,0 +1,43 @@
+name: Check Releases Template
+
+on:
+  workflow_call:
+    inputs:
+      item-id:
+        required: true
+        type: string
+      changelog-url:
+        required: true
+        type: string
+
+jobs:
+  check-release:
+    runs-on: ubuntu-latest
+    env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+
+    - name: Install dependencies
+      run: npm install
+      working-directory: scripts
+
+    - name: Run script
+      run: node github-changelog.js ${{ inputs.item-id }} ${{ inputs.changelog-url }}
+      working-directory: scripts
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v5.0.2
+      with:
+        title: "New ${{ inputs.item-id }} release"
+        commit-message: "New ${{ inputs.item-id }} release"
+        branch: "${{ inputs.item-id }}/new-release"
+        add-paths: "items/*.json"
+        assignees: "${{ secrets.ASSIGNEE }}"

@@ -21,6 +21,11 @@ jobs:
       github-repo: BlueWallet
       platforms: android-ios-macos
   envoy:
+    uses: ./.github/workflows/check-changelog-template.yml
+    with:
+      item-id: electrum
+      changelog-url: https://raw.githubusercontent.com/spesmilo/electrum/master/RELEASE-NOTES
+  envoy:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: envoy
