@@ -56,7 +56,7 @@ function formatDate(inputDate) {
     return `${month} ${day}, ${year}`;
   }
 
-function updateJson(itemId, latestVersion, latestReleaseDate) {
+  function updateJson(itemId, latestVersion, latestReleaseDate) {
     // Define the path to your JSON file.
     const filePath = `../items/${itemId}.json`;
 
@@ -65,28 +65,32 @@ function updateJson(itemId, latestVersion, latestReleaseDate) {
         if (err) {
             console.error('Error reading JSON file:', err);
             process.exit(1);
-            return;
         }
 
         try {
             const wallet = JSON.parse(data);
             var modifyJson = false
 
-            console.log("Updating hardware wallet firmware")
+            console.log("Updating software wallet")
 
-            var currentVersion = wallet["firmware"]["latest-version"].value
-            console.log("Current version found: " + currentVersion)
-            if (latestVersion !== currentVersion) {
-                wallet["firmware"]["latest-version"].value = latestVersion
-                modifyJson = true
-            }
-            
-            var currentReleaseDate = wallet["firmware"]["latest-release-date"].value
-            if (latestReleaseDate !== currentReleaseDate) {
-                wallet["firmware"]["latest-release-date"].value = latestReleaseDate
-                modifyJson = true
-            }
-            console.log("Current Release date found: " + currentReleaseDate)
+            // TODO For Bluewallet, some versions are not for all the platforms. Inspect the assets to see which platform to update
+
+            platforms.split('-').forEach(platform => {
+                var currentVersion = wallet["platforms"][platform]["latest-version"]
+                console.log("Current version found: " + currentVersion)
+
+                if (latestVersion !== currentVersion) {
+                    wallet["platforms"][platform]["latest-version"] = latestVersion
+                    modifyJson = true
+                }
+                
+                var currentReleaseDate = wallet["platforms"][platform]["latest-release-date"]
+                if (latestReleaseDate !== currentReleaseDate) {
+                    wallet["platforms"][platform]["latest-release-date"] = latestReleaseDate
+                    modifyJson = true
+                }
+                console.log("Current Release date found: " + currentReleaseDate)
+            });
 
             if (modifyJson) {
                 // Convert the modified object back to a JSON string.
