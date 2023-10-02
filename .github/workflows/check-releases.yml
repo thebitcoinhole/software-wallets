@@ -20,7 +20,7 @@ jobs:
       github-org: BlueWallet
       github-repo: BlueWallet
       platforms: android-ios-macos
-  envoy:
+  electrum:
     uses: ./.github/workflows/check-changelog-template.yml
     with:
       item-id: electrum
