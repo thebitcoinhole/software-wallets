@@ -57,7 +57,7 @@ axios
         latestVersion = latestVersion.replace(/^Version (\d+(\.\d+)+) \(.*\)$/, '$1');
 
         // Wasabi v2.0.4 - Faster Than Fast Latest
-        latestVersion = latestVersion.replace(/^Wasabi (\d+(\.\d+)+) \(.*\)$/, '$1');
+        latestVersion = latestVersion.replace(/^Wasabi v(\d+(\.\d+)+) - .*$/, '$1');
 
         // For example: "2023-09-08T2009-v5.1.4"
         latestVersion = latestVersion.replace(/.*-([^:]+)$/, '$1');
