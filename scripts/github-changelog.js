@@ -4,6 +4,7 @@ const axios = require('axios');
 
 const itemId = process.argv[2];
 const changelogUrl = process.argv[3];
+const platforms = process.argv[4];
 
 var latestVersion
 var latestReleaseDate
