@@ -114,7 +114,7 @@ jobs:
   wasabi:
     uses: ./.github/workflows/check-release-template.yml
     with:
-      item-id: wasabi
+      item-id: wasabi-wallet
       github-org: zkSNACKs
       github-repo: WalletWasabi
       platforms: windows-macos-linux
