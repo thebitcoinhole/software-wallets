@@ -179,8 +179,8 @@
       "value": "SOON",
       "supported": false,
       "flag": "negative",
-      "latest-version": "v0.4.16",
-      "latest-release-date": "Sep 6, 2023"
+      "latest-version": "v0.4.20",
+      "latest-release-date": "Sep 29, 2023"
     },
     "ios": {
       "value": "NO",
