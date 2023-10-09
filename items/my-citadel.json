@@ -84,7 +84,7 @@
   },
   "currency": {
     "fiat": {
-      "value": "CHF",
+      "value": "Many",
       "supported": true,
       "flag": "positive"
     },
