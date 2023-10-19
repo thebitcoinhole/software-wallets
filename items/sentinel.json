@@ -1,38 +1,40 @@
 {
-  "id": "electrum",
-  "name": "Electrum",
+  "id": "sentinel",
+  "name": "Sentinel",
   "basic-information": {
     "year": {
-      "value": "2011"
+      "value": "2016"
     }
   },
   "company": {
     "brand": {
-      "value": "Electrum"
+      "value": "Streetside Development"
     },
     "headquarters": {
-      "value": "-"
+      "value": "United Kingdom"
     },
     "website": {
       "value": "Website",
-      "url": "https://electrum.org/"
+      "url": "https://samouraiwallet.com/"
     },
     "blog": {
-      "value": "-"
+      "value": "Blog",
+      "url": "https://medium.com/@SamouraiWallet"
     },
     "twitter": {
-      "value": "@ElectrumWallet",
-      "url": "https://twitter.com/ElectrumWallet"
+      "value": "@samouraiwallet",
+      "url": "https://twitter.com/samouraiwallet"
     },
     "nostr": {
       "value": "-"
     },
     "youtube": {
-      "value": "-"
+      "value": "@Samouraiwallet",
+      "url": "https://www.youtube.com/@Samouraiwallet"
     },
     "github": {
-      "value": "spesmilo",
-      "url": "https://github.com/spesmilo"
+      "value": "Samourai",
+      "url": "https://code.samourai.io/wallet"
     },
     "slack": {
       "value": "-"
@@ -43,11 +45,12 @@
   },
   "communities": {
     "telegram": {
-      "value": "-"
+      "value": "Samourai Wallet",
+      "url": "https://t.me/SamouraiWallet"
     },
     "reddit": {
-      "value": "Electrum",
-      "url": "https://www.reddit.com/r/Electrum/"
+      "value": "Samourai",
+      "url": "https://www.reddit.com/r/Samourai/"
     }
   },
   "networks": {
@@ -57,24 +60,24 @@
       "flag": "positive"
     },
     "btc-testnet": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "btc-regtest": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "btc-signet": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "lightning-network": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "liquid": {
       "value": "NO",
@@ -83,7 +86,7 @@
   },
   "currency": {
     "fiat": {
-      "value": "Many",
+      "value": "YES",
       "supported": true,
       "flag": "positive"
     },
@@ -98,20 +101,13 @@
       "flag": "positive"
     },
     "exchange-rate-provider": {
-      "value": "Many"
+      "value": "Coingecko"
     }
   },
   "source-code": {
     "release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES"
-        }
-      ]
+      "value": "?",
+      "supported": false
     },
     "source-available": {
       "value": "YES",
@@ -120,7 +116,7 @@
       "links": [
         {
           "title": "Source Code",
-          "url": "https://github.com/spesmilo/electrum"
+          "url": "https://code.samourai.io/wallet/sentinel-android"
         }
       ]
     },
@@ -130,12 +126,12 @@
       "flag": "positive"
     },
     "license": {
-      "value": "MIT",
+      "value": "GPLv3",
       "supported": true,
       "links": [
         {
           "title": "License",
-          "url": "https://github.com/spesmilo/electrum/blob/master/LICENCE"
+          "url": "https://code.samourai.io/wallet/sentinel-android/-/blob/develop/LICENSE"
         }
       ]
     },
@@ -145,12 +141,8 @@
       "flag": "positive",
       "links": [
         {
-          "title": "Creating Binaries",
-          "url": "https://github.com/spesmilo/electrum#creating-binaries"
-        },
-        {
           "title": "Wallet Scrutiny",
-          "url": "https://walletscrutiny.com/android/org.electrum.electrum/"
+          "url": "https://walletscrutiny.com/android/com.samourai.wallet/"
         }
       ]
     }
@@ -162,25 +154,19 @@
       "flag": "negative"
     },
     "windows": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "latest-version": "v4.4.6",
-      "latest-release-date": "Aug 18, 2023"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "macos": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "latest-version": "v4.4.6",
-      "latest-release-date": "Aug 18, 2023"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "linux": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "latest-version": "v4.4.6",
-      "latest-release-date": "Aug 18, 2023"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "android": {
       "value": "YES",
@@ -189,7 +175,7 @@
       "links": [
         {
           "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=org.electrum.electrum"
+          "url": "https://play.google.com/store/apps/details?id=com.samourai.sentinel"
         }
       ],
       "latest-version": "?",
@@ -198,14 +184,16 @@
     "ios": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "latest-version": "?",
+      "latest-release-date": "?"
     }
   },
   "connectivity": {
     "usb-data": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "nfc": {
       "value": "NO",
@@ -230,9 +218,9 @@
       "flag": "negative"
     },
     "dynamic-keypad": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "countdown-reset-pin": {
       "value": "NO",
@@ -240,9 +228,9 @@
       "flag": "negative"
     },
     "alphanumeric-pin": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "pattern-lock": {
       "value": "NO",
@@ -277,14 +265,14 @@
       "flag": "positive"
     },
     "master-key-fingerprint": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "backup-recovery-seedphrase": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "create-12-words": {
       "value": "NO",
@@ -297,14 +285,14 @@
       "flag": "negative"
     },
     "import-12-words": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "import-24-words": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "seed-qr": {
       "value": "NO",
@@ -319,14 +307,14 @@
       "flag": "positive"
     },
     "replace-by-fee": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "child-pays-for-parent": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "privacy": {
@@ -338,7 +326,13 @@
     "custom-node": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How to Connect to Your Own Dojo",
+          "url": "https://www.youtube.com/watch?v=WVt6oMExTQY"
+        }
+      ]
     },
     "tor": {
       "value": "YES",
@@ -378,9 +372,9 @@
       "flag": "positive"
     },
     "batch-transactions": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "miniscript": {
       "value": "NO",
@@ -390,13 +384,7 @@
     "taproot": {
       "value": "NO",
       "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Taproot support?",
-          "url": "https://github.com/spesmilo/electrum/issues/7544"
-        }
-      ]
+      "flag": "negative"
     },
     "timelocks": {
       "value": "NO",
@@ -416,59 +404,59 @@
   },
   "hardware-wallets-support": {
     "jade": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "coldcard-mk4": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "bitbox02-btconly": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "keystone-3-pro": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "passport-batch-2": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "trezor-model-one": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "trezor-model-t": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "ledger-nano-s-plus": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "ledger-nano-x": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "seedsigner": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "specter-diy": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "tapsigner": {
       "value": "NO",

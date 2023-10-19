@@ -115,7 +115,7 @@
       "links": [
         {
           "title": "Release Notes",
-          "url": "https://docs.samourai.io/en/wallet/releases"
+          "url": "sample"
         }
       ]
     },
@@ -481,13 +481,7 @@
     "jade": {
       "value": "NO",
       "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "See Hardware Wallet details",
-          "url": "https://thebitcoinhole.com/wallets/jade.html"
-        }
-      ]
+      "flag": "negative"
     },
     "coldcard-mk4": {
       "value": "NO",

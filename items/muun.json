@@ -442,13 +442,7 @@
     "jade": {
       "value": "NO",
       "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "See Hardware Wallet details",
-          "url": "https://thebitcoinhole.com/wallets/jade.html"
-        }
-      ]
+      "flag": "negative"
     },
     "coldcard-mk4": {
       "value": "NO",
