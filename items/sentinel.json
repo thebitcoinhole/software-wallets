@@ -60,9 +60,12 @@
       "flag": "positive"
     },
     "btc-testnet": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "You need to sideload the APK to see the testnet option. Installing from Google Play doesn't show the option to use testnet"
+      ]
     },
     "btc-regtest": {
       "value": "NO",
