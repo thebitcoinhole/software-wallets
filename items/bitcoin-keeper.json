@@ -195,8 +195,8 @@
           "url": "https://play.google.com/store/apps/details?id=io.hexawallet.bitcoinkeeper"
         }
       ],
-      "latest-version": "v1.1.6",
-      "latest-release-date": "Sep 18, 2023"
+      "latest-version": "v1.1.7",
+      "latest-release-date": "Oct 21, 2023"
     },
     "ios": {
       "value": "YES",
@@ -208,8 +208,8 @@
           "url": "https://apps.apple.com/us/app/bitcoin-keeper/id1545535925"
         }
       ],
-      "latest-version": "v1.1.6",
-      "latest-release-date": "Sep 18, 2023"
+      "latest-version": "v1.1.7",
+      "latest-release-date": "Oct 21, 2023"
     }
   },
   "app-lock": {
