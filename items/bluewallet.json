@@ -186,8 +186,8 @@
           "url": "https://bluewallet.io/Bitcoin-Wallet-for-Desktop-v5-5-6-4f2172406155/"
         }
       ],
-      "latest-version": "v6.4.8",
-      "latest-release-date": "Jul 27, 2023"
+      "latest-version": "v6.4.10",
+      "latest-release-date": "Oct 25, 2023"
     },
     "linux": {
       "value": "NO",
@@ -204,8 +204,8 @@
           "url": "https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet"
         }
       ],
-      "latest-version": "v6.4.8",
-      "latest-release-date": "Jul 27, 2023"
+      "latest-version": "v6.4.10",
+      "latest-release-date": "Oct 25, 2023"
     },
     "ios": {
       "value": "YES",
@@ -217,8 +217,8 @@
           "url": "https://apps.apple.com/app/bluewallet-bitcoin-wallet/id1376878040"
         }
       ],
-      "latest-version": "v6.4.8",
-      "latest-release-date": "Jul 27, 2023"
+      "latest-version": "v6.4.10",
+      "latest-release-date": "Oct 25, 2023"
     }
   },
   "connectivity": {
