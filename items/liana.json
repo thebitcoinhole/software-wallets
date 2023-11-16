@@ -163,22 +163,22 @@
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "latest-version": "v2.0",
-      "latest-release-date": "Sep 7, 2023"
+      "latest-version": "v3.0",
+      "latest-release-date": "Nov 2, 2023"
     },
     "macos": {
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "latest-version": "v2.0",
-      "latest-release-date": "Sep 7, 2023"
+      "latest-version": "v3.0",
+      "latest-release-date": "Nov 2, 2023"
     },
     "linux": {
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "latest-version": "v2.0",
-      "latest-release-date": "Sep 7, 2023"
+      "latest-version": "v3.0",
+      "latest-release-date": "Nov 2, 2023"
     },
     "android": {
       "value": "NO",
