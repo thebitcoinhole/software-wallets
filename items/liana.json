@@ -363,8 +363,9 @@
       "flag": "positive"
     },
     "transaction-labeling": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "batch-transactions": {
       "value": "YES",
@@ -414,9 +415,9 @@
       "flag": "negative"
     },
     "bitbox02-btconly": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "keystone-3-pro": {
       "value": "NO",
