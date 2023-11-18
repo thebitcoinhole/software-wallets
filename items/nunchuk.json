@@ -68,9 +68,9 @@
       "flag": "negative"
     },
     "btc-signet": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "lightning-network": {
       "value": "NO",
@@ -171,23 +171,23 @@
       "flag": "negative"
     },
     "windows": {
-      "value": "YES (BETA)",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
+      "flag": "positive",
       "latest-version": "v1.9.20",
       "latest-release-date": "Jun 8, 2023"
     },
     "macos": {
-      "value": "YES (BETA)",
+    "value": "YES",
       "supported": true,
-      "flag": "neutral",
+      "flag": "positive",
       "latest-version": "v1.9.20",
       "latest-release-date": "Jun 8, 2023"
     },
     "linux": {
-      "value": "YES (BETA)",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
+      "flag": "positive",
       "latest-version": "v1.9.20",
       "latest-release-date": "Jun 8, 2023"
     },
@@ -324,9 +324,9 @@
       "flag": "positive"
     },
     "seed-qr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "fees": {
