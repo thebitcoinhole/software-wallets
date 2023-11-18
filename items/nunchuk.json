@@ -178,7 +178,7 @@
       "latest-release-date": "Jun 8, 2023"
     },
     "macos": {
-    "value": "YES",
+      "value": "YES",
       "supported": true,
       "flag": "positive",
       "latest-version": "v1.9.20",
