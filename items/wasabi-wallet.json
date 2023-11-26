@@ -171,22 +171,22 @@
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "latest-version": "v2.0.4",
-      "latest-release-date": "Aug 21, 2023"
+      "latest-version": "vWasabi Wallet v2.0.4.1",
+      "latest-release-date": "Nov 22, 2023"
     },
     "macos": {
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "latest-version": "v2.0.4",
-      "latest-release-date": "Aug 21, 2023"
+      "latest-version": "vWasabi Wallet v2.0.4.1",
+      "latest-release-date": "Nov 22, 2023"
     },
     "linux": {
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "latest-version": "v2.0.4",
-      "latest-release-date": "Aug 21, 2023"
+      "latest-version": "vWasabi Wallet v2.0.4.1",
+      "latest-release-date": "Nov 22, 2023"
     },
     "android": {
       "value": "NO",
