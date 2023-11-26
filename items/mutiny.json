@@ -176,9 +176,9 @@
       "flag": "negative"
     },
     "android": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "negative",
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral",
       "latest-version": "v0.4.20",
       "latest-release-date": "Sep 29, 2023"
     },
