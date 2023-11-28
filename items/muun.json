@@ -103,9 +103,15 @@
   },
   "source-code": {
     "release-notes": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Android Release Notes",
+          "url": "https://github.com/muun/apollo/blob/master/android/CHANGELOG.md"
+        }
+      ]
     },
     "source-available": {
       "value": "YES",
@@ -146,10 +152,14 @@
       ]
     },
     "reproducible-builds": {
-      "value": "NO",
+      "value": "Not Working",
       "supported": false,
-      "flag": "negative",
+      "flag": "neutral",
       "links": [
+        {
+          "title": "Build reproducibly (Android)",
+          "url": "https://github.com/muun/apollo/blob/master/BUILD.md#build-reproducibly"
+        },
         {
           "title": "Wallet Scrutiny (Android)",
           "url": "https://walletscrutiny.com/android/io.muun.apollo/"
