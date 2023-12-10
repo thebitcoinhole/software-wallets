@@ -345,9 +345,15 @@
   },
   "privacy": {
     "coin-control": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Envoy 1.4 - Say Hello to Coin Control",
+          "url": "https://foundationdevices.com/2023/12/envoy-1-4-say-hello-to-coin-control/"
+        }
+      ]
     },
     "custom-node": {
       "value": "YES",
