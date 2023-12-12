@@ -192,8 +192,8 @@
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "latest-version": "v2.0.12",
-      "latest-release-date": "Nov 6, 2023"
+      "latest-version": "v2.0.14",
+      "latest-release-date": "Dec 7, 2023"
     },
     "ios": {
       "value": "YES",
