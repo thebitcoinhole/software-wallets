@@ -44,3 +44,4 @@ jobs:
         branch: "${{ inputs.item-id }}/new-release"
         add-paths: "items/*.json"
         assignees: "${{ secrets.ASSIGNEE }}"
+        body: ${{ inputs.changelog-url }}
