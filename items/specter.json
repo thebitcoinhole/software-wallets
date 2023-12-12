@@ -199,6 +199,20 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "umbrel-os": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "latest-version": "?",
+      "latest-release-date": "?"
+    },
+    "start9": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "latest-version": "?",
+      "latest-release-date": "?"
     }
   },
   "connectivity": {

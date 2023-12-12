@@ -192,6 +192,20 @@
       "flag": "neutral",
       "latest-version": "v0.1",
       "latest-release-date": "Mar 19, 2021"
+    },
+    "umbrel-os": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "latest-version": "?",
+      "latest-release-date": "?"
+    },
+    "start9": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "latest-version": "?",
+      "latest-release-date": "?"
     }
   },
   "connectivity": {

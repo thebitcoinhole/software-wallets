@@ -263,6 +263,20 @@
       ],
       "latest-version": "v4.0.21",
       "latest-release-date": "Dec 8, 2023"
+    },
+    "umbrel-os": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "latest-version": "?",
+      "latest-release-date": "?"
+    },
+    "start9": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "latest-version": "?",
+      "latest-release-date": "?"
     }
   },
   "connectivity": {
