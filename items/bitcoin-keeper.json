@@ -325,9 +325,9 @@
   },
   "privacy": {
     "coin-control": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "custom-node": {
       "value": "YES",
