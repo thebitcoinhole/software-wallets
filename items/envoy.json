@@ -180,8 +180,8 @@
           "url": "https://play.google.com/store/apps/details?id=com.foundationdevices.envoy"
         }
       ],
-      "latest-version": "v1.3.0",
-      "latest-release-date": "Jul 28, 2023"
+      "latest-version": "v1.4.0",
+      "latest-release-date": "Dec 4, 2023"
     },
     "ios": {
       "value": "YES",
@@ -193,8 +193,8 @@
           "url": "https://apps.apple.com/us/app/envoy-by-foundation/id1584811818"
         }
       ],
-      "latest-version": "v1.3.0",
-      "latest-release-date": "Jul 28, 2023"
+      "latest-version": "v1.4.0",
+      "latest-release-date": "Dec 4, 2023"
     }
   },
   "connectivity": {
