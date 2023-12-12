@@ -165,22 +165,22 @@
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "latest-version": "v4.4.6",
-      "latest-release-date": "Aug 18, 2023"
+      "latest-version": "v4.5.0",
+      "latest-release-date": "undefined NaN, NaN"
     },
     "macos": {
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "latest-version": "v4.4.6",
-      "latest-release-date": "Aug 18, 2023"
+      "latest-version": "v4.5.0",
+      "latest-release-date": "undefined NaN, NaN"
     },
     "linux": {
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "latest-version": "v4.4.6",
-      "latest-release-date": "Aug 18, 2023"
+      "latest-version": "v4.5.0",
+      "latest-release-date": "undefined NaN, NaN"
     },
     "android": {
       "value": "YES",
