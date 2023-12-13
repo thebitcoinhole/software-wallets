@@ -203,7 +203,7 @@
       "latest-version": "?",
       "latest-release-date": "?"
     },
-    "start9": {
+    "start-os": {
       "value": "NO",
       "supported": false,
       "flag": "negative",

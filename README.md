@@ -107,8 +107,8 @@ All the features supported:
 | Platforms | platforms | Linux | linux |
 | Platforms | platforms | Android | android |
 | Platforms | platforms | iOS | ios |
-| Platforms | platforms | Umbrel OS | umbrel-os |
-| Platforms | platforms | Start9 | start9 |
+| Platforms | platforms | UmbrelOS | umbrel-os |
+| Platforms | platforms | StartOs | start-os |
 | Connectivity | connectivity | USB Data | usb-data |
 | Connectivity | connectivity | NFC | nfc |
 | Connectivity | connectivity | QR scanner | qr-scanner |
