@@ -205,8 +205,8 @@
           "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
         }
       ],
-      "latest-version": "v1.2.8",
-      "latest-release-date": "Sep 28, 2023"
+      "latest-version": "v1.2.9",
+      "latest-release-date": "Dec 18, 2023"
     },
     "macos": {
       "value": "YES",
@@ -218,8 +218,8 @@
           "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
         }
       ],
-      "latest-version": "v1.2.8",
-      "latest-release-date": "Sep 28, 2023"
+      "latest-version": "v1.2.9",
+      "latest-release-date": "Dec 18, 2023"
     },
     "linux": {
       "value": "YES",
@@ -231,8 +231,8 @@
           "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
         }
       ],
-      "latest-version": "v1.2.8",
-      "latest-release-date": "Sep 28, 2023"
+      "latest-version": "v1.2.9",
+      "latest-release-date": "Dec 18, 2023"
     },
     "android": {
       "value": "YES",
