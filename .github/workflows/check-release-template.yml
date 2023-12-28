@@ -50,4 +50,4 @@ jobs:
         commit-message: "New ${{ inputs.item-id }} (${{ inputs.platforms }}) release"
         branch: "${{ inputs.item-id }}/${{ inputs.platforms }}/new-release"
         add-paths: "items/*.json"
-        assignees: "${{ secrets.ASSIGNEE }}"
+        reviewers: "${{ secrets.ASSIGNEE }}"
