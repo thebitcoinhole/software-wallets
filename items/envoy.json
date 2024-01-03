@@ -434,9 +434,9 @@
       "flag": "negative"
     },
     "taproot": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "timelocks": {
       "value": "NO",
