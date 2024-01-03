@@ -179,8 +179,8 @@
       "value": "BETA",
       "supported": true,
       "flag": "neutral",
-      "latest-version": "v0.4.38",
-      "latest-release-date": "Nov 28, 2023"
+      "latest-version": "v0.5.0",
+      "latest-release-date": "Dec 29, 2023"
     },
     "ios": {
       "value": "NO",
