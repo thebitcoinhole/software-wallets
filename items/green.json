@@ -204,9 +204,13 @@
           "title": "Blockstream Green Now on Desktop",
           "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
         }
-      ],
-      "latest-version": "v1.2.9",
-      "latest-release-date": "Dec 18, 2023"
+      ]
+    },
+    "windows-latest-version": {
+      "value": "v1.2.9"
+    },
+    "windows-latest-release-date": {
+      "value": "Dec 18, 2023"
     },
     "macos": {
       "value": "YES",
@@ -217,9 +221,13 @@
           "title": "Blockstream Green Now on Desktop",
           "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
         }
-      ],
-      "latest-version": "v1.2.9",
-      "latest-release-date": "Dec 18, 2023"
+      ]
+    },
+    "macos-latest-version": {
+      "value": "v1.2.9"
+    },
+    "macos-latest-release-date": {
+      "value": "Dec 18, 2023"
     },
     "linux": {
       "value": "YES",
@@ -230,9 +238,13 @@
           "title": "Blockstream Green Now on Desktop",
           "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
         }
-      ],
-      "latest-version": "v1.2.9",
-      "latest-release-date": "Dec 18, 2023"
+      ]
+    },
+    "linux-latest-version": {
+      "value": "v1.2.9"
+    },
+    "limux-latest-release-date": {
+      "value": "Dec 18, 2023"
     },
     "android": {
       "value": "YES",
@@ -243,9 +255,13 @@
           "title": "Download from Google Play",
           "url": "https://play.google.com/store/apps/details?id=com.greenaddress.greenbits-android-wallet"
         }
-      ],
-      "latest-version": "v4.0.22",
-      "latest-release-date": "Dec 21, 2023"
+      ]
+    },
+    "android-latest-version": {
+      "value": "v4.0.22"
+    },
+    "android-latest-release-date": {
+      "value": "Dec 21, 2023"
     },
     "ios": {
       "value": "YES",
@@ -260,23 +276,35 @@
           "title": "Blockstream Green UX Beta Now Available on iOS",
           "url": "https://blog.blockstream.com/blockstream-green-makes-it-easier-to-secure-your-stack-beta-now-open-2/"
         }
-      ],
-      "latest-version": "v4.0.22",
-      "latest-release-date": "Dec 27, 2023"
+      ]
+    },
+    "ios-latest-version": {
+      "value": "v4.0.22"
+    },
+    "ios-latest-release-date": {
+      "value": "Dec 27, 2023"
     },
     "umbrel-os": {
       "value": "NO",
       "supported": false,
-      "flag": "negative",
-      "latest-version": "?",
-      "latest-release-date": "?"
+      "flag": "negative"
+    },
+    "umbrel-os-latest-version": {
+      "value": "-"
+    },
+    "umbrel-os-latest-release-date": {
+      "value": "-"
     },
     "start-os": {
       "value": "NO",
       "supported": false,
-      "flag": "negative",
-      "latest-version": "?",
-      "latest-release-date": "?"
+      "flag": "negative"
+    },
+    "start-os-latest-version": {
+      "value": "-"
+    },
+    "start-os-latest-release-date": {
+      "value": "-"
     }
   },
   "connectivity": {

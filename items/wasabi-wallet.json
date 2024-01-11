@@ -170,47 +170,79 @@
     "windows": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "latest-version": "v2.0.5",
-      "latest-release-date": "Dec 20, 2023"
+      "flag": "positive"
+    },
+    "windows-latest-version": {
+      "value": "v2.0.5"
+    },
+    "windows-latest-release-date": {
+      "value": "Dec 20, 2023"
     },
     "macos": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "latest-version": "v2.0.5",
-      "latest-release-date": "Dec 20, 2023"
+      "flag": "positive"
+    },
+    "macos-latest-version": {
+      "value": "v2.0.5"
+    },
+    "macos-latest-release-date": {
+      "value": "Dec 20, 2023"
     },
     "linux": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "latest-version": "v2.0.5",
-      "latest-release-date": "Dec 20, 2023"
+      "flag": "positive"
+    },
+    "linux-latest-version": {
+      "value": "v2.0.5"
+    },
+    "linux-latest-release-date": {
+      "value": "Dec 20, 2023"
     },
     "android": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
     },
+    "android-latest-version": {
+      "value": "-"
+    },
+    "android-latest-release-date": {
+      "value": "-"
+    },
     "ios": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
     },
+    "ios-latest-version": {
+      "value": "-"
+    },
+    "ios-latest-release-date": {
+      "value": "-"
+    },
     "umbrel-os": {
       "value": "NO",
       "supported": false,
-      "flag": "negative",
-      "latest-version": "?",
-      "latest-release-date": "?"
+      "flag": "negative"
+    },
+    "umbrel-os-latest-version": {
+      "value": "-"
+    },
+    "umbrel-os-latest-release-date": {
+      "value": "-"
     },
     "start-os": {
       "value": "NO",
       "supported": false,
-      "flag": "negative",
-      "latest-version": "?",
-      "latest-release-date": "?"
+      "flag": "negative"
+    },
+    "start-os-latest-version": {
+      "value": "-"
+    },
+    "start-os-latest-release-date": {
+      "value": "-"
     }
   },
   "connectivity": {

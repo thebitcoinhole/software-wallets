@@ -172,6 +172,12 @@
       "supported": false,
       "flag": "negative"
     },
+    "windows-latest-version": {
+      "value": "-"
+    },
+    "windows-latest-release-date": {
+      "value": "-"
+    },
     "macos": {
       "value": "YES",
       "supported": true,
@@ -185,14 +191,24 @@
           "title": "Bitcoin Wallet for Desktop - v5.5.6",
           "url": "https://bluewallet.io/Bitcoin-Wallet-for-Desktop-v5-5-6-4f2172406155/"
         }
-      ],
-      "latest-version": "v6.4.14",
-      "latest-release-date": "Dec 29, 2023"
+      ]
+    },
+    "macos-latest-version": {
+      "value": "v6.4.14"
+    },
+    "macos-latest-release-date": {
+      "value": "Dec 29, 2023"
     },
     "linux": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "linux-latest-version": {
+      "value": "-"
+    },
+    "linux-latest-release-date": {
+      "value": "-"
     },
     "android": {
       "value": "YES",
@@ -203,9 +219,13 @@
           "title": "Download from Google Play",
           "url": "https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet"
         }
-      ],
-      "latest-version": "v6.4.14",
-      "latest-release-date": "Dec 29, 2023"
+      ]
+    },
+    "android-latest-version": {
+      "value": "v6.4.14"
+    },
+    "android-latest-release-date": {
+      "value": "Dec 29, 2023"
     },
     "ios": {
       "value": "YES",
@@ -216,9 +236,13 @@
           "title": "Download from Apple Store",
           "url": "https://apps.apple.com/app/bluewallet-bitcoin-wallet/id1376878040"
         }
-      ],
-      "latest-version": "v6.4.14",
-      "latest-release-date": "Dec 29, 2023"
+      ]
+    },
+    "ios-latest-version": {
+      "value": "v6.4.14"
+    },
+    "ios-latest-release-date": {
+      "value": "Dec 29, 2023"
     },
     "umbrel-os": {
       "value": "NO",
@@ -227,12 +251,24 @@
       "latest-version": "?",
       "latest-release-date": "?"
     },
+    "umbrel-os-latest-version": {
+      "value": "-"
+    },
+    "umbrel-os-latest-release-date": {
+      "value": "-"
+    },
     "start-os": {
       "value": "NO",
       "supported": false,
       "flag": "negative",
       "latest-version": "?",
       "latest-release-date": "?"
+    },
+    "start-os-latest-version": {
+      "value": "-"
+    },
+    "start-os-latest-release-date": {
+      "value": "-"
     }
   },
   "connectivity": {

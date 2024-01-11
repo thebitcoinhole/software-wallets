@@ -161,15 +161,33 @@
       "supported": false,
       "flag": "negative"
     },
+    "windows-latest-version": {
+      "value": "-"
+    },
+    "windows-latest-release-date": {
+      "value": "-"
+    },
     "macos": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
     },
+    "macos-latest-version": {
+      "value": "-"
+    },
+    "macos-latest-release-date": {
+      "value": "-"
+    },
     "linux": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "linux-latest-version": {
+      "value": "-"
+    },
+    "linux-latest-release-date": {
+      "value": "-"
     },
     "android": {
       "value": "YES",
@@ -180,30 +198,46 @@
           "title": "Download from Google Play",
           "url": "https://play.google.com/store/apps/details?id=com.samourai.sentinel"
         }
-      ],
-      "latest-version": "?",
-      "latest-release-date": "?"
+      ]
+    },
+    "android-latest-version": {
+      "value": "?"
+    },
+    "android-latest-release-date": {
+      "value": "?"
     },
     "ios": {
       "value": "NO",
       "supported": false,
-      "flag": "negative",
-      "latest-version": "?",
-      "latest-release-date": "?"
+      "flag": "negative"
+    },
+    "ios-latest-version": {
+      "value": "-"
+    },
+    "ios-latest-release-date": {
+      "value": "-"
     },
     "umbrel-os": {
       "value": "NO",
       "supported": false,
-      "flag": "negative",
-      "latest-version": "?",
-      "latest-release-date": "?"
+      "flag": "negative"
+    },
+    "umbrel-os-latest-version": {
+      "value": "-"
+    },
+    "umbrel-os-latest-release-date": {
+      "value": "-"
     },
     "start-os": {
       "value": "NO",
       "supported": false,
-      "flag": "negative",
-      "latest-version": "?",
-      "latest-release-date": "?"
+      "flag": "negative"
+    },
+    "start-os-latest-version": {
+      "value": "-"
+    },
+    "start-os-latest-release-date": {
+      "value": "-"
     }
   },
   "connectivity": {

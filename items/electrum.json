@@ -164,23 +164,35 @@
     "windows": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "latest-version": "v4.5.0",
-      "latest-release-date": "undefined NaN, NaN"
+      "flag": "positive"
+    },
+    "windows-latest-version": {
+      "value": "v4.5.0"
+    },
+    "windows-latest-release-date": {
+      "value": "?"
     },
     "macos": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "latest-version": "v4.5.0",
-      "latest-release-date": "undefined NaN, NaN"
+      "flag": "positive"
+    },
+    "macos-latest-version": {
+      "value": "v4.5.0"
+    },
+    "macos-latest-release-date": {
+      "value": "?"
     },
     "linux": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "latest-version": "v4.5.0",
-      "latest-release-date": "undefined NaN, NaN"
+      "flag": "positive"
+    },
+    "linux-latest-version": {
+      "value": "v4.5.0"
+    },
+    "linux-latest-release-date": {
+      "value": "?"
     },
     "android": {
       "value": "YES",
@@ -191,28 +203,46 @@
           "title": "Download from Google Play",
           "url": "https://play.google.com/store/apps/details?id=org.electrum.electrum"
         }
-      ],
-      "latest-version": "?",
-      "latest-release-date": "?"
+      ]
+    },
+    "android-latest-version": {
+      "value": "?"
+    },
+    "android-latest-release-date": {
+      "value": "?"
     },
     "ios": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
     },
+    "ios-latest-version": {
+      "value": "-"
+    },
+    "ios-latest-release-date": {
+      "value": "-"
+    },
     "umbrel-os": {
       "value": "NO",
       "supported": false,
-      "flag": "negative",
-      "latest-version": "?",
-      "latest-release-date": "?"
+      "flag": "negative"
+    },
+    "umbrel-os-latest-version": {
+      "value": "-"
+    },
+    "umbrel-os-latest-release-date": {
+      "value": "-"
     },
     "start-os": {
       "value": "NO",
       "supported": false,
-      "flag": "negative",
-      "latest-version": "?",
-      "latest-release-date": "?"
+      "flag": "negative"
+    },
+    "start-os-latest-version": {
+      "value": "-"
+    },
+    "start-os-latest-release-date": {
+      "value": "-"
     }
   },
   "connectivity": {

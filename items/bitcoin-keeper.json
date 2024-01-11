@@ -175,15 +175,33 @@
       "supported": false,
       "flag": "negative"
     },
+    "windows-latest-version": {
+      "value": "-"
+    },
+    "windows-latest-release-date": {
+      "value": "-"
+    },
     "macos": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
     },
+    "macos-latest-version": {
+      "value": "-"
+    },
+    "macos-latest-release-date": {
+      "value": "-"
+    },
     "linux": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "linux-latest-version": {
+      "value": "-"
+    },
+    "linux-latest-release-date": {
+      "value": "-"
     },
     "android": {
       "value": "YES",
@@ -194,9 +212,13 @@
           "title": "Download from Google Play",
           "url": "https://play.google.com/store/apps/details?id=io.hexawallet.bitcoinkeeper"
         }
-      ],
-      "latest-version": "v1.1.10",
-      "latest-release-date": "Dec 24, 2023"
+      ]
+    },
+    "android-latest-version": {
+      "value": "v1.1.10"
+    },
+    "android-latest-release-date": {
+      "value": "Dec 24, 2023"
     },
     "ios": {
       "value": "YES",
@@ -207,23 +229,35 @@
           "title": "Download from Apple Store",
           "url": "https://apps.apple.com/us/app/bitcoin-keeper/id1545535925"
         }
-      ],
-      "latest-version": "v1.1.10",
-      "latest-release-date": "Dec 24, 2023"
+      ]
+    },
+    "ios-latest-version": {
+      "value": "v1.1.10"
+    },
+    "ios-latest-release-date": {
+      "value": "Dec 24, 2023"
     },
     "umbrel-os": {
       "value": "NO",
       "supported": false,
-      "flag": "negative",
-      "latest-version": "?",
-      "latest-release-date": "?"
+      "flag": "negative"
+    },
+    "umbrel-os-latest-version": {
+      "value": "-"
+    },
+    "umbrel-os-latest-release-date": {
+      "value": "-"
     },
     "start-os": {
       "value": "NO",
       "supported": false,
-      "flag": "negative",
-      "latest-version": "?",
-      "latest-release-date": "?"
+      "flag": "negative"
+    },
+    "start-os-latest-version": {
+      "value": "-"
+    },
+    "start-os-latest-release-date": {
+      "value": "-"
     }
   },
   "app-lock": {

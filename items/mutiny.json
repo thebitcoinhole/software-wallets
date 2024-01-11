@@ -165,27 +165,55 @@
       "supported": false,
       "flag": "negative"
     },
+    "windows-latest-version": {
+      "value": "-"
+    },
+    "windows-latest-release-date": {
+      "value": "-"
+    },
     "macos": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "macos-latest-version": {
+      "value": "-"
+    },
+    "macos-latest-release-date": {
+      "value": "-"
     },
     "linux": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
     },
+    "linux-latest-version": {
+      "value": "-"
+    },
+    "linux-latest-release-date": {
+      "value": "-"
+    },
     "android": {
       "value": "BETA",
       "supported": true,
-      "flag": "neutral",
-      "latest-version": "v0.5.3",
-      "latest-release-date": "Jan 11, 2024"
+      "flag": "neutral"
+    },
+    "android-latest-version": {
+      "value": "v0.5.3"
+    },
+    "android-latest-release-date": {
+      "value": "Jan 11, 2024"
     },
     "ios": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "ios-latest-version": {
+      "value": "-"
+    },
+    "ios-latest-release-date": {
+      "value": "-"
     },
     "umbrel-os": {
       "value": "NO",
@@ -194,12 +222,22 @@
       "latest-version": "?",
       "latest-release-date": "?"
     },
+    "umbrel-os-latest-version": {
+      "value": "-"
+    },
+    "umbrel-os-latest-release-date": {
+      "value": "-"
+    },
     "start-os": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "latest-version": "?",
-      "latest-release-date": "?"
+      "flag": "positive"
+    },
+    "start-os-latest-version": {
+      "value": "?"
+    },
+    "start-os-latest-release-date": {
+      "value": "?"
     }
   },
   "connectivity": {
