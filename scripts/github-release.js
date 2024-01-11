@@ -40,8 +40,8 @@ axios
     var assets = []
     var body = ""
     var publishedAt = ""
-    if (releases == "true") {
-        console.log("Using releases API")
+    if (latestRelease == "true") {
+        console.log("Using latest releases API")
         body = response.data.body
         publishedAt = response.data.published_at
         assets = response.data.assets
