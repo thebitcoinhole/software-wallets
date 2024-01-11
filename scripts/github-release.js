@@ -160,21 +160,21 @@ function updateJson(itemId, latestVersion, latestReleaseDate) {
         }
 
         try {
-            const wallet = JSON.parse(data);
+            const item = JSON.parse(data);
             var modifyJson = false
 
             // TODO For Bluewallet, some versions are not for all the platforms. Inspect the assets to see which platform to update
 
             platforms.split('-').forEach(platform => {
-                var currentVersion = wallet["platforms"][`${platform}-latest-version`].value
+                var currentVersion = item["platforms"][`${platform}-latest-version`].value
                 console.log("Current version found: " + currentVersion)
 
-                var currentReleaseDate = wallet["platforms"][`${platform}-latest-release-date`].value
+                var currentReleaseDate = item["platforms"][`${platform}-latest-release-date`].value
                 console.log("Current Release date found: " + currentReleaseDate)
                 
                 if (latestVersion !== currentVersion) {
-                    wallet["platforms"][`${platform}-latest-version`].value = latestVersion
-                    wallet["platforms"][`${platform}-latest-release-date`].value= latestReleaseDate
+                    item["platforms"][`${platform}-latest-version`].value = latestVersion
+                    item["platforms"][`${platform}-latest-release-date`].value= latestReleaseDate
                     modifyJson = true
                 }
             });
@@ -183,7 +183,7 @@ function updateJson(itemId, latestVersion, latestReleaseDate) {
                 console.log("Updating JSON")
 
                 // Convert the modified object back to a JSON string.
-                const updatedJsonString = JSON.stringify(wallet, null, 2);
+                const updatedJsonString = JSON.stringify(item, null, 2);
 
                 // Write the updated JSON string back to the file.
                 fs.writeFile(filePath, updatedJsonString, (writeErr) => {
