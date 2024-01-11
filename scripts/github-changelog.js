@@ -72,28 +72,25 @@ function formatDate(inputDate) {
             const wallet = JSON.parse(data);
             var modifyJson = false
 
-            console.log("Updating software wallet")
-
             // TODO For Bluewallet, some versions are not for all the platforms. Inspect the assets to see which platform to update
 
             platforms.split('-').forEach(platform => {
                 var currentVersion = wallet["platforms"][platform]["latest-version"]
                 console.log("Current version found: " + currentVersion)
 
+                var currentReleaseDate = wallet["platforms"][platform]["latest-release-date"]
+                console.log("Current Release date found: " + currentReleaseDate)
+                
                 if (latestVersion !== currentVersion) {
                     wallet["platforms"][platform]["latest-version"] = latestVersion
-                    modifyJson = true
-                }
-                
-                var currentReleaseDate = wallet["platforms"][platform]["latest-release-date"]
-                if (latestReleaseDate !== currentReleaseDate) {
                     wallet["platforms"][platform]["latest-release-date"] = latestReleaseDate
                     modifyJson = true
                 }
-                console.log("Current Release date found: " + currentReleaseDate)
             });
 
             if (modifyJson) {
+                console.log("Updating JSON")
+
                 // Convert the modified object back to a JSON string.
                 const updatedJsonString = JSON.stringify(wallet, null, 2);
 

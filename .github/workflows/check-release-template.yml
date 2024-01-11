@@ -12,12 +12,23 @@ on:
       github-repo:
         required: true
         type: string
-      releases:
-        required: false
-        default: true
-        type: boolean
       platforms:
         required: true
+        type: string
+      tag:
+        required: false
+        default: false
+        type: boolean
+      latestRelease:
+        required: false
+        default: false
+        type: boolean
+      allReleases:
+        required: false
+        default: false
+        type: boolean
+      allReleasesMatch:
+        required: false
         type: string
 
 jobs:
@@ -40,7 +51,7 @@ jobs:
       working-directory: scripts
 
     - name: Run script
-      run: node github-release.js ${{ inputs.item-id }} ${{ inputs.github-org }} ${{ inputs.github-repo }} ${{ inputs.platforms }} ${{ inputs.releases }} $GITHUB_TOKEN
+      run: node github-release.js ${{ inputs.item-id }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesMatch }} 
       working-directory: scripts
 
     - name: Create Pull Request

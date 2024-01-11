@@ -5,13 +5,22 @@ const axios = require('axios');
 const itemId = process.argv[2];
 const owner = process.argv[3];
 const repo = process.argv[4];
-const platforms = process.argv[5];
-const releases = process.argv[6];
-const apiKey = process.argv[7];
+const apiKey = process.argv[5];
+const platforms = process.argv[6];
+const tag = process.argv[7];
+const latestRelease = process.argv[8];
+const allReleases = process.argv[9];
+const allReleasesMatch = process.argv[10];
 
-var apiUrl = `https://api.github.com/repos/${owner}/${repo}/tags`;
-if (releases == "true") {
+var apiUrl 
+if (tag == "true") {
+    apiUrl = `https://api.github.com/repos/${owner}/${repo}/tags`;
+}
+if (latestRelease == "true") {
     apiUrl = `https://api.github.com/repos/${owner}/${repo}/releases/latest`;
+}
+if (allReleases == "true") {
+    apiUrl = `https://api.github.com/repos/${owner}/${repo}/releases`;
 }
 
 const headers = {
@@ -42,7 +51,23 @@ axios
             latestVersion = response.data.tag_name
             console.log("Tag name: " + latestVersion)
         }
-    } else {
+    } else if (allReleases == "true") {
+        console.log("Using releases API")
+        // TODO Add support to multiple variants of bitbox & onekey. I need to get more than the last tag
+        response.data.forEach((release) => {
+            if (latestVersion === undefined && release.name.toLowerCase().includes(allReleasesMatch.toLowerCase())) {
+                body = release.body
+                publishedAt = release.published_at
+                assets = release.assets
+                latestVersion = release.name
+                console.log("Release name: " + latestVersion)
+                if (latestVersion === undefined || latestVersion === "") {
+                    latestVersion = release.tag_name
+                    console.log("Tag name: " + latestVersion)
+                }
+            }
+        });
+    } else if (tag == "true") {
         console.log("Using tags API")
         const tags = response.data;
         latestTag = tags[0];
@@ -120,7 +145,8 @@ function ignoreVersion(itemId, latestVersion) {
 
 function fetchTagPublishDate(tagName) {
     // TODO
-    return ""
+    const isoString = new Date().toISOString();
+    return isoString.split('.')[0] + 'Z';
   }
 
 function updateJson(itemId, latestVersion, latestReleaseDate) {
@@ -138,28 +164,25 @@ function updateJson(itemId, latestVersion, latestReleaseDate) {
             const wallet = JSON.parse(data);
             var modifyJson = false
 
-            console.log("Updating software wallet")
-
             // TODO For Bluewallet, some versions are not for all the platforms. Inspect the assets to see which platform to update
 
             platforms.split('-').forEach(platform => {
                 var currentVersion = wallet["platforms"][platform]["latest-version"]
                 console.log("Current version found: " + currentVersion)
 
+                var currentReleaseDate = wallet["platforms"][platform]["latest-release-date"]
+                console.log("Current Release date found: " + currentReleaseDate)
+                
                 if (latestVersion !== currentVersion) {
                     wallet["platforms"][platform]["latest-version"] = latestVersion
-                    modifyJson = true
-                }
-                
-                var currentReleaseDate = wallet["platforms"][platform]["latest-release-date"]
-                if (latestReleaseDate !== currentReleaseDate) {
                     wallet["platforms"][platform]["latest-release-date"] = latestReleaseDate
                     modifyJson = true
                 }
-                console.log("Current Release date found: " + currentReleaseDate)
             });
 
             if (modifyJson) {
+                console.log("Updating JSON")
+
                 // Convert the modified object back to a JSON string.
                 const updatedJsonString = JSON.stringify(wallet, null, 2);
 
