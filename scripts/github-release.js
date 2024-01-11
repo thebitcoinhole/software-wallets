@@ -169,12 +169,12 @@ function updateJson(itemId, latestVersion, latestReleaseDate) {
                 var currentVersion = wallet["platforms"][`${platform}-latest-version`].value
                 console.log("Current version found: " + currentVersion)
 
-                var currentReleaseDate = wallet["platforms"][`${platform}-release-date`].value
+                var currentReleaseDate = wallet["platforms"][`${platform}-latest-release-date`].value
                 console.log("Current Release date found: " + currentReleaseDate)
                 
                 if (latestVersion !== currentVersion) {
                     wallet["platforms"][`${platform}-latest-version`].value = latestVersion
-                    wallet["platforms"][`${platform}-release-date`].value= latestReleaseDate
+                    wallet["platforms"][`${platform}-latest-release-date`].value= latestReleaseDate
                     modifyJson = true
                 }
             });
