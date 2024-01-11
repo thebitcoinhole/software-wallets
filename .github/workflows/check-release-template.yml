@@ -51,7 +51,7 @@ jobs:
       working-directory: scripts
 
     - name: Run script
-      run: node github-release.js ${{ inputs.item-id }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesMatch }} 
+      run: node github-release.js ${{ inputs.item-id }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.platforms }} ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesMatch }} 
       working-directory: scripts
 
     - name: Create Pull Request
