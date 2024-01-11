@@ -28,7 +28,6 @@ jobs:
       item-id: electrum
       changelog-url: https://raw.githubusercontent.com/spesmilo/electrum/master/RELEASE-NOTES
       platforms: windows-macos-linux
-      latestRelease: true
   envoy:
     uses: ./.github/workflows/check-release-template.yml
     with:
