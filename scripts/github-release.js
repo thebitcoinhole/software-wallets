@@ -53,7 +53,6 @@ axios
         }
     } else if (allReleases == "true") {
         console.log("Using releases API")
-        // TODO Add support to multiple variants of bitbox & onekey. I need to get more than the last tag
         response.data.forEach((release) => {
             if (latestVersion === undefined && release.name.toLowerCase().includes(allReleasesMatch.toLowerCase())) {
                 body = release.body
