@@ -82,7 +82,7 @@ jobs:
       item-id: mutiny
       github-org: benthecarman
       github-repo: mutiny-startos
-      platforms: start9
+      platforms: start-os
       latestRelease: true
   my-citadel-desktop:
     uses: ./.github/workflows/check-release-template.yml

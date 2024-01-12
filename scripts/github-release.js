@@ -80,6 +80,9 @@ axios
         // My Cytadel (Version 1.5 (Blazing Venus) Latest)
         latestVersion = latestVersion.replace(/^Version (\d+(\.\d+)+) \(.*\)$/, '$1');
 
+        // Mutiny
+        latestVersion = latestVersion.replace(/^Mutiny Wallet /, '');
+
         // Wasabi v2.0.4 - Faster Than Fast Latest
         latestVersion = latestVersion.replace(/^Wasabi v(\d+(\.\d+)+) - .*$/, '$1');
         latestVersion = latestVersion.replace(/^Wasabi Wallet v(\d+(\.\d+)+) - .*$/, '$1');
