@@ -170,7 +170,7 @@
       "value": "v4.5.0"
     },
     "windows-latest-release-date": {
-      "value": "?"
+      "value": "January 12, 2024"
     },
     "macos": {
       "value": "YES",
@@ -181,7 +181,7 @@
       "value": "v4.5.0"
     },
     "macos-latest-release-date": {
-      "value": "?"
+      "value": "January 12, 2024"
     },
     "linux": {
       "value": "YES",
@@ -192,7 +192,7 @@
       "value": "v4.5.0"
     },
     "linux-latest-release-date": {
-      "value": "?"
+      "value": "January 12, 2024"
     },
     "android": {
       "value": "YES",

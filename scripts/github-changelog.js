@@ -43,13 +43,13 @@ function formatDate(inputDate) {
     const date = new Date(inputDate);
 
     // Define an array of month names
-    const monthNames = [
-    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-    ];
+    const months = [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+      ];
 
     // Get the month, day, and year components from the Date object
-    const month = monthNames[date.getMonth()];
+    const month = months[date.getMonth()];
     const day = date.getDate();
     const year = date.getFullYear();
 
