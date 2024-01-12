@@ -242,10 +242,10 @@
       "flag": "positive"
     },
     "start-os-latest-version": {
-      "value": "?"
+      "value": "v0.5.1"
     },
     "start-os-latest-release-date": {
-      "value": "?"
+      "value": "Jan 5, 2024"
     }
   },
   "connectivity": {
