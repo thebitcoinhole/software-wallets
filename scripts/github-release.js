@@ -168,7 +168,7 @@ function updateJson(itemId, latestVersion, latestReleaseDate) {
 
             // TODO For Bluewallet, some versions are not for all the platforms. Inspect the assets to see which platform to update
 
-            platforms.split('-').forEach(platform => {
+            platforms.split(',').forEach(platform => {
                 var currentVersion = item["platforms"][`${platform}-latest-version`].value
                 console.log("Current version found: " + currentVersion)
 

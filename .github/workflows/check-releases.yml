@@ -12,7 +12,7 @@ jobs:
       item-id: bitcoin-keeper
       github-org: bithyve
       github-repo: bitcoin-keeper
-      platforms: android-ios
+      platforms: android,ios
       latestRelease: true
   blueWallet:
     uses: ./.github/workflows/check-release-template.yml
@@ -20,21 +20,21 @@ jobs:
       item-id: bluewallet
       github-org: BlueWallet
       github-repo: BlueWallet
-      platforms: android-ios-macos
+      platforms: android,ios,macos
       latestRelease: true
   electrum:
     uses: ./.github/workflows/check-changelog-template.yml
     with:
       item-id: electrum
       changelog-url: https://raw.githubusercontent.com/spesmilo/electrum/master/RELEASE-NOTES
-      platforms: windows-macos-linux-android
+      platforms: windows,macos,linux,android
   envoy:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: envoy
       github-org: Foundation-Devices
       github-repo: envoy
-      platforms: android-ios
+      platforms: android,ios
       latestRelease: true
   green-desktop:
     uses: ./.github/workflows/check-release-template.yml
@@ -42,7 +42,7 @@ jobs:
       item-id: green
       github-org: Blockstream
       github-repo: green_qt
-      platforms: windows-macos-linux
+      platforms: windows,macos,linux
       latestRelease: true
   green-android:
     uses: ./.github/workflows/check-release-template.yml
@@ -66,7 +66,7 @@ jobs:
       item-id: liana
       github-org: wizardsardine
       github-repo: liana
-      platforms: windows-macos-linux
+      platforms: windows,macos,linux
       latestRelease: true
   mutiny-android:
     uses: ./.github/workflows/check-release-template.yml
@@ -76,7 +76,7 @@ jobs:
       github-repo: mutiny-web
       platforms: android
       latestRelease: true
-  mutiny-start9:
+  mutiny-start-os:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mutiny
@@ -90,7 +90,7 @@ jobs:
       item-id: my-citadel
       github-org: mycitadel
       github-repo: mycitadel-desktop
-      platforms: windows-macos-linux
+      platforms: windows,macos,linux
       latestRelease: true
   my-citadel-ios:
     uses: ./.github/workflows/check-release-template.yml
@@ -130,7 +130,7 @@ jobs:
       item-id: sparrow
       github-org: sparrowwallet
       github-repo: sparrow
-      platforms: windows-macos-linux
+      platforms: windows,macos,linux
       latestRelease: true
   specter:
     uses: ./.github/workflows/check-release-template.yml
@@ -138,7 +138,7 @@ jobs:
       item-id: specter
       github-org: cryptoadvance
       github-repo: specter-desktop
-      platforms: windows-macos-linux
+      platforms: windows,macos,linux
       latestRelease: true
   wasabi:
     uses: ./.github/workflows/check-release-template.yml
@@ -146,5 +146,5 @@ jobs:
       item-id: wasabi-wallet
       github-org: zkSNACKs
       github-repo: WalletWasabi
-      platforms: windows-macos-linux
+      platforms: windows,macos,linux
       latestRelease: true
