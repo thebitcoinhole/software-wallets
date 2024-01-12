@@ -115,8 +115,12 @@
       "flag": "positive",
       "links": [
         {
-          "title": "Release Notes",
+          "title": "Release Notes (Web & Android)",
           "url": "https://github.com/MutinyWallet/mutiny-web/releases"
+        },
+        {
+          "title": "Release Notes (Start9)",
+          "url": "https://github.com/benthecarman/mutiny-startos/releases"
         }
       ]
     },
@@ -126,8 +130,12 @@
       "flag": "positive",
       "links": [
         {
-          "title": "Source Code",
+          "title": "Source Code (Web & Android)",
           "url": "https://github.com/MutinyWallet/mutiny-web"
+        },
+        {
+          "title": "Source Code (Start9)",
+          "url": "https://github.com/benthecarman/mutiny-startos"
         }
       ]
     },

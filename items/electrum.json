@@ -206,10 +206,10 @@
       ]
     },
     "android-latest-version": {
-      "value": "?"
+      "value": "v4.5.0"
     },
     "android-latest-release-date": {
-      "value": "?"
+      "value": "January 12, 2024"
     },
     "ios": {
       "value": "NO",

@@ -27,7 +27,7 @@ jobs:
     with:
       item-id: electrum
       changelog-url: https://raw.githubusercontent.com/spesmilo/electrum/master/RELEASE-NOTES
-      platforms: windows-macos-linux
+      platforms: windows-macos-linux-android
   envoy:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -68,13 +68,21 @@ jobs:
       github-repo: liana
       platforms: windows-macos-linux
       latestRelease: true
-  mutiny:
+  mutiny-android:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mutiny
       github-org: MutinyWallet
       github-repo: mutiny-web
       platforms: android
+      latestRelease: true
+  mutiny-start9:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: mutiny
+      github-org: benthecarman
+      github-repo: mutiny-startos
+      platforms: start9
       latestRelease: true
   my-citadel-desktop:
     uses: ./.github/workflows/check-release-template.yml
