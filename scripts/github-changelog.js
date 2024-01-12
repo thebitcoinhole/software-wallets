@@ -74,7 +74,7 @@ function formatDate(inputDate) {
 
             // TODO For Bluewallet, some versions are not for all the platforms. Inspect the assets to see which platform to update
 
-            platforms.split('-').forEach(platform => {
+            platforms.split(',').forEach(platform => {
                 var currentVersion = wallet["platforms"][`${platform}-latest-version`].value
                 console.log("Current version found: " + currentVersion)
 
