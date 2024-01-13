@@ -353,7 +353,7 @@
       "flag": "positive"
     },
     "macos-latest-version": {
-      "value": "v4.0"
+      "value": "v.0"
     },
     "macos-latest-release-date": {
       "value": "Dec 15, 2023"
@@ -414,7 +414,7 @@
       "flag": "positive"
     },
     "linux-latest-version": {
-      "value": "v4.0"
+      "value": "v.0"
     },
     "linux-latest-release-date": {
       "value": "Dec 15, 2023"
@@ -475,7 +475,7 @@
       "flag": "positive"
     },
     "windows-latest-version": {
-      "value": "v4.0"
+      "value": "v.0"
     },
     "windows-latest-release-date": {
       "value": "Dec 15, 2023"
