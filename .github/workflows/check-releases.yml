@@ -21,7 +21,7 @@ jobs:
       github-org: BlueWallet
       github-repo: BlueWallet
       platforms: android
-      latestRelease: true
+      allReleases: true
       assetsMatch: "apk"
   blueWallet-ios:
     uses: ./.github/workflows/check-release-template.yml
@@ -30,7 +30,7 @@ jobs:
       github-org: BlueWallet
       github-repo: BlueWallet
       platforms: ios
-      latestRelease: true
+      allReleases: true
       assetsMatch: "ipa"
   blueWallet-macos:
     uses: ./.github/workflows/check-release-template.yml
@@ -39,7 +39,7 @@ jobs:
       github-org: BlueWallet
       github-repo: BlueWallet
       platforms: macos
-      latestRelease: true
+      allReleases: true
       assetsMatch: "dmg"
   electrum:
     uses: ./.github/workflows/check-changelog-template.yml
