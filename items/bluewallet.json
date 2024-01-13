@@ -395,10 +395,10 @@
       ]
     },
     "macos-latest-version": {
-      "value": "?"
+      "value": "v6.4.14"
     },
     "macos-latest-release-date": {
-      "value": "?"
+      "value": "Dec 29, 2023"
     },
     "macos-release-notes": {
       "value": "YES",
