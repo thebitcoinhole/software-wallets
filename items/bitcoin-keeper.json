@@ -469,7 +469,7 @@
       ]
     },
     "android-latest-version": {
-      "value": "v1.1.10"
+      "value": "v.1.10"
     },
     "android-latest-release-date": {
       "value": "Dec 24, 2023"
@@ -530,7 +530,7 @@
       ]
     },
     "ios-latest-version": {
-      "value": "v1.1.10"
+      "value": "v.1.10"
     },
     "ios-latest-release-date": {
       "value": "Dec 24, 2023"
