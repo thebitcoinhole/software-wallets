@@ -75,15 +75,15 @@ function formatDate(inputDate) {
             // TODO For Bluewallet, some versions are not for all the platforms. Inspect the assets to see which platform to update
 
             platforms.split(',').forEach(platform => {
-                var currentVersion = wallet["platforms"][`${platform}-latest-version`].value
+                var currentVersion = wallet[`${platform}-support`][`${platform}-latest-version`].value
                 console.log("Current version found: " + currentVersion)
 
-                var currentReleaseDate = wallet["platforms"][`${platform}-latest-release-date`].value
+                var currentReleaseDate = wallet[`${platform}-support`][`${platform}-latest-release-date`].value
                 console.log("Current Release date found: " + currentReleaseDate)
                 
                 if (latestVersion !== currentVersion) {
-                    wallet["platforms"][`${platform}-latest-version`].value = latestVersion
-                    wallet["platforms"][`${platform}-latest-release-date`].value= latestReleaseDate
+                    wallet[`${platform}-support`][`${platform}-latest-version`].value = latestVersion
+                    wallet[`${platform}-support`][`${platform}-latest-release-date`].value= latestReleaseDate
                     modifyJson = true
                 }
             });
