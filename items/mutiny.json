@@ -648,7 +648,7 @@
       "flag": "positive"
     },
     "start-os-latest-version": {
-      "value": "v0.5.3"
+      "value": "v.5.3"
     },
     "start-os-latest-release-date": {
       "value": "Jan 12, 2024"
