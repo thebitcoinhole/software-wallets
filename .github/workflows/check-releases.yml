@@ -20,7 +20,7 @@ jobs:
       item-id: bluewallet
       github-org: BlueWallet
       github-repo: BlueWallet
-      platforms: android,ios,macos
+      platforms: android
       latestRelease: true
       assetsMatch: "apk"
   blueWallet-ios:
