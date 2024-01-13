@@ -101,150 +101,6 @@
       "value": "Many"
     }
   },
-  "source-code": {
-    "release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES"
-        }
-      ]
-    },
-    "source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/spesmilo/electrum"
-        }
-      ]
-    },
-    "open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "license": {
-      "value": "MIT",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/spesmilo/electrum/blob/master/LICENCE"
-        }
-      ]
-    },
-    "reproducible-builds": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Creating Binaries",
-          "url": "https://github.com/spesmilo/electrum#creating-binaries"
-        },
-        {
-          "title": "Wallet Scrutiny",
-          "url": "https://walletscrutiny.com/android/org.electrum.electrum/"
-        }
-      ]
-    }
-  },
-  "platforms": {
-    "web": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "windows": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "windows-latest-version": {
-      "value": "v4.5.0"
-    },
-    "windows-latest-release-date": {
-      "value": "January 12, 2024"
-    },
-    "macos": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "macos-latest-version": {
-      "value": "v4.5.0"
-    },
-    "macos-latest-release-date": {
-      "value": "January 12, 2024"
-    },
-    "linux": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "linux-latest-version": {
-      "value": "v4.5.0"
-    },
-    "linux-latest-release-date": {
-      "value": "January 12, 2024"
-    },
-    "android": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=org.electrum.electrum"
-        }
-      ]
-    },
-    "android-latest-version": {
-      "value": "v4.5.0"
-    },
-    "android-latest-release-date": {
-      "value": "January 12, 2024"
-    },
-    "ios": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "ios-latest-version": {
-      "value": "-"
-    },
-    "ios-latest-release-date": {
-      "value": "-"
-    },
-    "umbrel-os": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "umbrel-os-latest-version": {
-      "value": "-"
-    },
-    "umbrel-os-latest-release-date": {
-      "value": "-"
-    },
-    "start-os": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "start-os-latest-version": {
-      "value": "-"
-    },
-    "start-os-latest-release-date": {
-      "value": "-"
-    }
-  },
   "connectivity": {
     "usb-data": {
       "value": "YES",
@@ -456,6 +312,413 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-license": {
+      "value": "-",
+      "supported": false
+    },
+    "web-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-latest-version": {
+      "value": "v4.5.0"
+    },
+    "macos-latest-release-date": {
+      "value": "January 12, 2024"
+    },
+    "macos-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES"
+        }
+      ]
+    },
+    "macos-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/spesmilo/electrum"
+        }
+      ]
+    },
+    "macos-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/spesmilo/electrum/blob/master/LICENCE"
+        }
+      ]
+    },
+    "macos-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Creating Binaries",
+          "url": "https://github.com/spesmilo/electrum#creating-binaries"
+        },
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/org.electrum.electrum/"
+        }
+      ]
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux-latest-version": {
+      "value": "v4.5.0"
+    },
+    "linux-latest-release-date": {
+      "value": "January 12, 2024"
+    },
+    "linux-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES"
+        }
+      ]
+    },
+    "linux-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/spesmilo/electrum"
+        }
+      ]
+    },
+    "linux-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/spesmilo/electrum/blob/master/LICENCE"
+        }
+      ]
+    },
+    "linux-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Creating Binaries",
+          "url": "https://github.com/spesmilo/electrum#creating-binaries"
+        },
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/org.electrum.electrum/"
+        }
+      ]
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "windows-latest-version": {
+      "value": "v4.5.0"
+    },
+    "windows-latest-release-date": {
+      "value": "January 12, 2024"
+    },
+    "windows-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES"
+        }
+      ]
+    },
+    "windows-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/spesmilo/electrum"
+        }
+      ]
+    },
+    "windows-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "windows-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/spesmilo/electrum/blob/master/LICENCE"
+        }
+      ]
+    },
+    "windows-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Creating Binaries",
+          "url": "https://github.com/spesmilo/electrum#creating-binaries"
+        },
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/org.electrum.electrum/"
+        }
+      ]
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.electrum.electrum"
+        }
+      ]
+    },
+    "android-latest-version": {
+      "value": "v4.5.0"
+    },
+    "android-latest-release-date": {
+      "value": "January 12, 2024"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/spesmilo/electrum"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/spesmilo/electrum/blob/master/LICENCE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Creating Binaries",
+          "url": "https://github.com/spesmilo/electrum#creating-binaries"
+        },
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/org.electrum.electrum/"
+        }
+      ]
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-latest-version": {
+      "value": "-"
+    },
+    "ios-latest-release-date": {
+      "value": "-"
+    },
+    "ios-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "umbrel-os-support": {
+    "umbrel-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-latest-version": {
+      "value": "-"
+    },
+    "umbrel-os-latest-release-date": {
+      "value": "-"
+    },
+    "umbrel-os-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "start-os-support": {
+    "start-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-latest-version": {
+      "value": "-"
+    },
+    "start-os-latest-release-date": {
+      "value": "-"
+    },
+    "start-os-release-notes": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "start-os-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "hardware-wallets-support": {

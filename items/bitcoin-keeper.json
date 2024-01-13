@@ -120,146 +120,6 @@
       "value": "?"
     }
   },
-  "source-code": {
-    "release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/bithyve/bitcoin-keeper/releases"
-        }
-      ]
-    },
-    "source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/bithyve/bitcoin-keeper/releases"
-        }
-      ]
-    },
-    "open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "license": {
-      "value": "MIT",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/bithyve/bitcoin-keeper/blob/sprint/LICENSE"
-        }
-      ]
-    },
-    "reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    }
-  },
-  "platforms": {
-    "web": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "windows": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "windows-latest-version": {
-      "value": "-"
-    },
-    "windows-latest-release-date": {
-      "value": "-"
-    },
-    "macos": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "macos-latest-version": {
-      "value": "-"
-    },
-    "macos-latest-release-date": {
-      "value": "-"
-    },
-    "linux": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "linux-latest-version": {
-      "value": "-"
-    },
-    "linux-latest-release-date": {
-      "value": "-"
-    },
-    "android": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=io.hexawallet.bitcoinkeeper"
-        }
-      ]
-    },
-    "android-latest-version": {
-      "value": "v1.1.10"
-    },
-    "android-latest-release-date": {
-      "value": "Dec 24, 2023"
-    },
-    "ios": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Apple Store",
-          "url": "https://apps.apple.com/us/app/bitcoin-keeper/id1545535925"
-        }
-      ]
-    },
-    "ios-latest-version": {
-      "value": "v1.1.10"
-    },
-    "ios-latest-release-date": {
-      "value": "Dec 24, 2023"
-    },
-    "umbrel-os": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "umbrel-os-latest-version": {
-      "value": "-"
-    },
-    "umbrel-os-latest-release-date": {
-      "value": "-"
-    },
-    "start-os": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "start-os-latest-version": {
-      "value": "-"
-    },
-    "start-os-latest-release-date": {
-      "value": "-"
-    }
-  },
   "app-lock": {
     "pin-lock": {
       "value": "YES",
@@ -452,6 +312,343 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-license": {
+      "value": "-",
+      "supported": false
+    },
+    "web-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-latest-version": {
+      "value": "-"
+    },
+    "macos-latest-release-date": {
+      "value": "-"
+    },
+    "macos-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-license": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-latest-version": {
+      "value": "-"
+    },
+    "linux-latest-release-date": {
+      "value": "-"
+    },
+    "linux-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-license": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-latest-version": {
+      "value": "-"
+    },
+    "windows-latest-release-date": {
+      "value": "-"
+    },
+    "windows-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-license": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.hexawallet.bitcoinkeeper"
+        }
+      ]
+    },
+    "android-latest-version": {
+      "value": "v1.1.10"
+    },
+    "android-latest-release-date": {
+      "value": "Dec 24, 2023"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/bithyve/bitcoin-keeper/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/bithyve/bitcoin-keeper"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/bithyve/bitcoin-keeper/blob/sprint/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/bitcoin-keeper/id1545535925"
+        }
+      ]
+    },
+    "ios-latest-version": {
+      "value": "v1.1.10"
+    },
+    "ios-latest-release-date": {
+      "value": "Dec 24, 2023"
+    },
+    "ios-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/bithyve/bitcoin-keeper/releases"
+        }
+      ]
+    },
+    "ios-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/bithyve/bitcoin-keeper"
+        }
+      ]
+    },
+    "ios-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/bithyve/bitcoin-keeper/blob/sprint/LICENSE"
+        }
+      ]
+    },
+    "ios-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "umbrel-os-support": {
+    "umbrel-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-latest-version": {
+      "value": "-"
+    },
+    "umbrel-os-latest-release-date": {
+      "value": "-"
+    },
+    "umbrel-os-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "start-os-support": {
+    "start-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-latest-version": {
+      "value": "-"
+    },
+    "start-os-latest-release-date": {
+      "value": "-"
+    },
+    "start-os-release-notes": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "start-os-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "hardware-wallets-support": {

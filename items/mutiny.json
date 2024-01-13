@@ -124,21 +124,6 @@
         }
       ]
     },
-    "source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code (Web & Android)",
-          "url": "https://github.com/MutinyWallet/mutiny-web"
-        },
-        {
-          "title": "Source Code (Start9)",
-          "url": "https://github.com/benthecarman/mutiny-startos"
-        }
-      ]
-    },
     "open-source": {
       "value": "YES",
       "supported": true,
@@ -158,94 +143,6 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    }
-  },
-  "platforms": {
-    "web": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "latest-version": "?",
-      "latest-release-date": "?"
-    },
-    "windows": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "windows-latest-version": {
-      "value": "-"
-    },
-    "windows-latest-release-date": {
-      "value": "-"
-    },
-    "macos": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "macos-latest-version": {
-      "value": "-"
-    },
-    "macos-latest-release-date": {
-      "value": "-"
-    },
-    "linux": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "linux-latest-version": {
-      "value": "-"
-    },
-    "linux-latest-release-date": {
-      "value": "-"
-    },
-    "android": {
-      "value": "BETA",
-      "supported": true,
-      "flag": "neutral"
-    },
-    "android-latest-version": {
-      "value": "v0.5.3"
-    },
-    "android-latest-release-date": {
-      "value": "Jan 11, 2024"
-    },
-    "ios": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "ios-latest-version": {
-      "value": "-"
-    },
-    "ios-latest-release-date": {
-      "value": "-"
-    },
-    "umbrel-os": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "latest-version": "?",
-      "latest-release-date": "?"
-    },
-    "umbrel-os-latest-version": {
-      "value": "-"
-    },
-    "umbrel-os-latest-release-date": {
-      "value": "-"
-    },
-    "start-os": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "start-os-latest-version": {
-      "value": "v0.5.1"
-    },
-    "start-os-latest-release-date": {
-      "value": "Jan 5, 2024"
     }
   },
   "connectivity": {
@@ -453,6 +350,350 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "web-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/MutinyWallet/mutiny-web/releases"
+        }
+      ]
+    },
+    "web-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/MutinyWallet/mutiny-web"
+        }
+      ]
+    },
+    "web-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "web-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/MutinyWallet/mutiny-web/blob/master/LICENSE"
+        }
+      ]
+    },
+    "web-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-latest-version": {
+      "value": "-"
+    },
+    "macos-latest-release-date": {
+      "value": "-"
+    },
+    "macos-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-license": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-latest-version": {
+      "value": "-"
+    },
+    "linux-latest-release-date": {
+      "value": "-"
+    },
+    "linux-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-license": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-latest-version": {
+      "value": "-"
+    },
+    "windows-latest-release-date": {
+      "value": "-"
+    },
+    "windows-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-license": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "android-latest-version": {
+      "value": "v0.5.3"
+    },
+    "android-latest-release-date": {
+      "value": "Jan 11, 2024"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/MutinyWallet/mutiny-web/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/MutinyWallet/mutiny-web"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/MutinyWallet/mutiny-web/blob/master/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-latest-version": {
+      "value": "-"
+    },
+    "ios-latest-release-date": {
+      "value": "-"
+    },
+    "ios-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "umbrel-os-support": {
+    "umbrel-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-latest-version": {
+      "value": "-"
+    },
+    "umbrel-os-latest-release-date": {
+      "value": "-"
+    },
+    "umbrel-os-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "start-os-support": {
+    "start-os-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "start-os-latest-version": {
+      "value": "v0.5.1"
+    },
+    "start-os-latest-release-date": {
+      "value": "Jan 5, 2024"
+    },
+    "start-os-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/benthecarman/mutiny-startos/releases"
+        }
+      ]
+    },
+    "start-os-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/benthecarman/mutiny-startos"
+        }
+      ]
+    },
+    "start-os-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "start-os-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/benthecarman/mutiny-startos/blob/master/LICENSE"
+        }
+      ]
+    },
+    "start-os-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "hardware-wallets-support": {

@@ -111,202 +111,6 @@
       "value": "Many"
     }
   },
-  "source-code": {
-    "release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Desktop Release Notes",
-          "url": "https://github.com/Blockstream/green_qt/releases"
-        },
-        {
-          "title": "Android Release Notes",
-          "url": "https://github.com/Blockstream/green_android/releases"
-        },
-        {
-          "title": "iOS Release Notes",
-          "url": "https://github.com/Blockstream/green_ios/releases"
-        }
-      ]
-    },
-    "source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Desktop Source Code",
-          "url": "https://github.com/Blockstream/green_qt"
-        },
-        {
-          "title": "Android Source Code",
-          "url": "https://github.com/Blockstream/green_android"
-        },
-        {
-          "title": "iOS Source Code",
-          "url": "https://github.com/Blockstream/green_ios"
-        }
-      ]
-    },
-    "open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "license": {
-      "value": "GPLv3",
-      "supported": true,
-      "links": [
-        {
-          "title": "Desktop License",
-          "url": "https://github.com/Blockstream/green_qt/blob/master/LICENSE"
-        },
-        {
-          "title": "Android License",
-          "url": "https://github.com/Blockstream/green_android/blob/master/LICENSE"
-        },
-        {
-          "title": "iOS License",
-          "url": "https://github.com/Blockstream/green_ios/blob/master/LICENSE"
-        }
-      ]
-    },
-    "reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Wallet Scrutiny (Android)",
-          "url": "https://walletscrutiny.com/android/com.greenaddress.greenbits_android_wallet/"
-        },
-        {
-          "title": "Wallet Scrutiny (iOS)",
-          "url": "https://walletscrutiny.com/iphone/io.blockstream.green/"
-        }
-      ]
-    }
-  },
-  "platforms": {
-    "web": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "windows": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Blockstream Green Now on Desktop",
-          "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
-        }
-      ]
-    },
-    "windows-latest-version": {
-      "value": "v1.2.9"
-    },
-    "windows-latest-release-date": {
-      "value": "Dec 18, 2023"
-    },
-    "macos": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Blockstream Green Now on Desktop",
-          "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
-        }
-      ]
-    },
-    "macos-latest-version": {
-      "value": "v1.2.9"
-    },
-    "macos-latest-release-date": {
-      "value": "Dec 18, 2023"
-    },
-    "linux": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Blockstream Green Now on Desktop",
-          "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
-        }
-      ]
-    },
-    "linux-latest-version": {
-      "value": "v1.2.9"
-    },
-    "linux-latest-release-date": {
-      "value": "Dec 18, 2023"
-    },
-    "android": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=com.greenaddress.greenbits-android-wallet"
-        }
-      ]
-    },
-    "android-latest-version": {
-      "value": "v4.0.22"
-    },
-    "android-latest-release-date": {
-      "value": "Dec 21, 2023"
-    },
-    "ios": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Apple Store",
-          "url": "https://apps.apple.com/us/app/green-bitcoin-wallet/id1402243590"
-        },
-        {
-          "title": "Blockstream Green UX Beta Now Available on iOS",
-          "url": "https://blog.blockstream.com/blockstream-green-makes-it-easier-to-secure-your-stack-beta-now-open-2/"
-        }
-      ]
-    },
-    "ios-latest-version": {
-      "value": "v4.0.22"
-    },
-    "ios-latest-release-date": {
-      "value": "Dec 27, 2023"
-    },
-    "umbrel-os": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "umbrel-os-latest-version": {
-      "value": "-"
-    },
-    "umbrel-os-latest-release-date": {
-      "value": "-"
-    },
-    "start-os": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "start-os-latest-version": {
-      "value": "-"
-    },
-    "start-os-latest-release-date": {
-      "value": "-"
-    }
-  },
   "connectivity": {
     "usb-data": {
       "value": "YES",
@@ -571,6 +375,431 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-license": {
+      "value": "-",
+      "supported": false
+    },
+    "web-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Blockstream Green Now on Desktop",
+          "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
+        }
+      ]
+    },
+    "macos-latest-version": {
+      "value": "v1.2.9"
+    },
+    "macos-latest-release-date": {
+      "value": "Dec 18, 2023"
+    },
+    "macos-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Blockstream/green_qt/releases"
+        }
+      ]
+    },
+    "macos-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Blockstream/green_qt"
+        }
+      ]
+    },
+    "macos-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "Desktop License",
+          "url": "https://github.com/Blockstream/green_qt/blob/master/LICENSE"
+        }
+      ]
+    },
+    "macos-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Blockstream Green Now on Desktop",
+          "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
+        }
+      ]
+    },
+    "linux-latest-version": {
+      "value": "v1.2.9"
+    },
+    "linux-latest-release-date": {
+      "value": "Dec 18, 2023"
+    },
+    "linux-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Blockstream/green_qt/releases"
+        }
+      ]
+    },
+    "linux-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Blockstream/green_qt"
+        }
+      ]
+    },
+    "linux-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Blockstream/green_qt/blob/master/LICENSE"
+        }
+      ]
+    },
+    "linux-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Blockstream Green Now on Desktop",
+          "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
+        }
+      ]
+    },
+    "windows-latest-version": {
+      "value": "v1.2.9"
+    },
+    "windows-latest-release-date": {
+      "value": "Dec 18, 2023"
+    },
+    "windows-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Blockstream/green_qt/releases"
+        }
+      ]
+    },
+    "windows-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Blockstream/green_qt"
+        }
+      ]
+    },
+    "windows-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "windows-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Blockstream/green_qt/blob/master/LICENSE"
+        }
+      ]
+    },
+    "windows-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.greenaddress.greenbits-android-wallet"
+        }
+      ]
+    },
+    "android-latest-version": {
+      "value": "v4.0.22"
+    },
+    "android-latest-release-date": {
+      "value": "Dec 21, 2023"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Blockstream/green_android/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Blockstream/green_android"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Blockstream/green_android/blob/master/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/com.greenaddress.greenbits_android_wallet/"
+        }
+      ]
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/green-bitcoin-wallet/id1402243590"
+        },
+        {
+          "title": "Blockstream Green UX Beta Now Available on iOS",
+          "url": "https://blog.blockstream.com/blockstream-green-makes-it-easier-to-secure-your-stack-beta-now-open-2/"
+        }
+      ]
+    },
+    "ios-latest-version": {
+      "value": "v4.0.22"
+    },
+    "ios-latest-release-date": {
+      "value": "Dec 27, 2023"
+    },
+    "ios-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Blockstream/green_ios/releases"
+        }
+      ]
+    },
+    "ios-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "iOS Source Code",
+          "url": "https://github.com/Blockstream/green_ios"
+        }
+      ]
+    },
+    "ios-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Blockstream/green_ios/blob/master/LICENSE"
+        }
+      ]
+    },
+    "ios-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/iphone/io.blockstream.green/"
+        }
+      ]
+    }
+  },
+  "umbrel-os-support": {
+    "umbrel-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-latest-version": {
+      "value": "-"
+    },
+    "umbrel-os-latest-release-date": {
+      "value": "-"
+    },
+    "umbrel-os-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "start-os-support": {
+    "start-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-latest-version": {
+      "value": "-"
+    },
+    "start-os-latest-release-date": {
+      "value": "-"
+    },
+    "start-os-release-notes": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "start-os-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "hardware-wallets-support": {

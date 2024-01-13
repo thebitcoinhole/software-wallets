@@ -111,166 +111,6 @@
       "value": "Bitstamp"
     }
   },
-  "source-code": {
-    "release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/BlueWallet/BlueWallet/releases"
-        }
-      ]
-    },
-    "source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/BlueWallet/BlueWallet"
-        }
-      ]
-    },
-    "open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "license": {
-      "value": "MIT",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/BlueWallet/BlueWallet/blob/master/LICENSE"
-        }
-      ]
-    },
-    "reproducible-builds": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Wallet Scrutiny",
-          "url": "https://walletscrutiny.com/android/io.bluewallet.bluewallet/"
-        }
-      ]
-    }
-  },
-  "platforms": {
-    "web": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "windows": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "windows-latest-version": {
-      "value": "-"
-    },
-    "windows-latest-release-date": {
-      "value": "-"
-    },
-    "macos": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Mac Store",
-          "url": "https://apps.apple.com/app/bluewallet-bitcoin-wallet/id1376878040"
-        },
-        {
-          "title": "Bitcoin Wallet for Desktop - v5.5.6",
-          "url": "https://bluewallet.io/Bitcoin-Wallet-for-Desktop-v5-5-6-4f2172406155/"
-        }
-      ]
-    },
-    "macos-latest-version": {
-      "value": "v6.4.14"
-    },
-    "macos-latest-release-date": {
-      "value": "Dec 29, 2023"
-    },
-    "linux": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "linux-latest-version": {
-      "value": "-"
-    },
-    "linux-latest-release-date": {
-      "value": "-"
-    },
-    "android": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet"
-        }
-      ]
-    },
-    "android-latest-version": {
-      "value": "v6.4.14"
-    },
-    "android-latest-release-date": {
-      "value": "Dec 29, 2023"
-    },
-    "ios": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Apple Store",
-          "url": "https://apps.apple.com/app/bluewallet-bitcoin-wallet/id1376878040"
-        }
-      ]
-    },
-    "ios-latest-version": {
-      "value": "v6.4.14"
-    },
-    "ios-latest-release-date": {
-      "value": "Dec 29, 2023"
-    },
-    "umbrel-os": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "latest-version": "?",
-      "latest-release-date": "?"
-    },
-    "umbrel-os-latest-version": {
-      "value": "-"
-    },
-    "umbrel-os-latest-release-date": {
-      "value": "-"
-    },
-    "start-os": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "latest-version": "?",
-      "latest-release-date": "?"
-    },
-    "start-os-latest-version": {
-      "value": "-"
-    },
-    "start-os-latest-release-date": {
-      "value": "-"
-    }
-  },
   "connectivity": {
     "usb-data": {
       "value": "NO",
@@ -505,6 +345,383 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-license": {
+      "value": "-",
+      "supported": false
+    },
+    "web-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Mac Store",
+          "url": "https://apps.apple.com/app/bluewallet-bitcoin-wallet/id1376878040"
+        },
+        {
+          "title": "Bitcoin Wallet for Desktop - v5.5.6",
+          "url": "https://bluewallet.io/Bitcoin-Wallet-for-Desktop-v5-5-6-4f2172406155/"
+        }
+      ]
+    },
+    "macos-latest-version": {
+      "value": "v6.4.14"
+    },
+    "macos-latest-release-date": {
+      "value": "Dec 29, 2023"
+    },
+    "macos-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/BlueWallet/BlueWallet/releases"
+        }
+      ]
+    },
+    "macos-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/BlueWallet/BlueWallet"
+        }
+      ]
+    },
+    "macos-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/BlueWallet/BlueWallet/blob/master/LICENSE"
+        }
+      ]
+    },
+    "macos-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/io.bluewallet.bluewallet/"
+        }
+      ]
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-latest-version": {
+      "value": "-"
+    },
+    "linux-latest-release-date": {
+      "value": "-"
+    },
+    "linux-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-license": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-latest-version": {
+      "value": "-"
+    },
+    "windows-latest-release-date": {
+      "value": "-"
+    },
+    "windows-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-license": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet"
+        }
+      ]
+    },
+    "android-latest-version": {
+      "value": "v6.4.14"
+    },
+    "android-latest-release-date": {
+      "value": "Dec 29, 2023"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/BlueWallet/BlueWallet/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/BlueWallet/BlueWallet"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/BlueWallet/BlueWallet/blob/master/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/app/bluewallet-bitcoin-wallet/id1376878040"
+        }
+      ]
+    },
+    "ios-latest-version": {
+      "value": "v6.4.14"
+    },
+    "ios-latest-release-date": {
+      "value": "Dec 29, 2023"
+    },
+    "ios-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/BlueWallet/BlueWallet/releases"
+        }
+      ]
+    },
+    "ios-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/BlueWallet/BlueWallet"
+        }
+      ]
+    },
+    "ios-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/BlueWallet/BlueWallet/blob/master/LICENSE"
+        }
+      ]
+    },
+    "ios-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/io.bluewallet.bluewallet/"
+        }
+      ]
+    }
+  },
+  "umbrel-os-support": {
+    "umbrel-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-latest-version": {
+      "value": "-"
+    },
+    "umbrel-os-latest-release-date": {
+      "value": "-"
+    },
+    "umbrel-os-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "start-os-support": {
+    "start-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-latest-version": {
+      "value": "-"
+    },
+    "start-os-latest-release-date": {
+      "value": "-"
+    },
+    "start-os-release-notes": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "start-os-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "hardware-wallets-support": {

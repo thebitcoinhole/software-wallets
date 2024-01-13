@@ -102,140 +102,6 @@
       "value": "?"
     }
   },
-  "source-code": {
-    "release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Desktop Release Notes",
-          "url": "https://github.com/mycitadel/mycitadel-desktop/releases"
-        },
-        {
-          "title": "iOS Release Notes",
-          "url": "https://github.com/mycitadel/mycitadel-apple/releases"
-        }
-      ]
-    },
-    "source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Desktop Source Code",
-          "url": "https://github.com/mycitadel/mycitadel-desktop"
-        },
-        {
-          "title": "iOS Source Code",
-          "url": "https://github.com/mycitadel/mycitadel-apple"
-        }
-      ]
-    },
-    "open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "license": {
-      "value": "Affero GPLv3",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/mycitadel/mycitadel-desktop/blob/master/LICENSE"
-        }
-      ]
-    },
-    "reproducible-builds": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    }
-  },
-  "platforms": {
-    "web": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "windows": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "windows-latest-version": {
-      "value": "v1.5"
-    },
-    "windows-latest-release-date": {
-      "value": "Sep 12, 2023"
-    },
-    "macos": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "macos-latest-version": {
-      "value": "v1.5"
-    },
-    "macos-latest-release-date": {
-      "value": "Sep 12, 2023"
-    },
-    "linux": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "latest-version": "v1.5",
-      "latest-release-date": "Sep 12, 2023"
-    },
-    "linux-latest-version": {
-      "value": "v1.5"
-    },
-    "linux-latest-release-date": {
-      "value": "Sep 12, 2023"
-    },
-    "android": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "neutral"
-    },
-    "ios": {
-      "value": "BETA",
-      "supported": true,
-      "flag": "neutral",
-      "latest-version": "v0.1",
-      "latest-release-date": "Mar 19, 2021"
-    },
-    "ios-latest-version": {
-      "value": "v0.1"
-    },
-    "ios-latest-release-date": {
-      "value": "Mar 19, 2021"
-    },
-    "umbrel-os": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "umbrel-os-latest-version": {
-      "value": "-"
-    },
-    "umbrel-os-latest-release-date": {
-      "value": "-"
-    },
-    "start-os": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "start-os-latest-version": {
-      "value": "-"
-    },
-    "start-os-latest-release-date": {
-      "value": "-"
-    }
-  },
   "connectivity": {
     "usb-data": {
       "value": "YES",
@@ -445,6 +311,366 @@
     },
     "dark-mode": {
       "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-license": {
+      "value": "-",
+      "supported": false
+    },
+    "web-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-latest-version": {
+      "value": "v1.5"
+    },
+    "macos-latest-release-date": {
+      "value": "Sep 12, 2023"
+    },
+    "macos-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/mycitadel/mycitadel-desktop/releases"
+        }
+      ]
+    },
+    "macos-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/mycitadel/mycitadel-desktop"
+        }
+      ]
+    },
+    "macos-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-license": {
+      "value": "Affero GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/mycitadel/mycitadel-desktop/blob/master/LICENSE"
+        }
+      ]
+    },
+    "macos-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux-latest-version": {
+      "value": "v1.5"
+    },
+    "linux-latest-release-date": {
+      "value": "Sep 12, 2023"
+    },
+    "linux-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/mycitadel/mycitadel-desktop/releases"
+        }
+      ]
+    },
+    "linux-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/mycitadel/mycitadel-desktop"
+        }
+      ]
+    },
+    "linux-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux-license": {
+      "value": "Affero GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/mycitadel/mycitadel-desktop/blob/master/LICENSE"
+        }
+      ]
+    },
+    "linux-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "windows-latest-version": {
+      "value": "v1.5"
+    },
+    "windows-latest-release-date": {
+      "value": "Sep 12, 2023"
+    },
+    "windows-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/mycitadel/mycitadel-desktop/releases"
+        }
+      ]
+    },
+    "windows-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/mycitadel/mycitadel-desktop"
+        }
+      ]
+    },
+    "windows-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "windows-license": {
+      "value": "Affero GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/mycitadel/mycitadel-desktop/blob/master/LICENSE"
+        }
+      ]
+    },
+    "windows-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "android-latest-version": {
+      "value": "-"
+    },
+    "android-latest-release-date": {
+      "value": "-"
+    },
+    "android-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "android-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "android-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "android-license": {
+      "value": "-"
+    },
+    "android-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "neutral"
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "ios-latest-version": {
+      "value": "v0.1"
+    },
+    "ios-latest-release-date": {
+      "value": "Mar 19, 2021"
+    },
+    "ios-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/mycitadel/mycitadel-apple/releases"
+        }
+      ]
+    },
+    "ios-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/mycitadel/mycitadel-apple"
+        }
+      ]
+    },
+    "ios-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-license": {
+      "value": "Affero GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/mycitadel/mycitadel-desktop/blob/master/LICENSE"
+        }
+      ]
+    },
+    "ios-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "umbrel-os-support": {
+    "umbrel-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-latest-version": {
+      "value": "-"
+    },
+    "umbrel-os-latest-release-date": {
+      "value": "-"
+    },
+    "umbrel-os-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "start-os-support": {
+    "start-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-latest-version": {
+      "value": "-"
+    },
+    "start-os-latest-release-date": {
+      "value": "-"
+    },
+    "start-os-release-notes": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "start-os-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-reproducible-builds": {
+      "value": "-",
       "supported": false,
       "flag": "negative"
     }
