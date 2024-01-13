@@ -28,6 +28,11 @@ on:
         default: false
         type: boolean
       allReleasesMatch:
+        default: ""
+        required: false
+        type: string
+      assetsMatch:
+        default: ""
         required: false
         type: string
 
@@ -51,7 +56,7 @@ jobs:
       working-directory: scripts
 
     - name: Run script
-      run: node github-release.js ${{ inputs.item-id }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.platforms }} ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesMatch }} 
+      run: node github-release.js ${{ inputs.item-id }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.platforms }} ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesMatch }} ${{ inputs.assetsMatch }} 
       working-directory: scripts
 
     - name: Create Pull Request

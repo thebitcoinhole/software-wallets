@@ -11,6 +11,7 @@ const tag = process.argv[7];
 const latestRelease = process.argv[8];
 const allReleases = process.argv[9];
 const allReleasesMatch = process.argv[10];
+const assetsMatch = process.argv[11];
 
 var apiUrl 
 if (tag == "true") {
@@ -54,15 +55,30 @@ axios
     } else if (allReleases == "true") {
         console.log("Using releases API")
         response.data.forEach((release) => {
-            if (latestVersion === undefined && release.name.toLowerCase().includes(allReleasesMatch.toLowerCase())) {
-                body = release.body
-                publishedAt = release.published_at
-                assets = release.assets
-                latestVersion = release.name
-                console.log("Release name: " + latestVersion)
-                if (latestVersion === undefined || latestVersion === "") {
-                    latestVersion = release.tag_name
-                    console.log("Tag name: " + latestVersion)
+            if (latestVersion === undefined) {
+                var match = false
+                if (allReleasesMatch != "") {
+                    match = release.name.toLowerCase().includes(allReleasesMatch.toLowerCase())
+                }
+    
+                if (assetsMatch != "") {
+                    assets.forEach((asset) => {
+                        if (asset.name.endsWith(assetsMatch)) {
+                            match = true
+                        }
+                    });
+                }
+
+                if (match) {
+                    body = release.body
+                    publishedAt = release.published_at
+                    assets = release.assets
+                    latestVersion = release.name
+                    console.log("Release name: " + latestVersion)
+                    if (latestVersion === undefined || latestVersion === "") {
+                        latestVersion = release.tag_name
+                        console.log("Tag name: " + latestVersion)
+                    }
                 }
             }
         });

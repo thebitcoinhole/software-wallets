@@ -395,10 +395,10 @@
       ]
     },
     "macos-latest-version": {
-      "value": "v6.4.14"
+      "value": "?"
     },
     "macos-latest-release-date": {
-      "value": "Dec 29, 2023"
+      "value": "?"
     },
     "macos-release-notes": {
       "value": "YES",
@@ -536,10 +536,10 @@
       ]
     },
     "android-latest-version": {
-      "value": "v6.4.14"
+      "value": "?"
     },
     "android-latest-release-date": {
-      "value": "Dec 29, 2023"
+      "value": "?"
     },
     "android-release-notes": {
       "value": "YES",
@@ -597,10 +597,10 @@
       ]
     },
     "ios-latest-version": {
-      "value": "v6.4.14"
+      "value": "?"
     },
     "ios-latest-release-date": {
-      "value": "Dec 29, 2023"
+      "value": "?"
     },
     "ios-release-notes": {
       "value": "YES",
