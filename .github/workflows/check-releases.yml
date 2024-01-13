@@ -106,7 +106,7 @@ jobs:
   muun:
     uses: ./.github/workflows/check-changelog-template.yml
     with:
-      item-id: electrum
+      item-id: muun
       changelog-url: https://raw.githubusercontent.com/muun/apollo/master/android/CHANGELOG.md
       platforms: android
   my-citadel-desktop:

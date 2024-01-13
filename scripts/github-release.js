@@ -113,6 +113,8 @@ axios
         latestVersion = latestVersion.replace(/^Release\s*/, '');
         latestVersion = latestVersion.replace(/^release_/, '');
 
+        latestVersion = latestVersion.replace(/^v./, '');
+
         // Check if the input starts with "v" and is a valid version (x.y.z)
         const versionPattern = /^v\d+(\.\d+)*$/;
         if (!versionPattern.test(latestVersion)) {
