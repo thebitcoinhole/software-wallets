@@ -536,10 +536,10 @@
       ]
     },
     "android-latest-version": {
-      "value": "?"
+      "value": "v6.4.14"
     },
     "android-latest-release-date": {
-      "value": "?"
+      "value": "Dec 29, 2023"
     },
     "android-release-notes": {
       "value": "YES",
