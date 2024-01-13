@@ -94,21 +94,6 @@ All the features supported:
 | Currency | currency | Bitcoin Unit (BTC) | btc |
 | Currency | currency | Bitcoin Unit (SAT) | sats |
 | Currency | currency | Exchange Rate Provider | exchange-rate-provider |
-| Source Code | source-code | Lastest Version | latest-version |
-| Source Code | source-code | Lastest Release Date | latest-release-date |
-| Source Code | source-code | Release Notes | release-notes |
-| Source Code | source-code | Source-available | source-available |
-| Source Code | source-code | Open Source | open-source |
-| Source Code | source-code | License | license |
-| Source Code | source-code | Reproducible Builds | reproducible-builds |
-| Platforms | platforms | Web | web |
-| Platforms | platforms | Windows | windows |
-| Platforms | platforms | MacOS | macos |
-| Platforms | platforms | Linux | linux |
-| Platforms | platforms | Android | android |
-| Platforms | platforms | iOS | ios |
-| Platforms | platforms | UmbrelOS | umbrel-os |
-| Platforms | platforms | StartOs | start-os |
 | Connectivity | connectivity | USB Data | usb-data |
 | Connectivity | connectivity | NFC | nfc |
 | Connectivity | connectivity | QR scanner | qr-scanner |
@@ -148,6 +133,68 @@ All the features supported:
 | Other Features | other-features | Timelocks | timelocks |
 | Other Features | other-features | Encrypted Storage | encrypted-storage |
 | Other Features | other-features | Dark Mode | dark-mode |
+| Web Support | web-support | Supported | web-supported |
+| Web Support | web-support | Release Notes | web-release-notes |
+| Web Support | web-support | Source-available | web-source-available |
+| Web Support | web-support | Open Source | web-open-source |
+| Web Support | web-support | License | web-license |
+| Web Support | web-support | Reproducible Builds | web-reproducible-builds |
+| MacOS Support | macos-support | Supported | macos-supported |
+| MacOS Support | macos-support | Latest Version | macos-latest-version |
+| MacOS Support | macos-support | Latest Release Date | macos-latest-release-date |
+| MacOS Support | macos-support | Release Notes | macos-release-notes |
+| MacOS Support | macos-support | Source-available | macos-source-available |
+| MacOS Support | macos-support | Open Source | macos-open-source |
+| MacOS Support | macos-support | License | macos-license |
+| MacOS Support | macos-support | Reproducible Builds | macos-reproducible-builds |
+| Linux Support | linux-support | Supported | linux-supported |
+| Linux Support | linux-support | Latest Version | linux-latest-version |
+| Linux Support | linux-support | Latest Release Date | linux-latest-release-date |
+| Linux Support | linux-support | Release Notes | linux-release-notes |
+| Linux Support | linux-support | Source-available | linux-source-available |
+| Linux Support | linux-support | Open Source | linux-open-source |
+| Linux Support | linux-support | License | linux-license |
+| Linux Support | linux-support | Reproducible Builds | linux-reproducible-builds |
+| Windows Support | windows-support | Supported | windows-supported |
+| Windows Support | windows-support | Latest Version | windows-latest-version |
+| Windows Support | windows-support | Latest Release Date | windows-latest-release-date |
+| Windows Support | windows-support | Release Notes | windows-release-notes |
+| Windows Support | windows-support | Source-available | windows-source-available |
+| Windows Support | windows-support | Open Source | windows-open-source |
+| Windows Support | windows-support | License | windows-license |
+| Windows Support | windows-support | Reproducible Builds | windows-reproducible-builds |
+| Android Support | android-support | Supported | android-supported |
+| Android Support | android-support | Latest Version | android-latest-version |
+| Android Support | android-support | Latest Release Date | android-latest-release-date |
+| Android Support | android-support | Release Notes | android-release-notes |
+| Android Support | android-support | Source-available | android-source-available |
+| Android Support | android-support | Open Source | android-open-source |
+| Android Support | android-support | License | android-license |
+| Android Support | android-support | Reproducible Builds | android-reproducible-builds |
+| iOS Support | ios-support | Supported | ios-supported |
+| iOS Support | ios-support | Latest Version | ios-latest-version |
+| iOS Support | ios-support | Latest Release Date | ios-latest-release-date |
+| iOS Support | ios-support | Release Notes | ios-release-notes |
+| iOS Support | ios-support | Source-available | ios-source-available |
+| iOS Support | ios-support | Open Source | ios-open-source |
+| iOS Support | ios-support | License | ios-license |
+| iOS Support | ios-support | Reproducible Builds | ios-reproducible-builds |
+| Umbrel OS Support | umbrel-os-support | Supported | umbrel-os-supported |
+| Umbrel OS Support | umbrel-os-support | Latest Version | umbrel-os-latest-version |
+| Umbrel OS Support | umbrel-os-support | Latest Release Date | umbrel-os-latest-release-date |
+| Umbrel OS Support | umbrel-os-support | Release Notes | umbrel-os-release-notes |
+| Umbrel OS Support | umbrel-os-support | Source-available | umbrel-os-source-available |
+| Umbrel OS Support | umbrel-os-support | Open Source | umbrel-os-open-source |
+| Umbrel OS Support | umbrel-os-support | License | umbrel-os-license |
+| Umbrel OS Support | umbrel-os-support | Reproducible Builds | umbrel-os-reproducible-builds |
+| Start OS Support | start-os-support | Supported | start-os-supported |
+| Start OS Support | start-os-support | Latest Version | start-os-latest-version |
+| Start OS Support | start-os-support | Latest Release Date | start-os-latest-release-date |
+| Start OS Support | start-os-support | Release Notes | start-os-release-notes |
+| Start OS Support | start-os-support | Source-available | start-os-source-available |
+| Start OS Support | start-os-support | Open Source | start-os-open-source |
+| Start OS Support | start-os-support | License | start-os-license |
+| Start OS Support | start-os-support | Reproducible Builds | start-os-reproducible-builds |
 | Hardware Wallets Support | hardware-wallets-support | Jade | jade |
 | Hardware Wallets Support | hardware-wallets-support | Colcard MK4 | coldcard-mk4 |
 | Hardware Wallets Support | hardware-wallets-support | BitBox02 | bitbox02-btconly |
