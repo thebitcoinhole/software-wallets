@@ -512,10 +512,10 @@
       ]
     },
     "ios-latest-version": {
-      "value": "-"
+      "value": "?"
     },
     "ios-latest-release-date": {
-      "value": "-"
+      "value": "?"
     },
     "ios-release-notes": {
       "value": "YES",

@@ -18,7 +18,18 @@ axios
 
     // # Release 4.4.6 (August 18, 2023) (security update)
     // Find the first line starting with "#"
-    const regex = /^# Release ([\d.]+) \(([^)]+)\)/;
+    var regex = /^# Release ([\d.]+) \(([^)]+)\)/;
+    for (const line of lines) {
+        const match = line.match(regex);
+        if (match) {
+            latestVersion = "v" + match[1];
+            latestReleaseDate = formatDate(match[2]);
+            break;
+        }
+    }
+
+    // ## [51.5] - 2023-12-22
+    regex = /^## \[([\d.]+)\] - (\d{4}-\d{2}-\d{2})/;
     for (const line of lines) {
         const match = line.match(regex);
         if (match) {
@@ -44,8 +55,8 @@ function formatDate(inputDate) {
 
     // Define an array of month names
     const months = [
-        "January", "February", "March", "April", "May", "June",
-        "July", "August", "September", "October", "November", "December"
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
       ];
 
     // Get the month, day, and year components from the Date object

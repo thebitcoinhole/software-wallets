@@ -103,6 +103,12 @@ jobs:
       github-repo: mutiny-startos
       platforms: start-os
       latestRelease: true
+  muun:
+    uses: ./.github/workflows/check-changelog-template.yml
+    with:
+      item-id: electrum
+      changelog-url: https://raw.githubusercontent.com/muun/apollo/master/android/CHANGELOG.md
+      platforms: android
   my-citadel-desktop:
     uses: ./.github/workflows/check-release-template.yml
     with:
