@@ -646,116 +646,74 @@
   },
   "umbrel-os-support": {
     "umbrel-os-supported": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Umbrel App Store",
-          "url": "https://apps.umbrel.com/app/specter-desktop"
-        }
-      ]
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "umbrel-os-latest-version": {
-      "value": "v2.0.2"
+      "value": "-"
     },
     "umbrel-os-latest-release-date": {
-      "value": "Sep 21, 2023"
+      "value": "-"
     },
     "umbrel-os-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/cryptoadvance/specter-desktop/releases"
-        }
-      ]
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
     },
     "umbrel-os-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/cryptoadvance/specter-desktop"
-        }
-      ]
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
     },
     "umbrel-os-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
     },
     "umbrel-os-license": {
-      "value": "MIT",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/cryptoadvance/specter-desktop/blob/master/LICENSE"
-        }
-      ]
+      "value": "-",
+      "supported": false
     },
     "umbrel-os-reproducible-builds": {
-      "value": "NO",
+      "value": "-",
       "supported": false,
       "flag": "negative"
     }
   },
   "start-os-support": {
     "start-os-supported": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "start-os-latest-version": {
-      "value": "?"
+      "value": "-"
     },
     "start-os-latest-release-date": {
-      "value": "?"
+      "value": "-"
     },
     "start-os-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/Start9Labs/specter-startos/releases"
-        }
-      ]
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
     },
     "start-os-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/Start9Labs/specter-startos"
-        }
-      ]
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
     },
     "start-os-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
     },
     "start-os-license": {
-      "value": "MIT",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/Start9Labs/specter-startos/blob/master/LICENSE"
-        }
-      ]
+      "value": "-",
+      "supported": false
     },
     "start-os-reproducible-builds": {
-      "value": "NO",
+      "value": "-",
       "supported": false,
       "flag": "negative"
     }

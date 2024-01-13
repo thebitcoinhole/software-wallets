@@ -171,7 +171,15 @@ jobs:
       item-id: specter
       github-org: cryptoadvance
       github-repo: specter-desktop
-      platforms: windows,macos,linux
+      platforms: windows,macos,linux,umbrel-os
+      latestRelease: true
+  specter-start-os:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: specter
+      github-org: Start9Labs
+      github-repo: specter-startos
+      platforms: start-os
       latestRelease: true
   wasabi:
     uses: ./.github/workflows/check-release-template.yml
