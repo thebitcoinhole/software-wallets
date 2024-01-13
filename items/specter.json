@@ -664,10 +664,10 @@
       "flag": "positive"
     },
     "start-os-latest-version": {
-      "value": "?"
+      "value": "v2.0.2.2"
     },
     "start-os-latest-release-date": {
-      "value": "?"
+      "value": "Jul 6, 2023"
     },
     "start-os-release-notes": {
       "value": "YES",
