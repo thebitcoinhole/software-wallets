@@ -133,6 +133,14 @@ jobs:
       github-repo: nunchuk-android
       platforms: android
       latestRelease: true
+  nunchuk-desktop:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: nunchuk
+      github-org: nunchuk-io
+      github-repo: nunchuk-desktop
+      platforms: windows,macos,linux
+      latestRelease: true
   phoenix:
     uses: ./.github/workflows/check-release-template.yml
     with:
