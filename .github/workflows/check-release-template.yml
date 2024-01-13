@@ -28,11 +28,11 @@ on:
         default: false
         type: boolean
       allReleasesMatch:
-        default: ""
+        default: "null"
         required: false
         type: string
       assetsMatch:
-        default: ""
+        default: "null "
         required: false
         type: string
 

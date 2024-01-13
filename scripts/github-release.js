@@ -62,7 +62,7 @@ axios
                 }
     
                 if (assetsMatch != "") {
-                    assets.forEach((asset) => {
+                    release.assets.forEach((asset) => {
                         if (asset.name.endsWith(assetsMatch)) {
                             match = true
                         }
