@@ -108,43 +108,6 @@
       "value": "?"
     }
   },
-  "source-code": {
-    "release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes (Web & Android)",
-          "url": "https://github.com/MutinyWallet/mutiny-web/releases"
-        },
-        {
-          "title": "Release Notes (Start9)",
-          "url": "https://github.com/benthecarman/mutiny-startos/releases"
-        }
-      ]
-    },
-    "open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "license": {
-      "value": "MIT",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/MutinyWallet/mutiny-web/blob/master/LICENSE"
-        }
-      ]
-    },
-    "reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    }
-  },
   "connectivity": {
     "usb-data": {
       "value": "NO",

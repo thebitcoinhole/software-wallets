@@ -59,8 +59,8 @@ jobs:
       working-directory: scripts
       run: |
         node github-release.js ${{ inputs.item-id }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.platforms }} ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesMatch }} ${{ inputs.assetsMatch }}         
-        CHANGELOG_URL=$(node changelog-url.js)
-        echo "{CHANGELOG_URL}={${CHANGELOG_URL}}" >> "$GITHUB_ENV"
+        CHANGELOG_URL=$(node changelog-url.js ${{ inputs.item-id }} ${{ inputs.platforms }})
+        echo "CHANGELOG_URL=${CHANGELOG_URL}" >> "$GITHUB_ENV"
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v5.0.2
       with:
