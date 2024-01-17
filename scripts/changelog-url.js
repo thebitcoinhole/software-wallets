@@ -6,4 +6,4 @@ const platform = platforms.split(',')[0]
 var jsonFile = fs.readFileSync(`../items/${itemId}.json`, 'utf8')
 const jsonData = JSON.parse(jsonFile);
 
-console.log(jsonData[`${platforms}-support`][`${platforms}-release-notes`]["links"][0]["url"]);
+console.log(jsonData[`${platform}-support`][`${platform}-release-notes`]["links"][0]["url"]);
