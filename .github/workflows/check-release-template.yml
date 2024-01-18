@@ -32,7 +32,7 @@ on:
         required: false
         type: string
       assetsMatch:
-        default: "null "
+        default: "null"
         required: false
         type: string
 
