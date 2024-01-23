@@ -611,10 +611,10 @@
       "flag": "positive"
     },
     "start-os-latest-version": {
-      "value": "v0.5.3"
+      "value": "v0.5.5"
     },
     "start-os-latest-release-date": {
-      "value": "Jan 12, 2024"
+      "value": "Jan 22, 2024"
     },
     "start-os-release-notes": {
       "value": "YES",
