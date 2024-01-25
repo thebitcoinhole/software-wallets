@@ -683,9 +683,9 @@
       "flag": "negative"
     },
     "coldcard-mk4": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "bitbox02-btconly": {
       "value": "YES",
