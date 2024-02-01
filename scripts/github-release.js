@@ -46,10 +46,10 @@ axios
         body = response.data.body
         publishedAt = response.data.published_at
         assets = response.data.assets
-        latestVersion = response.data.name
+        latestVersion = response.data.name.trim()
         console.log("Release name: " + latestVersion)
         if (latestVersion === undefined || latestVersion === "") {
-            latestVersion = response.data.tag_name
+            latestVersion = response.data.tag_name.trim()
             console.log("Tag name: " + latestVersion)
         }
     } else if (allReleases == "true") {
@@ -73,7 +73,7 @@ axios
                     body = release.body
                     publishedAt = release.published_at
                     assets = release.assets
-                    latestVersion = release.name
+                    latestVersion = release.name.trim()
                     console.log("Release name: " + latestVersion)
                     if (latestVersion === undefined || latestVersion === "") {
                         latestVersion = release.tag_name
@@ -86,7 +86,7 @@ axios
         console.log("Using tags API")
         const tags = response.data;
         latestTag = tags[0];
-        latestVersion = latestTag.name
+        latestVersion = latestTag.name.trim()
         console.log("Tag name: " + latestVersion)
         publishedAt = fetchTagPublishDate(latestTag.name)
     }
