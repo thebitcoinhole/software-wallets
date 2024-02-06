@@ -78,8 +78,7 @@
     },
     "liquid": {
       "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     }
   },
   "currency": {
