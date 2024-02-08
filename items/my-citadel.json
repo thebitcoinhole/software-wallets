@@ -215,6 +215,28 @@
       "flag": "negative"
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -289,14 +311,6 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    },
-    "taproot": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "texts": [
-        "Not just addresses and key-path spendings, but also multisigs and complex scripts (timelocks, miniscript)"
-      ]
     },
     "timelocks": {
       "value": "YES",

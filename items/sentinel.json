@@ -218,6 +218,31 @@
       "flag": "negative"
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nested-segwit": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Send only"
+      ]
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -295,11 +320,6 @@
       "flag": "negative"
     },
     "miniscript": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "taproot": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

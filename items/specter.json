@@ -230,6 +230,26 @@
       "flag": "negative"
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "?",
+      "supported": false
+    },
+    "nested-segwit": {
+      "value": "?",
+      "supported": false
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -304,11 +324,6 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "taproot": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
     },
     "timelocks": {
       "value": "NO",

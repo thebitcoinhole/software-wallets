@@ -212,6 +212,37 @@
       "flag": "negative"
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Send only"
+      ],
+      "links": [
+        {
+          "title": "Taproot support?",
+          "url": "https://github.com/spesmilo/electrum/issues/7544"
+        }
+      ]
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -286,17 +317,6 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "taproot": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Taproot support?",
-          "url": "https://github.com/spesmilo/electrum/issues/7544"
-        }
-      ]
     },
     "timelocks": {
       "value": "NO",

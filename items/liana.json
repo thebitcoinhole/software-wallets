@@ -214,6 +214,29 @@
       "flag": "negative"
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "?",
+      "supported": false
+    },
+    "nested-segwit": {
+      "value": "?",
+      "supported": false
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Send only"
+      ]
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -288,11 +311,6 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    },
-    "taproot": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
     },
     "timelocks": {
       "value": "YES",

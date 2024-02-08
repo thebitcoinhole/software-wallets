@@ -115,6 +115,10 @@ All the features supported:
 | Private Keys | private-keys | 12 Words BIP39 Seed Import | import-12-words |
 | Private Keys | private-keys | 24 Words BIP39 Seed Import | import-24-words |
 | Private Keys | private-keys | SeedQR | seed-qr |
+| Address Format | address-format | Legacy (P2PKH) | legacy |
+| Address Format | address-format | Nested Segwit (P2SH) | nested-segwit |
+| Address Format | address-format | Native Segwit (P2WPKH) | native-segwit |
+| Address Format | address-format | Taproot (P2TR) | taproot |
 | Fees | fees | Fee Control | fee-control |
 | Fees | fees | Replace-by-fee (RBF) | replace-by-fee |
 | Fees | fees | Child-pays-for-parent (CPFP) | child-pays-for-parent |
@@ -129,7 +133,6 @@ All the features supported:
 | Other Features | other-features | Transaction Labeling | transaction-labeling |
 | Other Features | other-features | Batch Transactions | batch-transactions |
 | Other Features | other-features | Miniscript | miniscript |
-| Other Features | other-features | Taproot | taproot |
 | Other Features | other-features | Timelocks | timelocks |
 | Other Features | other-features | Encrypted Storage | encrypted-storage |
 | Other Features | other-features | Dark Mode | dark-mode |

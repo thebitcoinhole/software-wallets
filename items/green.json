@@ -225,6 +225,43 @@
       "flag": "negative"
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Send only"
+      ]
+    },
+    "nested-segwit": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Send only"
+      ]
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Send only"
+      ],
+      "links": [
+        {
+          "title": "Blockstream Green: Primed for Taproot Activation",
+          "url": "https://blog.blockstream.com/en-blockstream-green-primed-for-taproot-activation/"
+        }
+      ]
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -337,17 +374,6 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "taproot": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Blockstream Green: Primed for Taproot Activation",
-          "url": "https://blog.blockstream.com/en-blockstream-green-primed-for-taproot-activation/"
-        }
-      ]
     },
     "timelocks": {
       "value": "YES",

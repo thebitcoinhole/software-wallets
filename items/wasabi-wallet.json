@@ -228,6 +228,35 @@
       "flag": "negative"
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "?",
+      "supported": false
+    },
+    "nested-segwit": {
+      "value": "?",
+      "supported": false
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Send only"
+      ],
+      "links": [
+        {
+          "title": "Does Wasabi support Taproot?",
+          "url": "https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#does-wasabi-support-taproot"
+        }
+      ]
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -322,17 +351,6 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "taproot": {
-      "value": "Partially supported",
-      "supported": true,
-      "flag": "neutral",
-      "links": [
-        {
-          "title": "Does Wasabi support Taproot?",
-          "url": "https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#does-wasabi-support-taproot"
-        }
-      ]
     },
     "timelocks": {
       "value": "NO",
