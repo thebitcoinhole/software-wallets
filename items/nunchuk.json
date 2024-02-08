@@ -342,6 +342,11 @@
         "Involves a trusted server for delivering timelocks instead of the bitcoin native timelocks."
       ]
     },
+    "paynyms": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "encrypted-storage": {
       "value": "YES",
       "supported": true,

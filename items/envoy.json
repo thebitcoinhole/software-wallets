@@ -360,6 +360,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "paynyms": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "encrypted-storage": {
       "value": "YES",
       "supported": true,

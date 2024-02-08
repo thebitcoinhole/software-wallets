@@ -317,6 +317,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "paynyms": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "encrypted-storage": {
       "value": "YES",
       "supported": true,

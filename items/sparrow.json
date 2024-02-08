@@ -321,6 +321,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "paynyms": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "encrypted-storage": {
       "value": "YES",
       "supported": true,
