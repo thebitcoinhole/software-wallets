@@ -9,6 +9,12 @@ This project goal is to have the more complete database of Bitcoin Software Wall
 ## Collaboration
 
 Inside the `items` directory, there is a JSON file for each wallet, with all the data about it. To collaborate (adding missing data, fixing wrong data or adding a new wallet), just fork the repository and send a pull request with the changes.
+Before sending the pull request, please run the following commands to format the JSON:
+
+```
+cd scripts/
+node json-format.js
+```
 
 ## JSON format
 
