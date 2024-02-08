@@ -105,7 +105,7 @@
       "flag": "positive"
     },
     "exchange-rate-provider": {
-      "value": "?"
+      "value": "Yadio"
     }
   },
   "connectivity": {
@@ -127,9 +127,9 @@
   },
   "app-lock": {
     "pin-lock": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "duress-pin": {
       "value": "NO",
@@ -147,9 +147,9 @@
       "flag": "negative"
     },
     "alphanumeric-pin": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "pattern-lock": {
       "value": "NO",
@@ -274,9 +274,9 @@
       "flag": "negative"
     },
     "custom-node": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "tor": {
       "value": "NO",
@@ -284,9 +284,12 @@
       "flag": "negative"
     },
     "coinjoin": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Payjoin"
+      ]
     },
     "hide-sensitive-data": {
       "value": "NO",
@@ -336,9 +339,9 @@
       "flag": "negative"
     },
     "encrypted-storage": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "dark-mode": {
       "value": "YES",
@@ -563,34 +566,52 @@
   },
   "ios-support": {
     "ios-supported": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral"
     },
     "ios-latest-version": {
-      "value": "-"
+      "value": "v0.5.8"
     },
     "ios-latest-release-date": {
-      "value": "-"
+      "value": "Feb 6, 2024"
     },
     "ios-release-notes": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/MutinyWallet/mutiny-web/releases"
+        }
+      ]
     },
     "ios-source-available": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/MutinyWallet/mutiny-web"
+        }
+      ]
     },
     "ios-open-source": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "ios-license": {
-      "value": "-",
-      "supported": false
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/MutinyWallet/mutiny-web/blob/master/LICENSE"
+        }
+      ]
     },
     "ios-reproducible-builds": {
       "value": "-",
