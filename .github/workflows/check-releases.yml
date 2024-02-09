@@ -87,13 +87,13 @@ jobs:
       github-repo: liana
       platforms: windows,macos,linux
       latestRelease: true
-  mutiny-android:
+  mutiny-mobile:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mutiny
       github-org: MutinyWallet
       github-repo: mutiny-web
-      platforms: android
+      platforms: android,ios
       latestRelease: true
   mutiny-start-os:
     uses: ./.github/workflows/check-release-template.yml
