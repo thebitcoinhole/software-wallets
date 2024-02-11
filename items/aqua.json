@@ -1,0 +1,751 @@
+{
+    "id": "aqua",
+    "name": "Aqua",
+    "basic-information": {
+        "year": {
+            "value": "2024"
+        }
+    },
+    "company": {
+        "brand": {
+            "value": "Jan3"
+        },
+        "headquarters": {
+            "value": "USA"
+        },
+        "website": {
+            "value": "Website",
+            "url": "https://aquawallet.io/"
+        },
+        "blog": {
+            "value": "Blog",
+            "url": "-"
+        },
+        "twitter": {
+            "value": "@AquaBitcoin",
+            "url": "https://twitter.com/AquaBitcoin"
+        },
+        "nostr": {
+            "value": "-"
+        },
+        "youtube": {
+            "value": "-"
+        },
+        "github": {
+            "value": "AquaWallet",
+            "url": "https://github.com/AquaWallet"
+        },
+        "slack": {
+            "value": "-"
+        },
+        "discord": {
+            "value": "-"
+        }
+    },
+    "communities": {
+        "telegram": {
+            "value": "AQUA Wallet",
+            "url": "https://t.me/aquawallet"
+        },
+        "reddit": {
+            "value": "-"
+        }
+    },
+    "networks": {
+        "btc-mainnet": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "btc-testnet": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "btc-regtest": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "btc-signet": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "lightning-network": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "liquid": {
+            "value": "YES",
+            "supported": true
+        }
+    },
+    "currency": {
+        "fiat": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },        
+        "btc": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "sats": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "exchange-rate-provider": {
+            "value": "?"
+        }
+    },
+    "connectivity": {
+        "usb-data": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "nfc": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "qr-scanner": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        }
+    },
+    "app-lock": {
+        "pin-lock": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "duress-pin": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "dynamic-keypad": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "countdown-reset-pin": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "alphanumeric-pin": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "pattern-lock": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "fingerprint-lock": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        }
+    },
+    "private-keys": {
+        "hot-keys": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "multiple-wallets": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "user-added-entropy": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "passphrase-support": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "master-key-fingerprint": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "backup-recovery-seedphrase": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "create-12-words": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "create-24-words": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "import-12-words": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "import-24-words": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "seed-qr": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        }
+    },
+    "address-format": {
+        "legacy": {
+            "value": "Partially",
+            "supported": true,
+            "flag": "neutral",
+            "texts": [
+              "Send only"
+            ]
+        },
+        "nested-segwit": {
+            "value": "Partially",
+            "supported": true,
+            "flag": "neutral",
+            "texts": [
+              "Send only"
+            ]
+        },
+        "native-segwit": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "taproot": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        }
+    },
+    "fees": {
+        "fee-control": {
+            "value": "?",
+            "supported": false
+        },
+        "replace-by-fee": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "child-pays-for-parent": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        }
+    },
+    "privacy": {
+        "coin-control": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "custom-node": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "tor": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "coinjoin": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "hide-sensitive-data": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "stealth-mode": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "built-in-secure-communication": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        }
+    },
+    "other-features": {
+        "multi-sig": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "transaction-labeling": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "batch-transactions": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "miniscript": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "timelocks": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "paynyms": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "encrypted-storage": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "dark-mode": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        }
+    },
+    "web-support": {
+        "web-supported": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "web-release-notes": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "web-source-available": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "web-open-source": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "web-license": {
+            "value": "-",
+            "supported": false
+        },
+        "web-reproducible-builds": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        }
+    },
+    "macos-support": {
+        "macos-supported": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "macos-latest-version": {
+            "value": "-"
+        },
+        "macos-latest-release-date": {
+            "value": "-"
+        },
+        "macos-release-notes": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "macos-source-available": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "macos-open-source": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "macos-license": {
+            "value": "-",
+            "supported": false
+        },
+        "macos-reproducible-builds": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        }
+    },
+    "linux-support": {
+        "linux-supported": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "linux-latest-version": {
+            "value": "-"
+        },
+        "linux-latest-release-date": {
+            "value": "-"
+        },
+        "linux-release-notes": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "linux-source-available": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "linux-open-source": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "linux-license": {
+            "value": "-",
+            "supported": false
+        },
+        "linux-reproducible-builds": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        }
+    },
+    "windows-support": {
+        "windows-supported": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "windows-latest-version": {
+            "value": "-"
+        },
+        "windows-latest-release-date": {
+            "value": "-"
+        },
+        "windows-release-notes": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "windows-source-available": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "windows-open-source": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "windows-license": {
+            "value": "-",
+            "supported": false
+        },
+        "windows-reproducible-builds": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        }
+    },
+    "android-support": {
+        "android-supported": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "android-latest-version": {
+            "value": "?"
+        },
+        "android-latest-release-date": {
+            "value": "?"
+        },
+        "android-release-notes": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive",
+            "links": [
+                {
+                    "title": "Release Notes",
+                    "url": "https://github.com/AquaWallet/aqua-wallet/releases"
+                }
+            ]
+        },
+        "android-source-available": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive",
+            "links": [
+                {
+                    "title": "Source Code",
+                    "url": "https://github.com/AquaWallet/aqua-wallet"
+                }
+            ]
+        },
+        "android-open-source": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "android-license": {
+            "value": "MIT",
+            "supported": true,
+            "links": [
+                {
+                    "title": "License",
+                    "url": "https://github.com/AquaWallet/aqua-wallet/blob/main/LICENSE"
+                }
+            ]
+        },
+        "android-reproducible-builds": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative",
+            "links": [
+                {
+                    "title": "Wallet Scrutiny",
+                    "url": "https://walletscrutiny.com/android/io.aquawallet.android/"
+                }
+            ]
+        }
+    },
+    "ios-support": {
+        "ios-supported": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "ios-latest-version": {
+            "value": "?"
+        },
+        "ios-latest-release-date": {
+            "value": "?"
+        },
+        "ios-release-notes": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive",
+            "links": [
+                {
+                    "title": "Release Notes",
+                    "url": "https://github.com/AquaWallet/aqua-wallet/releases"
+                }
+            ]
+        },
+        "ios-source-available": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive",
+            "links": [
+                {
+                    "title": "Source Code",
+                    "url": "https://github.com/AquaWallet/aqua-wallet"
+                }
+            ]
+        },
+        "ios-open-source": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "ios-license": {
+            "value": "MIT",
+            "supported": true,
+            "links": [
+                {
+                    "title": "License",
+                    "url": "https://github.com/AquaWallet/aqua-wallet/blob/main/LICENSE"
+                }
+            ]
+        },
+        "ios-reproducible-builds": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative",
+            "links": [
+                {
+                    "title": "Wallet Scrutiny",
+                    "url": "https://walletscrutiny.com/iphone/io.aquawallet.ios/"
+                }
+            ]
+        }
+    },
+    "umbrel-os-support": {
+        "umbrel-os-supported": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "umbrel-os-latest-version": {
+            "value": "-"
+        },
+        "umbrel-os-latest-release-date": {
+            "value": "-"
+        },
+        "umbrel-os-release-notes": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "umbrel-os-source-available": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "umbrel-os-open-source": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "umbrel-os-license": {
+            "value": "-",
+            "supported": false
+        },
+        "umbrel-os-reproducible-builds": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        }
+    },
+    "start-os-support": {
+        "start-os-supported": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "start-os-latest-version": {
+            "value": "-"
+        },
+        "start-os-latest-release-date": {
+            "value": "-"
+        },
+        "start-os-release-notes": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "start-os-source-available": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "start-os-open-source": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        },
+        "start-os-license": {
+            "value": "-",
+            "supported": false
+        },
+        "start-os-reproducible-builds": {
+            "value": "-",
+            "supported": false,
+            "flag": "negative"
+        }
+    },
+    "hardware-wallets-support": {
+        "jade": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "coldcard-mk4": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "bitbox02-btconly": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "keystone-3-pro": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "passport-batch-2": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "trezor-model-one": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "trezor-model-t": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "ledger-nano-s-plus": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "ledger-nano-x": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "seedsigner": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "specter-diy": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        }, 
+        "tapsigner": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        }
+    },
+    "paid-services": {
+        "assisted-self-custody": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "inheritance-planning": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        }
+    }
+}
