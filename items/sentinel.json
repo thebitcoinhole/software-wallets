@@ -220,17 +220,14 @@
   },
   "address-format": {
     "legacy": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "nested-segwit": {
-      "value": "Partially",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Send only"
-      ]
+      "flag": "positive"
     },
     "native-segwit": {
       "value": "YES",
