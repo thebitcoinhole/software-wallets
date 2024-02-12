@@ -68,6 +68,6 @@ jobs:
         commit-message: "New ${{ inputs.item-id }} (${{ inputs.platforms }}) release"
         branch: "${{ inputs.item-id }}/${{ inputs.platforms }}/new-release"
         add-paths: "items/*.json"
-        reviewers: "${{ secrets.ASSIGNEE }}"
+        reviewers: "${{ env.ASSIGNEE }}"
         body: ${{ env.CHANGELOG_URL }}
 
