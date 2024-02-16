@@ -663,10 +663,10 @@
       "flag": "positive"
     },
     "start-os-latest-version": {
-      "value": "v0.5.7"
+      "value": "v0.5.9"
     },
     "start-os-latest-release-date": {
-      "value": "Jan 26, 2024"
+      "value": "Feb 15, 2024"
     },
     "start-os-release-notes": {
       "value": "YES",
