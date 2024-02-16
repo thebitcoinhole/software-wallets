@@ -516,10 +516,10 @@
       "flag": "neutral"
     },
     "android-latest-version": {
-      "value": "v0.5.8"
+      "value": "v0.5.9"
     },
     "android-latest-release-date": {
-      "value": "Feb 6, 2024"
+      "value": "Feb 15, 2024"
     },
     "android-release-notes": {
       "value": "YES",
@@ -571,10 +571,10 @@
       "flag": "neutral"
     },
     "ios-latest-version": {
-      "value": "v0.5.8"
+      "value": "v0.5.9"
     },
     "ios-latest-release-date": {
-      "value": "Feb 6, 2024"
+      "value": "Feb 15, 2024"
     },
     "ios-release-notes": {
       "value": "YES",
