@@ -102,7 +102,7 @@
       "flag": "positive"
     },
     "exchange-rate-provider": {
-      "value": "?"
+      "value": "Self-hosted"
     }
   },
   "connectivity": {
@@ -341,9 +341,15 @@
       "flag": "negative"
     },
     "transaction-labeling": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+      "links": [
+        {
+          "title": "Tags, Notes + Coin Control",
+          "url": "https://docs.foundationdevices.com/envoy/tags"
+        }
+      ]
     },
     "batch-transactions": {
       "value": "NO",
