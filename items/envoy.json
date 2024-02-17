@@ -102,7 +102,7 @@
       "flag": "positive"
     },
     "exchange-rate-provider": {
-      "value": "Self-hosted"
+      "value": "https://bitcoinaverage.com/"
     }
   },
   "connectivity": {
@@ -343,7 +343,7 @@
     "transaction-labeling": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
       "links": [
         {
           "title": "Tags, Notes + Coin Control",
