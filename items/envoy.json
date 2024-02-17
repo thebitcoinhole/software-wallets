@@ -102,7 +102,13 @@
       "flag": "positive"
     },
     "exchange-rate-provider": {
-      "value": "https://bitcoinaverage.com/"
+      "value": "BitcoinAverage",
+      "links": [
+        {
+          "title": "https://bitcoinaverage.com/",
+          "url": "https://bitcoinaverage.com/"
+        }
+      ]
     }
   },
   "connectivity": {
