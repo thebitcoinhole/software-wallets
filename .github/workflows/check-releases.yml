@@ -189,6 +189,14 @@ jobs:
       github-repo: specter-startos
       platforms: start-os
       latestRelease: true
+  stack-wallet:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: stack-wallet
+      github-org: cypherstack
+      github-repo: stack_wallet
+      platforms: android,ios,windows,macos
+      latestRelease: true
   ten-ten-one:
     uses: ./.github/workflows/check-release-template.yml
     with:
