@@ -102,6 +102,9 @@ axios
         // Specter
         latestVersion = latestVersion.replace(/^Specter /, '');
 
+        // Stack Wallet
+        latestVersion = latestVersion.replace(/^Stack Wallet /, '');
+
         // Wasabi v2.0.4 - Faster Than Fast Latest
         latestVersion = latestVersion.replace(/^Wasabi v(\d+(\.\d+)+) - .*$/, '$1');
         latestVersion = latestVersion.replace(/^Wasabi Wallet v(\d+(\.\d+)+) - .*$/, '$1');

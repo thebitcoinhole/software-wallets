@@ -314,8 +314,9 @@
       "flag": "negative"
     },
     "transaction-labeling": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "batch-transactions": {
       "value": "NO",
@@ -385,10 +386,10 @@
       "flag": "positive"
     },
     "macos-latest-version": {
-      "value": "?"
+      "value": "v1.9.2"
     },
     "macos-latest-release-date": {
-      "value": "?"
+      "value": "Jan 30, 2024"
     },
     "macos-release-notes": {
       "value": "YES",
@@ -477,10 +478,10 @@
       "flag": "positive"
     },
     "windows-latest-version": {
-      "value": "?"
+      "value": "v1.9.2"
     },
     "windows-latest-release-date": {
-      "value": "?"
+      "value": "Jan 30, 2024"
     },
     "windows-release-notes": {
       "value": "YES",
@@ -542,10 +543,10 @@
       ]
     },
     "android-latest-version": {
-      "value": "?"
+      "value": "v1.9.2"
     },
     "android-latest-release-date": {
-      "value": "?"
+      "value": "Jan 30, 2024"
     },
     "android-release-notes": {
       "value": "YES",
@@ -603,10 +604,10 @@
       ]
     },
     "ios-latest-version": {
-      "value": "?"
+      "value": "v1.9.2"
     },
     "ios-latest-release-date": {
-      "value": "?"
+      "value": "Jan 30, 2024"
     },
     "ios-release-notes": {
       "value": "YES",

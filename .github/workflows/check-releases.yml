@@ -196,7 +196,8 @@ jobs:
       github-org: cypherstack
       github-repo: stack_wallet
       platforms: android,ios,windows,macos
-      latestRelease: true
+      allReleases: true
+      assetsMatch: ""
   ten-ten-one:
     uses: ./.github/workflows/check-release-template.yml
     with:
