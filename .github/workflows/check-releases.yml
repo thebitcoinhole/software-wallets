@@ -197,6 +197,7 @@ jobs:
       github-repo: stack_wallet
       platforms: android,ios,windows,macos
       allReleases: true
+      allReleasesMatch: "Stack Wallet"
   ten-ten-one:
     uses: ./.github/workflows/check-release-template.yml
     with:

@@ -61,7 +61,7 @@ axios
                     match = release.name.toLowerCase().includes(allReleasesMatch.toLowerCase())
                 }
     
-                if (assetsMatch != undefined && assetsMatch != null && assetsMatch != "") {
+                if (assetsMatch != "") {
                     release.assets.forEach((asset) => {
                         if (asset.name.endsWith(assetsMatch)) {
                             match = true
