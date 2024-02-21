@@ -347,6 +347,80 @@
       "flag": "negative"
     }
   },
+  "android-support": {
+    "android-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-latest-version": {
+      "value": "-"
+    },
+    "android-latest-release-date": {
+      "value": "-"
+    },
+    "android-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-license": {
+      "value": "-",
+      "supported": false
+    },
+    "android-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-latest-version": {
+      "value": "-"
+    },
+    "ios-latest-release-date": {
+      "value": "-"
+    },
+    "ios-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "web-support": {
     "web-supported": {
       "value": "NO",
@@ -559,80 +633,6 @@
           "url": "https://github.com/sparrowwallet/sparrow/blob/master/docs/reproducible.md"
         }
       ]
-    }
-  },
-  "android-support": {
-    "android-supported": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "android-latest-version": {
-      "value": "-"
-    },
-    "android-latest-release-date": {
-      "value": "-"
-    },
-    "android-release-notes": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "android-source-available": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "android-open-source": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "android-license": {
-      "value": "-",
-      "supported": false
-    },
-    "android-reproducible-builds": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    }
-  },
-  "ios-support": {
-    "ios-supported": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "ios-latest-version": {
-      "value": "-"
-    },
-    "ios-latest-release-date": {
-      "value": "-"
-    },
-    "ios-release-notes": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "ios-source-available": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "ios-open-source": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "ios-license": {
-      "value": "-",
-      "supported": false
-    },
-    "ios-reproducible-builds": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
     }
   },
   "umbrel-os-support": {

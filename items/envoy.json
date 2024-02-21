@@ -404,6 +404,128 @@
       "flag": "negative"
     }
   },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.foundationdevices.envoy"
+        }
+      ]
+    },
+    "android-latest-version": {
+      "value": "v1.5.1"
+    },
+    "android-latest-release-date": {
+      "value": "Jan 3, 2024"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Foundation-Devices/envoy/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Foundation-Devices/envoy"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Foundation-Devices/envoy/blob/main/justfile.license"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/envoy-by-foundation/id1584811818"
+        }
+      ]
+    },
+    "ios-latest-version": {
+      "value": "v1.5.1"
+    },
+    "ios-latest-release-date": {
+      "value": "Jan 3, 2024"
+    },
+    "ios-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Foundation-Devices/envoy/releases"
+        }
+      ]
+    },
+    "ios-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Foundation-Devices/envoy"
+        }
+      ]
+    },
+    "ios-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Foundation-Devices/envoy/blob/main/justfile.license"
+        }
+      ]
+    },
+    "ios-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "web-support": {
     "web-supported": {
       "value": "NO",
@@ -544,128 +666,6 @@
       "value": "-",
       "supported": false,
       "flag": "negative"
-    }
-  },
-  "android-support": {
-    "android-supported": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=com.foundationdevices.envoy"
-        }
-      ]
-    },
-    "android-latest-version": {
-      "value": "v1.5.1"
-    },
-    "android-latest-release-date": {
-      "value": "Jan 3, 2024"
-    },
-    "android-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/Foundation-Devices/envoy/releases"
-        }
-      ]
-    },
-    "android-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/Foundation-Devices/envoy"
-        }
-      ]
-    },
-    "android-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "android-license": {
-      "value": "GPLv3",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/Foundation-Devices/envoy/blob/main/justfile.license"
-        }
-      ]
-    },
-    "android-reproducible-builds": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    }
-  },
-  "ios-support": {
-    "ios-supported": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Apple Store",
-          "url": "https://apps.apple.com/us/app/envoy-by-foundation/id1584811818"
-        }
-      ]
-    },
-    "ios-latest-version": {
-      "value": "v1.5.1"
-    },
-    "ios-latest-release-date": {
-      "value": "Jan 3, 2024"
-    },
-    "ios-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/Foundation-Devices/envoy/releases"
-        }
-      ]
-    },
-    "ios-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/Foundation-Devices/envoy"
-        }
-      ]
-    },
-    "ios-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "ios-license": {
-      "value": "GPLv3",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/Foundation-Devices/envoy/blob/main/justfile.license"
-        }
-      ]
-    },
-    "ios-reproducible-builds": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
     }
   },
   "umbrel-os-support": {

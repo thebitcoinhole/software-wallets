@@ -343,6 +343,97 @@
       "flag": "negative"
     }
   },
+  "android-support": {
+    "android-supported": {
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "android-latest-version": {
+      "value": "-"
+    },
+    "android-latest-release-date": {
+      "value": "-"
+    },
+    "android-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "android-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "android-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "android-license": {
+      "value": "-"
+    },
+    "android-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "neutral"
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "ios-latest-version": {
+      "value": "v0.1"
+    },
+    "ios-latest-release-date": {
+      "value": "Mar 19, 2021"
+    },
+    "ios-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/mycitadel/mycitadel-apple/releases"
+        }
+      ]
+    },
+    "ios-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/mycitadel/mycitadel-apple"
+        }
+      ]
+    },
+    "ios-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-license": {
+      "value": "Affero GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/mycitadel/mycitadel-desktop/blob/master/LICENSE"
+        }
+      ]
+    },
+    "ios-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "web-support": {
     "web-supported": {
       "value": "NO",
@@ -534,97 +625,6 @@
       ]
     },
     "windows-reproducible-builds": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    }
-  },
-  "android-support": {
-    "android-supported": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "neutral"
-    },
-    "android-latest-version": {
-      "value": "-"
-    },
-    "android-latest-release-date": {
-      "value": "-"
-    },
-    "android-release-notes": {
-      "value": "-",
-      "supported": false,
-      "flag": "neutral"
-    },
-    "android-source-available": {
-      "value": "-",
-      "supported": false,
-      "flag": "neutral"
-    },
-    "android-open-source": {
-      "value": "-",
-      "supported": false,
-      "flag": "neutral"
-    },
-    "android-license": {
-      "value": "-"
-    },
-    "android-reproducible-builds": {
-      "value": "-",
-      "supported": false,
-      "flag": "neutral"
-    }
-  },
-  "ios-support": {
-    "ios-supported": {
-      "value": "BETA",
-      "supported": true,
-      "flag": "neutral"
-    },
-    "ios-latest-version": {
-      "value": "v0.1"
-    },
-    "ios-latest-release-date": {
-      "value": "Mar 19, 2021"
-    },
-    "ios-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/mycitadel/mycitadel-apple/releases"
-        }
-      ]
-    },
-    "ios-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/mycitadel/mycitadel-apple"
-        }
-      ]
-    },
-    "ios-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "ios-license": {
-      "value": "Affero GPLv3",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/mycitadel/mycitadel-desktop/blob/master/LICENSE"
-        }
-      ]
-    },
-    "ios-reproducible-builds": {
       "value": "YES",
       "supported": true,
       "flag": "positive"

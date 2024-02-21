@@ -346,6 +346,126 @@
       "flag": "negative"
     }
   },
+  "android-support": {
+    "android-supported": {
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=finance.get10101.app"
+        }
+      ]
+    },
+    "android-latest-version": {
+      "value": "v1.8.11"
+    },
+    "android-latest-release-date": {
+      "value": "Feb 20, 2024"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/get10101/10101/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/get10101/10101/"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/get10101/10101/blob/main/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Download from Testflight",
+          "url": "https://testflight.apple.com/join/WhwnPUh8"
+        }
+      ]
+    },
+    "ios-latest-version": {
+      "value": "v1.8.11"
+    },
+    "ios-latest-release-date": {
+      "value": "Feb 20, 2024"
+    },
+    "ios-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/get10101/10101/releases"
+        }
+      ]
+    },
+    "ios-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/get10101/10101/"
+        }
+      ]
+    },
+    "ios-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/get10101/10101/blob/main/LICENSE"
+        }
+      ]
+    },
+    "ios-reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
   "web-support": {
     "web-supported": {
       "value": "NO",
@@ -486,126 +606,6 @@
       "value": "-",
       "supported": false,
       "flag": "negative"
-    }
-  },
-  "android-support": {
-    "android-supported": {
-      "value": "BETA",
-      "supported": true,
-      "flag": "neutral",
-      "links": [
-        {
-          "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=finance.get10101.app"
-        }
-      ]
-    },
-    "android-latest-version": {
-      "value": "v1.8.11"
-    },
-    "android-latest-release-date": {
-      "value": "Feb 20, 2024"
-    },
-    "android-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/get10101/10101/releases"
-        }
-      ]
-    },
-    "android-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/get10101/10101/"
-        }
-      ]
-    },
-    "android-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "android-license": {
-      "value": "MIT",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/get10101/10101/blob/main/LICENSE"
-        }
-      ]
-    },
-    "android-reproducible-builds": {
-      "value": "?",
-      "supported": false
-    }
-  },
-  "ios-support": {
-    "ios-supported": {
-      "value": "BETA",
-      "supported": true,
-      "flag": "neutral",
-      "links": [
-        {
-          "title": "Download from Testflight",
-          "url": "https://testflight.apple.com/join/WhwnPUh8"
-        }
-      ]
-    },
-    "ios-latest-version": {
-      "value": "v1.8.11"
-    },
-    "ios-latest-release-date": {
-      "value": "Feb 20, 2024"
-    },
-    "ios-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/get10101/10101/releases"
-        }
-      ]
-    },
-    "ios-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/get10101/10101/"
-        }
-      ]
-    },
-    "ios-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "ios-license": {
-      "value": "MIT",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/get10101/10101/blob/main/LICENSE"
-        }
-      ]
-    },
-    "ios-reproducible-builds": {
-      "value": "?",
-      "supported": false
     }
   },
   "umbrel-os-support": {

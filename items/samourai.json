@@ -417,6 +417,110 @@
       "flag": "positive"
     }
   },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.samourai.wallet"
+        }
+      ]
+    },
+    "android-latest-version": {
+      "value": "?"
+    },
+    "android-latest-release-date": {
+      "value": "?"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://docs.samourai.io/en/wallet/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://code.samourai.io/wallet/samourai-wallet-android"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://code.samourai.io/wallet/samourai-wallet-android/-/blob/develop/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/com.samourai.wallet/"
+        }
+      ]
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-latest-version": {
+      "value": "-"
+    },
+    "ios-latest-release-date": {
+      "value": "-"
+    },
+    "ios-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "web-support": {
     "web-supported": {
       "value": "NO",
@@ -554,110 +658,6 @@
       "supported": false
     },
     "windows-reproducible-builds": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    }
-  },
-  "android-support": {
-    "android-supported": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=com.samourai.wallet"
-        }
-      ]
-    },
-    "android-latest-version": {
-      "value": "?"
-    },
-    "android-latest-release-date": {
-      "value": "?"
-    },
-    "android-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://docs.samourai.io/en/wallet/releases"
-        }
-      ]
-    },
-    "android-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://code.samourai.io/wallet/samourai-wallet-android"
-        }
-      ]
-    },
-    "android-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "android-license": {
-      "value": "GPLv3",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://code.samourai.io/wallet/samourai-wallet-android/-/blob/develop/LICENSE"
-        }
-      ]
-    },
-    "android-reproducible-builds": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Wallet Scrutiny",
-          "url": "https://walletscrutiny.com/android/com.samourai.wallet/"
-        }
-      ]
-    }
-  },
-  "ios-support": {
-    "ios-supported": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "ios-latest-version": {
-      "value": "-"
-    },
-    "ios-latest-release-date": {
-      "value": "-"
-    },
-    "ios-release-notes": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "ios-source-available": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "ios-open-source": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "ios-license": {
-      "value": "-",
-      "supported": false
-    },
-    "ios-reproducible-builds": {
       "value": "-",
       "supported": false,
       "flag": "negative"

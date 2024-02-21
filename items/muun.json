@@ -317,148 +317,6 @@
       "flag": "negative"
     }
   },
-  "web-support": {
-    "web-supported": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "web-release-notes": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "web-source-available": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "web-open-source": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "web-license": {
-      "value": "-",
-      "supported": false
-    },
-    "web-reproducible-builds": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    }
-  },
-  "macos-support": {
-    "macos-supported": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "macos-latest-version": {
-      "value": "-"
-    },
-    "macos-latest-release-date": {
-      "value": "-"
-    },
-    "macos-release-notes": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "macos-source-available": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "macos-open-source": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "macos-license": {
-      "value": "-",
-      "supported": false
-    },
-    "macos-reproducible-builds": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    }
-  },
-  "linux-support": {
-    "linux-supported": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "linux-latest-version": {
-      "value": "-"
-    },
-    "linux-latest-release-date": {
-      "value": "-"
-    },
-    "linux-release-notes": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "linux-source-available": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "linux-open-source": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "linux-license": {
-      "value": "-",
-      "supported": false
-    },
-    "linux-reproducible-builds": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    }
-  },
-  "windows-support": {
-    "windows-supported": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "windows-latest-version": {
-      "value": "-"
-    },
-    "windows-latest-release-date": {
-      "value": "-"
-    },
-    "windows-release-notes": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "windows-source-available": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "windows-open-source": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "windows-license": {
-      "value": "-",
-      "supported": false
-    },
-    "windows-reproducible-builds": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    }
-  },
   "android-support": {
     "android-supported": {
       "value": "YES",
@@ -603,6 +461,148 @@
           "url": "https://walletscrutiny.com/iphone/com.muun.falcon/"
         }
       ]
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-license": {
+      "value": "-",
+      "supported": false
+    },
+    "web-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-latest-version": {
+      "value": "-"
+    },
+    "macos-latest-release-date": {
+      "value": "-"
+    },
+    "macos-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-license": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-latest-version": {
+      "value": "-"
+    },
+    "linux-latest-release-date": {
+      "value": "-"
+    },
+    "linux-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-license": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-latest-version": {
+      "value": "-"
+    },
+    "windows-latest-release-date": {
+      "value": "-"
+    },
+    "windows-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-license": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "umbrel-os-support": {

@@ -418,6 +418,144 @@
       "flag": "positive"
     }
   },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.greenaddress.greenbits-android-wallet"
+        }
+      ]
+    },
+    "android-latest-version": {
+      "value": "v4.0.24"
+    },
+    "android-latest-release-date": {
+      "value": "Feb 7, 2024"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Blockstream/green_android/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Blockstream/green_android"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Blockstream/green_android/blob/master/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/com.greenaddress.greenbits_android_wallet/"
+        }
+      ]
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/green-bitcoin-wallet/id1402243590"
+        },
+        {
+          "title": "Blockstream Green UX Beta Now Available on iOS",
+          "url": "https://blog.blockstream.com/blockstream-green-makes-it-easier-to-secure-your-stack-beta-now-open-2/"
+        }
+      ]
+    },
+    "ios-latest-version": {
+      "value": "v4.0.23"
+    },
+    "ios-latest-release-date": {
+      "value": "Jan 15, 2024"
+    },
+    "ios-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Blockstream/green_ios/releases"
+        }
+      ]
+    },
+    "ios-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "iOS Source Code",
+          "url": "https://github.com/Blockstream/green_ios"
+        }
+      ]
+    },
+    "ios-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Blockstream/green_ios/blob/master/LICENSE"
+        }
+      ]
+    },
+    "ios-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/iphone/io.blockstream.green/"
+        }
+      ]
+    }
+  },
   "web-support": {
     "web-supported": {
       "value": "NO",
@@ -630,144 +768,6 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    }
-  },
-  "android-support": {
-    "android-supported": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=com.greenaddress.greenbits-android-wallet"
-        }
-      ]
-    },
-    "android-latest-version": {
-      "value": "v4.0.24"
-    },
-    "android-latest-release-date": {
-      "value": "Feb 7, 2024"
-    },
-    "android-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/Blockstream/green_android/releases"
-        }
-      ]
-    },
-    "android-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/Blockstream/green_android"
-        }
-      ]
-    },
-    "android-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "android-license": {
-      "value": "GPLv3",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/Blockstream/green_android/blob/master/LICENSE"
-        }
-      ]
-    },
-    "android-reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Wallet Scrutiny",
-          "url": "https://walletscrutiny.com/android/com.greenaddress.greenbits_android_wallet/"
-        }
-      ]
-    }
-  },
-  "ios-support": {
-    "ios-supported": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Apple Store",
-          "url": "https://apps.apple.com/us/app/green-bitcoin-wallet/id1402243590"
-        },
-        {
-          "title": "Blockstream Green UX Beta Now Available on iOS",
-          "url": "https://blog.blockstream.com/blockstream-green-makes-it-easier-to-secure-your-stack-beta-now-open-2/"
-        }
-      ]
-    },
-    "ios-latest-version": {
-      "value": "v4.0.23"
-    },
-    "ios-latest-release-date": {
-      "value": "Jan 15, 2024"
-    },
-    "ios-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/Blockstream/green_ios/releases"
-        }
-      ]
-    },
-    "ios-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "iOS Source Code",
-          "url": "https://github.com/Blockstream/green_ios"
-        }
-      ]
-    },
-    "ios-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "ios-license": {
-      "value": "GPLv3",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/Blockstream/green_ios/blob/master/LICENSE"
-        }
-      ]
-    },
-    "ios-reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Wallet Scrutiny",
-          "url": "https://walletscrutiny.com/iphone/io.blockstream.green/"
-        }
-      ]
     }
   },
   "umbrel-os-support": {

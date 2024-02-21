@@ -346,6 +346,128 @@
       "flag": "positive"
     }
   },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-latest-version": {
+      "value": "v0.1.25"
+    },
+    "android-latest-release-date": {
+      "value": "Feb 12, 2024"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/AquaWallet/aqua-wallet/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/AquaWallet/aqua-wallet"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/AquaWallet/aqua-wallet/blob/main/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/io.aquawallet.android/"
+        }
+      ]
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-latest-version": {
+      "value": "v0.1.25"
+    },
+    "ios-latest-release-date": {
+      "value": "Feb 12, 2024"
+    },
+    "ios-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/AquaWallet/aqua-wallet/releases"
+        }
+      ]
+    },
+    "ios-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/AquaWallet/aqua-wallet"
+        }
+      ]
+    },
+    "ios-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/AquaWallet/aqua-wallet/blob/main/LICENSE"
+        }
+      ]
+    },
+    "ios-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/iphone/io.aquawallet.ios/"
+        }
+      ]
+    }
+  },
   "web-support": {
     "web-supported": {
       "value": "NO",
@@ -486,128 +608,6 @@
       "value": "-",
       "supported": false,
       "flag": "negative"
-    }
-  },
-  "android-support": {
-    "android-supported": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "android-latest-version": {
-      "value": "v0.1.25"
-    },
-    "android-latest-release-date": {
-      "value": "Feb 12, 2024"
-    },
-    "android-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/AquaWallet/aqua-wallet/releases"
-        }
-      ]
-    },
-    "android-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/AquaWallet/aqua-wallet"
-        }
-      ]
-    },
-    "android-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "android-license": {
-      "value": "MIT",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/AquaWallet/aqua-wallet/blob/main/LICENSE"
-        }
-      ]
-    },
-    "android-reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Wallet Scrutiny",
-          "url": "https://walletscrutiny.com/android/io.aquawallet.android/"
-        }
-      ]
-    }
-  },
-  "ios-support": {
-    "ios-supported": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "ios-latest-version": {
-      "value": "v0.1.25"
-    },
-    "ios-latest-release-date": {
-      "value": "Feb 12, 2024"
-    },
-    "ios-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/AquaWallet/aqua-wallet/releases"
-        }
-      ]
-    },
-    "ios-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/AquaWallet/aqua-wallet"
-        }
-      ]
-    },
-    "ios-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "ios-license": {
-      "value": "MIT",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/AquaWallet/aqua-wallet/blob/main/LICENSE"
-        }
-      ]
-    },
-    "ios-reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Wallet Scrutiny",
-          "url": "https://walletscrutiny.com/iphone/io.aquawallet.ios/"
-        }
-      ]
     }
   },
   "umbrel-os-support": {

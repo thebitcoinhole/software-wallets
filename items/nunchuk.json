@@ -368,6 +368,106 @@
       "flag": "negative"
     }
   },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.nunchuk.android"
+        }
+      ]
+    },
+    "android-latest-version": {
+      "value": "v1.9.40"
+    },
+    "android-latest-release-date": {
+      "value": "Feb 4, 2024"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/nunchuk-io/nunchuk-android/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/nunchuk-io/nunchuk-android"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/nunchuk-io/nunchuk-android/blob/master/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073"
+        }
+      ]
+    },
+    "ios-latest-version": {
+      "value": "?"
+    },
+    "ios-latest-release-date": {
+      "value": "?"
+    },
+    "ios-release-notes": {
+      "value": "?",
+      "supported": false
+    },
+    "ios-source-available": {
+      "value": "?",
+      "supported": false
+    },
+    "ios-open-source": {
+      "value": "?",
+      "supported": false
+    },
+    "ios-license": {
+      "value": "?",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
   "web-support": {
     "web-supported": {
       "value": "NO",
@@ -562,106 +662,6 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    }
-  },
-  "android-support": {
-    "android-supported": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=io.nunchuk.android"
-        }
-      ]
-    },
-    "android-latest-version": {
-      "value": "v1.9.40"
-    },
-    "android-latest-release-date": {
-      "value": "Feb 4, 2024"
-    },
-    "android-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/nunchuk-io/nunchuk-android/releases"
-        }
-      ]
-    },
-    "android-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/nunchuk-io/nunchuk-android"
-        }
-      ]
-    },
-    "android-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "android-license": {
-      "value": "GPLv3",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/nunchuk-io/nunchuk-android/blob/master/LICENSE"
-        }
-      ]
-    },
-    "android-reproducible-builds": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    }
-  },
-  "ios-support": {
-    "ios-supported": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Apple Store",
-          "url": "https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073"
-        }
-      ]
-    },
-    "ios-latest-version": {
-      "value": "?"
-    },
-    "ios-latest-release-date": {
-      "value": "?"
-    },
-    "ios-release-notes": {
-      "value": "?",
-      "supported": false
-    },
-    "ios-source-available": {
-      "value": "?",
-      "supported": false
-    },
-    "ios-open-source": {
-      "value": "?",
-      "supported": false
-    },
-    "ios-license": {
-      "value": "?",
-      "supported": false
-    },
-    "ios-reproducible-builds": {
-      "value": "?",
-      "supported": false
     }
   },
   "umbrel-os-support": {

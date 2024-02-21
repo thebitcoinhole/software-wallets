@@ -372,6 +372,110 @@
       "flag": "positive"
     }
   },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.btcontract.wallet"
+        }
+      ]
+    },
+    "android-latest-version": {
+      "value": "v2.5.8"
+    },
+    "android-latest-release-date": {
+      "value": "Oct 27, 2023"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/akumaigorodski/wallet/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/akumaigorodski/wallet"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "Apache 2.0",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/akumaigorodski/wallet/blob/master/LICENSE.md"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/com.btcontract.wallet/"
+        }
+      ]
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-latest-version": {
+      "value": "-"
+    },
+    "ios-latest-release-date": {
+      "value": "-"
+    },
+    "ios-release-notes": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-source-available": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-open-source": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "web-support": {
     "web-supported": {
       "value": "NO",
@@ -509,110 +613,6 @@
       "supported": false
     },
     "windows-reproducible-builds": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    }
-  },
-  "android-support": {
-    "android-supported": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=com.btcontract.wallet"
-        }
-      ]
-    },
-    "android-latest-version": {
-      "value": "v2.5.8"
-    },
-    "android-latest-release-date": {
-      "value": "Oct 27, 2023"
-    },
-    "android-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/akumaigorodski/wallet/releases"
-        }
-      ]
-    },
-    "android-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/akumaigorodski/wallet"
-        }
-      ]
-    },
-    "android-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "android-license": {
-      "value": "Apache 2.0",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/akumaigorodski/wallet/blob/master/LICENSE.md"
-        }
-      ]
-    },
-    "android-reproducible-builds": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Wallet Scrutiny",
-          "url": "https://walletscrutiny.com/android/com.btcontract.wallet/"
-        }
-      ]
-    }
-  },
-  "ios-support": {
-    "ios-supported": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "ios-latest-version": {
-      "value": "-"
-    },
-    "ios-latest-release-date": {
-      "value": "-"
-    },
-    "ios-release-notes": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "ios-source-available": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "ios-open-source": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    },
-    "ios-license": {
-      "value": "-",
-      "supported": false
-    },
-    "ios-reproducible-builds": {
       "value": "-",
       "supported": false,
       "flag": "negative"

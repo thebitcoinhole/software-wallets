@@ -360,6 +360,134 @@
       "flag": "positive"
     }
   },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.hexawallet.bitcoinkeeper"
+        }
+      ]
+    },
+    "android-latest-version": {
+      "value": "v2.1.3"
+    },
+    "android-latest-release-date": {
+      "value": "Feb 9, 2024"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/ACINQ/phoenix/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/ACINQ/phoenix"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "Apache 2.0",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/ACINQ/phoenix/blob/master/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/fr.acinq.phoenix.mainnet/"
+        }
+      ]
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-latest-version": {
+      "value": "?"
+    },
+    "ios-latest-release-date": {
+      "value": "?"
+    },
+    "ios-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/ACINQ/phoenix/releases"
+        }
+      ]
+    },
+    "ios-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/ACINQ/phoenix"
+        }
+      ]
+    },
+    "ios-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-license": {
+      "value": "Apache 2.0",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/ACINQ/phoenix/blob/master/LICENSE"
+        }
+      ]
+    },
+    "ios-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/iphone/co.acinq.phoenix/"
+        }
+      ]
+    }
+  },
   "web-support": {
     "web-supported": {
       "value": "NO",
@@ -500,134 +628,6 @@
       "value": "-",
       "supported": false,
       "flag": "negative"
-    }
-  },
-  "android-support": {
-    "android-supported": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=io.hexawallet.bitcoinkeeper"
-        }
-      ]
-    },
-    "android-latest-version": {
-      "value": "v2.1.3"
-    },
-    "android-latest-release-date": {
-      "value": "Feb 9, 2024"
-    },
-    "android-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/ACINQ/phoenix/releases"
-        }
-      ]
-    },
-    "android-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/ACINQ/phoenix"
-        }
-      ]
-    },
-    "android-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "android-license": {
-      "value": "Apache 2.0",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/ACINQ/phoenix/blob/master/LICENSE"
-        }
-      ]
-    },
-    "android-reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Wallet Scrutiny",
-          "url": "https://walletscrutiny.com/android/fr.acinq.phoenix.mainnet/"
-        }
-      ]
-    }
-  },
-  "ios-support": {
-    "ios-supported": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "ios-latest-version": {
-      "value": "?"
-    },
-    "ios-latest-release-date": {
-      "value": "?"
-    },
-    "ios-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/ACINQ/phoenix/releases"
-        }
-      ]
-    },
-    "ios-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/ACINQ/phoenix"
-        }
-      ]
-    },
-    "ios-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "ios-license": {
-      "value": "Apache 2.0",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/ACINQ/phoenix/blob/master/LICENSE"
-        }
-      ]
-    },
-    "ios-reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Wallet Scrutiny",
-          "url": "https://walletscrutiny.com/iphone/co.acinq.phoenix/"
-        }
-      ]
     }
   },
   "umbrel-os-support": {

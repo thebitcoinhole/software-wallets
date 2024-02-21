@@ -359,6 +359,116 @@
       "flag": "positive"
     }
   },
+  "android-support": {
+    "android-supported": {
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "android-latest-version": {
+      "value": "v0.5.9"
+    },
+    "android-latest-release-date": {
+      "value": "Feb 15, 2024"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/MutinyWallet/mutiny-web/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/MutinyWallet/mutiny-web"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/MutinyWallet/mutiny-web/blob/master/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "ios-latest-version": {
+      "value": "v0.5.9"
+    },
+    "ios-latest-release-date": {
+      "value": "Feb 15, 2024"
+    },
+    "ios-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/MutinyWallet/mutiny-web/releases"
+        }
+      ]
+    },
+    "ios-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/MutinyWallet/mutiny-web"
+        }
+      ]
+    },
+    "ios-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/MutinyWallet/mutiny-web/blob/master/LICENSE"
+        }
+      ]
+    },
+    "ios-reproducible-builds": {
+      "value": "-",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "web-support": {
     "web-supported": {
       "value": "YES",
@@ -514,116 +624,6 @@
       "supported": false
     },
     "windows-reproducible-builds": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
-    }
-  },
-  "android-support": {
-    "android-supported": {
-      "value": "BETA",
-      "supported": true,
-      "flag": "neutral"
-    },
-    "android-latest-version": {
-      "value": "v0.5.9"
-    },
-    "android-latest-release-date": {
-      "value": "Feb 15, 2024"
-    },
-    "android-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/MutinyWallet/mutiny-web/releases"
-        }
-      ]
-    },
-    "android-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/MutinyWallet/mutiny-web"
-        }
-      ]
-    },
-    "android-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "android-license": {
-      "value": "MIT",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/MutinyWallet/mutiny-web/blob/master/LICENSE"
-        }
-      ]
-    },
-    "android-reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    }
-  },
-  "ios-support": {
-    "ios-supported": {
-      "value": "BETA",
-      "supported": true,
-      "flag": "neutral"
-    },
-    "ios-latest-version": {
-      "value": "v0.5.9"
-    },
-    "ios-latest-release-date": {
-      "value": "Feb 15, 2024"
-    },
-    "ios-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/MutinyWallet/mutiny-web/releases"
-        }
-      ]
-    },
-    "ios-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/MutinyWallet/mutiny-web"
-        }
-      ]
-    },
-    "ios-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "ios-license": {
-      "value": "MIT",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/MutinyWallet/mutiny-web/blob/master/LICENSE"
-        }
-      ]
-    },
-    "ios-reproducible-builds": {
       "value": "-",
       "supported": false,
       "flag": "negative"
