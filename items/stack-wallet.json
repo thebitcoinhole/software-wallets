@@ -446,37 +446,55 @@
   },
   "linux-support": {
     "linux-supported": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "linux-latest-version": {
-      "value": "-"
+      "value": "v1.9.2"
     },
     "linux-latest-release-date": {
-      "value": "-"
+      "value": "Jan 30, 2024"
     },
     "linux-release-notes": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/cypherstack/stack_wallet/releases"
+        }
+      ]
     },
     "linux-source-available": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/cypherstack/stack_wallet"
+        }
+      ]
     },
     "linux-open-source": {
-      "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "linux-license": {
-      "value": "-",
-      "supported": false
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/cypherstack/stack_wallet/blob/main/LICENSE"
+        }
+      ]
     },
     "linux-reproducible-builds": {
-      "value": "-",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     }

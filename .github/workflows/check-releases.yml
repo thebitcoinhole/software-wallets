@@ -195,7 +195,7 @@ jobs:
       item-id: stack-wallet
       github-org: cypherstack
       github-repo: stack_wallet
-      platforms: android,ios,windows,macos
+      platforms: android,ios,windows,macos,linux
       allReleases: true
       allReleasesMatch: "Stack Wallet"
   ten-ten-one:
