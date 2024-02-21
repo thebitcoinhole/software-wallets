@@ -289,6 +289,11 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "paynyms": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "other-features": {
@@ -322,11 +327,6 @@
           "url": "https://wizardsardine.com/blog/the-state-of-bitcoin-inheritance-planning/"
         }
       ]
-    },
-    "paynyms": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
     },
     "encrypted-storage": {
       "value": "?",

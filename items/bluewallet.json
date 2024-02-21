@@ -308,6 +308,14 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "paynyms": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Only to receive payments"
+      ]
     }
   },
   "other-features": {
@@ -355,14 +363,6 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "paynyms": {
-      "value": "Partially",
-      "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Only to receive payments"
-      ]
     },
     "encrypted-storage": {
       "value": "YES",

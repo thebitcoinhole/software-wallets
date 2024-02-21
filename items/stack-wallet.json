@@ -305,6 +305,11 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "paynyms": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "other-features": {
@@ -332,11 +337,6 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "paynyms": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
     },
     "encrypted-storage": {
       "value": "?",

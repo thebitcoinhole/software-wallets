@@ -342,6 +342,11 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "paynyms": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "other-features": {
@@ -385,11 +390,6 @@
           "url": "https://help.blockstream.com/hc/en-us/articles/900003167766-What-is-Blockstream-Green-s-timelock-feature"
         }
       ]
-    },
-    "paynyms": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
     },
     "encrypted-storage": {
       "value": "YES",

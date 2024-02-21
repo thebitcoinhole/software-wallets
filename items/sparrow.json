@@ -293,6 +293,11 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "paynyms": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "other-features": {
@@ -317,11 +322,6 @@
       "flag": "negative"
     },
     "timelocks": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "paynyms": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
