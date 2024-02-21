@@ -208,6 +208,15 @@
       "supported": false,
       "flag": "negative"
     },
+    "seed-phrase-autocomplete": {
+      "value": "?",
+      "supported": false
+    },
+    "inapp-keyboard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "seed-qr": {
       "value": "NO",
       "supported": false,

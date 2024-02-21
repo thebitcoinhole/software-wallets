@@ -213,6 +213,16 @@
       "supported": true,
       "flag": "positive"
     },
+    "seed-phrase-autocomplete": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "inapp-keyboard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "seed-qr": {
       "value": "YES",
       "supported": true,
