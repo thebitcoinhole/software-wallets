@@ -361,11 +361,27 @@
     "android-supported": {
       "value": "YES",
       "supported": true,
+      "flag": "positive"
+    },
+    "android-googleplay-support": {
+      "value": "YES",
+      "supported": true,
       "flag": "positive",
       "links": [
         {
           "title": "Download from Google Play",
           "url": "https://play.google.com/store/apps/details?id=io.hexawallet.bitcoinkeeper"
+        }
+      ]
+    },
+    "android-apk-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download Android APK",
+          "url": "https://github.com/bithyve/bitcoin-keeper/releases/"
         }
       ]
     },

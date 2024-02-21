@@ -370,6 +370,22 @@
       "supported": true,
       "flag": "neutral"
     },
+    "android-googleplay-support": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-apk-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download Android APK",
+          "url": "https://github.com/MutinyWallet/mutiny-web/releases"
+        }
+      ]
+    },
     "android-latest-version": {
       "value": "v0.5.9"
     },

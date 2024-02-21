@@ -354,6 +354,16 @@
       "supported": false,
       "flag": "neutral"
     },
+    "android-googleplay-support": {
+      "value": "-",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "android-apk-support": {
+      "value": "-",
+      "supported": false,
+      "flag": "neutral"
+    },
     "android-latest-version": {
       "value": "-"
     },

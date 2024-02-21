@@ -326,6 +326,11 @@
     "android-supported": {
       "value": "YES",
       "supported": true,
+      "flag": "positive"
+    },
+    "android-googleplay-support": {
+      "value": "YES",
+      "supported": true,
       "flag": "positive",
       "links": [
         {
@@ -333,6 +338,11 @@
           "url": "https://play.google.com/store/apps/details?id=io.muun.apollo"
         }
       ]
+    },
+    "android-apk-support": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "android-latest-version": {
       "value": "v51.6"
