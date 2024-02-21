@@ -55,6 +55,11 @@
     }
   },
   "networks": {
+    "bitcoin-only": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "btc-mainnet": {
       "value": "YES",
       "supported": true,
