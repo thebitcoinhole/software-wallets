@@ -99,6 +99,10 @@ axios
         // Mutiny
         latestVersion = latestVersion.replace(/^Mutiny Wallet /, '');
 
+        // Phoenix
+        latestVersion = latestVersion.replace(/^Phoenix Android /, '');
+        latestVersion = latestVersion.replace(/^Phoenix Android\/iOS /, '');
+
         // Specter
         latestVersion = latestVersion.replace(/^Specter /, '');
 
@@ -114,7 +118,6 @@ axios
         latestVersion = latestVersion.replace(/.*-([^:]+)$/, '$1');
 
         latestVersion = latestVersion.replace(/^(v\d+(\.\d+)+):(.*)$/, '$1');
-        latestVersion = latestVersion.replace(/^Phoenix Android\s*/, '');
         latestVersion = latestVersion.replace(/^Android Release\s*/, '');
         latestVersion = latestVersion.replace(/^Release\s*/, '');
         latestVersion = latestVersion.replace(/^release_/, '');

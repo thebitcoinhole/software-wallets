@@ -155,7 +155,7 @@ jobs:
       item-id: phoenix
       github-org: ACINQ
       github-repo: phoenix
-      platforms: android
+      platforms: android,ios
       latestRelease: true
   simple-bitcoin-wallet:
     uses: ./.github/workflows/check-release-template.yml
