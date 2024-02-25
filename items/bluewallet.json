@@ -310,9 +310,9 @@
       ]
     },
     "hide-sensitive-data": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "stealth-mode": {
       "value": "NO",
