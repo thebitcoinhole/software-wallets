@@ -875,6 +875,11 @@
       "supported": true,
       "flag": "neutral"
     },
+    "coldcard-q": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
     "bitbox02-btconly": {
       "value": "Watch-only",
       "supported": true,

@@ -800,6 +800,17 @@
         }
       ]
     },
+    "coldcard-q": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Coldcard with Bluewallet",
+          "url": "https://bluewallet.io/docs/coldcard/"
+        }
+      ]
+    },
     "bitbox02-btconly": {
       "value": "Watch-only",
       "supported": true,

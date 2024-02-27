@@ -734,6 +734,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "coldcard-q": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "bitbox02-btconly": {
       "value": "YES",
       "supported": true,
