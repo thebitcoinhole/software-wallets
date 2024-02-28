@@ -290,9 +290,9 @@
       "flag": "positive"
     },
     "replace-by-fee": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral"
     },
     "child-pays-for-parent": {
       "value": "NO",
