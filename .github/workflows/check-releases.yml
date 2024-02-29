@@ -3,7 +3,8 @@ name: Check Releases
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"  # Runs every day at 12:00 AM UTC
+    - cron: "20 23 * * *"  # Runs every day at 23:20 UTC
+    - cron: "20 11 * * *"  # Runs every day at 11:20 UTC
 
 jobs:
   aqua:
