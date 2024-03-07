@@ -366,14 +366,20 @@
   },
   "android-support": {
     "android-supported": {
-      "value": "BETA",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive"
     },
     "android-googleplay-support": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.mutinywallet.mutinywallet"
+        }
+      ]
     },
     "android-apk-support": {
       "value": "YES",
@@ -437,9 +443,15 @@
   },
   "ios-support": {
     "ios-supported": {
-      "value": "BETA",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/muun-wallet/id1482037683"
+        }
+      ]
     },
     "ios-latest-version": {
       "value": "v0.5.10"
