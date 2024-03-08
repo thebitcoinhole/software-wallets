@@ -100,9 +100,9 @@
       "flag": "positive"
     },
     "btc": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "sats": {
       "value": "YES",
@@ -347,9 +347,9 @@
       "flag": "positive"
     },
     "dark-mode": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "android-support": {
