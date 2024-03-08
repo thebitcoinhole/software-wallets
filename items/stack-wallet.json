@@ -509,18 +509,15 @@
     },
     "web-release-notes": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "web-source-available": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "web-open-source": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "web-license": {
       "value": "-",
@@ -528,8 +525,7 @@
     },
     "web-reproducible-builds": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     }
   },
   "macos-support": {
@@ -711,18 +707,15 @@
     },
     "umbrel-os-release-notes": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "umbrel-os-source-available": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "umbrel-os-open-source": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "umbrel-os-license": {
       "value": "-",
@@ -730,8 +723,7 @@
     },
     "umbrel-os-reproducible-builds": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     }
   },
   "start-os-support": {
@@ -748,18 +740,15 @@
     },
     "start-os-release-notes": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "start-os-source-available": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "start-os-open-source": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "start-os-license": {
       "value": "-",
@@ -767,8 +756,7 @@
     },
     "start-os-reproducible-builds": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     }
   },
   "hardware-wallets-support": {

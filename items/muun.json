@@ -486,18 +486,15 @@
     },
     "web-release-notes": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "web-source-available": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "web-open-source": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "web-license": {
       "value": "-",
@@ -505,8 +502,7 @@
     },
     "web-reproducible-builds": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     }
   },
   "macos-support": {
@@ -523,18 +519,15 @@
     },
     "macos-release-notes": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "macos-source-available": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "macos-open-source": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "macos-license": {
       "value": "-",
@@ -542,8 +535,7 @@
     },
     "macos-reproducible-builds": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     }
   },
   "linux-support": {
@@ -560,18 +552,15 @@
     },
     "linux-release-notes": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "linux-source-available": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "linux-open-source": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "linux-license": {
       "value": "-",
@@ -579,8 +568,7 @@
     },
     "linux-reproducible-builds": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     }
   },
   "windows-support": {
@@ -597,18 +585,15 @@
     },
     "windows-release-notes": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "windows-source-available": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "windows-open-source": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "windows-license": {
       "value": "-",
@@ -616,8 +601,7 @@
     },
     "windows-reproducible-builds": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     }
   },
   "umbrel-os-support": {
@@ -634,18 +618,15 @@
     },
     "umbrel-os-release-notes": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "umbrel-os-source-available": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "umbrel-os-open-source": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "umbrel-os-license": {
       "value": "-",
@@ -653,8 +634,7 @@
     },
     "umbrel-os-reproducible-builds": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     }
   },
   "start-os-support": {
@@ -671,17 +651,15 @@
     },
     "start-os-release-notes": {
       "value": "-",
-      "flag": "negative"
+      "supported": false
     },
     "start-os-source-available": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "start-os-open-source": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "start-os-license": {
       "value": "-",
@@ -689,8 +667,7 @@
     },
     "start-os-reproducible-builds": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "paynyms": {
       "value": "NO",

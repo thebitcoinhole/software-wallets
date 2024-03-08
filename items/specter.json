@@ -369,13 +369,11 @@
     },
     "android-googleplay-support": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "android-apk-support": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "android-latest-version": {
       "value": "-"
@@ -385,18 +383,15 @@
     },
     "android-release-notes": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "android-source-available": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "android-open-source": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "android-license": {
       "value": "-",
@@ -404,8 +399,7 @@
     },
     "android-reproducible-builds": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     }
   },
   "ios-support": {
@@ -422,18 +416,15 @@
     },
     "ios-release-notes": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "ios-source-available": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "ios-open-source": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "ios-license": {
       "value": "-",
@@ -441,8 +432,7 @@
     },
     "ios-reproducible-builds": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     }
   },
   "web-support": {
@@ -453,18 +443,15 @@
     },
     "web-release-notes": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "web-source-available": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "web-open-source": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "web-license": {
       "value": "-",
@@ -472,8 +459,7 @@
     },
     "web-reproducible-builds": {
       "value": "-",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     }
   },
   "macos-support": {
