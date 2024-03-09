@@ -87,10 +87,6 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    },
-    "liquid": {
-      "value": "NO",
-      "supported": false
     }
   },
   "currency": {

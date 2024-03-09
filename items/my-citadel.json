@@ -80,10 +80,6 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "liquid": {
-      "value": "NO",
-      "supported": false
     }
   },
   "currency": {

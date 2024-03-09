@@ -84,16 +84,6 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    },
-    "liquid": {
-      "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "Liquid Arrives on Blockstream Green",
-          "url": "https://blog.blockstream.com/en-liquid-arrives-on-green/"
-        }
-      ]
     }
   },
   "currency": {

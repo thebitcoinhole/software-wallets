@@ -72,28 +72,6 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "liquid": {
-      "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "Liquid for Bitcoiners (1/4) - Confidential Transactions",
-          "url": "https://specter.solutions/liquid-for-bitcoiners-1-4-confidential-transactions/"
-        },
-        {
-          "title": "Liquid for Bitcoiners (2/4) - Stablecoin Self-Custody",
-          "url": "https://specter.solutions/liquid-for-bitcoiners-2-4-stablecoin-self-custody/"
-        },
-        {
-          "title": "Liquid for Bitcoiners (3/4) - Working Capital Stability, Remittances & Bitcoin-Backed Loans",
-          "url": "https://specter.solutions/liquid-for-bitcoiners-3-4-stablecoins-for-working-capital-stability-remittances-and-bitcoin-backed-loans/"
-        },
-        {
-          "title": "Liquid for Bitcoiners (4/4) - Financial Securities Infrastructure",
-          "url": "https://specter.solutions/liquid-for-bitcoiners-4-4-financial-securities-infrastructure/"
-        }
-      ]
     }
   },
   "communities": {

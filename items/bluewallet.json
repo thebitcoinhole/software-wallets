@@ -90,10 +90,6 @@
           "url": "https://bluewallet.io/sunsetting-lndhub/"
         }
       ]
-    },
-    "liquid": {
-      "value": "NO",
-      "supported": false
     }
   },
   "currency": {

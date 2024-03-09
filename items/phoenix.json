@@ -92,10 +92,6 @@
           "url": "https://phoenix.acinq.co/faq#is-phoenix-a-real-lightning-node"
         }
       ]
-    },
-    "liquid": {
-      "value": "NO",
-      "supported": false
     }
   },
   "currency": {
