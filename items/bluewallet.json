@@ -519,13 +519,13 @@
       ]
     },
     "ios-reproducible-builds": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
       "links": [
         {
           "title": "Wallet Scrutiny",
-          "url": "https://walletscrutiny.com/android/io.bluewallet.bluewallet/"
+          "url": "https://walletscrutiny.com/iphone/io.bluewallet.bluewallet/"
         }
       ]
     }

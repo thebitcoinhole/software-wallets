@@ -479,8 +479,9 @@
       ]
     },
     "ios-reproducible-builds": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "web-support": {
