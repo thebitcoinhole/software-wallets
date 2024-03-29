@@ -469,19 +469,22 @@
       "supported": false
     },
     "ios-source-available": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "ios-open-source": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "ios-license": {
-      "value": "?",
+      "value": "-",
       "supported": false
     },
     "ios-reproducible-builds": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     }
   },
