@@ -705,14 +705,14 @@
       "flag": "negative"
     },
     "coldcard-mk4": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
     },
     "coldcard-q": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "bitbox02-btconly": {
       "value": "YES",
