@@ -485,10 +485,14 @@
       ]
     },
     "android-reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
       "links": [
+        {
+          "title": "BitcoinBinary.org",
+          "url": "https://bitcoinbinary.org/"
+        },
         {
           "title": "Wallet Scrutiny",
           "url": "https://walletscrutiny.com/android/com.greenaddress.greenbits_android_wallet/"
