@@ -205,7 +205,7 @@ All the features supported:
 | Start OS Support | start-os-support | License | start-os-license |
 | Start OS Support | start-os-support | Reproducible Builds | start-os-reproducible-builds |
 | Hardware Wallets Support | hardware-wallets-support | Jade | jade |
-| Hardware Wallets Support | hardware-wallets-support | Colcard MK4 | coldcard-mk4 |
+| Hardware Wallets Support | hardware-wallets-support | Coldcard MK4 | coldcard-mk4 |
 | Hardware Wallets Support | hardware-wallets-support | BitBox02 | bitbox02-btconly |
 | Hardware Wallets Support | hardware-wallets-support | Keystone 3 Pro | keystone-3-pro |
 | Hardware Wallets Support | hardware-wallets-support | Passport Batch 2 | passport-batch-2 |
