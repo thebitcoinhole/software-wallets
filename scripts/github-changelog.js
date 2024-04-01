@@ -39,8 +39,20 @@ axios
         }
     }
 
-    console.log(`Sanitized version: ${latestVersion}`);
-    console.log(`Release Date: ${latestReleaseDate}`);
+    if (latestVersion != undefined) {
+        console.log(`Sanitized version: ${latestVersion}`);
+    } else  {
+        console.error("latestVersion not found")
+        process.exit(1);
+    }
+
+    if (latestReleaseDate != undefined) {
+        console.log(`Release Date: ${latestReleaseDate}`);
+    } else  {
+        console.error("latestReleaseDate not found")
+        process.exit(1);
+    }
+    
     updateJson(itemId, latestVersion, latestReleaseDate);
 
   })
