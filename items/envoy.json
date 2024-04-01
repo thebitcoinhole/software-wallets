@@ -479,7 +479,13 @@
     "android-reproducible-builds": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/com.foundationdevices.envoy/"
+        }
+      ]
     }
   },
   "ios-support": {
@@ -540,7 +546,13 @@
     "ios-reproducible-builds": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/iphone/com.foundationdevices.envoy/"
+        }
+      ]
     }
   },
   "web-support": {

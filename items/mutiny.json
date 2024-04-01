@@ -434,7 +434,13 @@
     "android-reproducible-builds": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/com.mutinywallet.mutinywallet/"
+        }
+      ]
     }
   },
   "ios-support": {
@@ -495,7 +501,13 @@
     "ios-reproducible-builds": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/iphone/com.mutinywallet.mutiny/"
+        }
+      ]
     }
   },
   "web-support": {

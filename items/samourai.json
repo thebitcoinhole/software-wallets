@@ -495,6 +495,10 @@
       "flag": "positive",
       "links": [
         {
+          "title": "Reproducible Builds",
+          "url": "https://code.samourai.io/wallet/samourai-wallet-android/-/blob/develop/ReproducibleBuilds.md"
+        },
+        {
           "title": "Wallet Scrutiny",
           "url": "https://walletscrutiny.com/android/com.samourai.wallet/"
         }

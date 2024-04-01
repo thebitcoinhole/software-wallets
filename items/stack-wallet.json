@@ -433,7 +433,13 @@
     "android-reproducible-builds": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/com.cypherstack.stackwallet/"
+        }
+      ]
     }
   },
   "ios-support": {
@@ -494,7 +500,13 @@
     "ios-reproducible-builds": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/iphone/com.cypherstack.stackwallet/"
+        }
+      ]
     }
   },
   "web-support": {

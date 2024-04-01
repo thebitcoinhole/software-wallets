@@ -460,7 +460,13 @@
     "android-reproducible-builds": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/io.bluewallet.bluewallet/"
+        }
+      ]
     }
   },
   "ios-support": {
