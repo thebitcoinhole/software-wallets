@@ -239,12 +239,9 @@
       "flag": "positive"
     },
     "taproot": {
-      "value": "Partially",
+      "value": "Experimental",
       "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Send only"
-      ]
+      "flag": "neutral"
     }
   },
   "fees": {
@@ -705,9 +702,15 @@
       "flag": "negative"
     },
     "coldcard-mk4": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "neutral"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Signing devices",
+          "url": "https://github.com/wizardsardine/liana/blob/master/doc/signing_devices.md"
+        }
+      ]
     },
     "coldcard-q": {
       "value": "NO",
@@ -717,7 +720,13 @@
     "bitbox02-btconly": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Signing devices",
+          "url": "https://github.com/wizardsardine/liana/blob/master/doc/signing_devices.md"
+        }
+      ]
     },
     "keystone-3-pro": {
       "value": "NO",
@@ -742,12 +751,24 @@
     "ledger-nano-s-plus": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Signing devices",
+          "url": "https://github.com/wizardsardine/liana/blob/master/doc/signing_devices.md"
+        }
+      ]
     },
     "ledger-nano-x": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Signing devices",
+          "url": "https://github.com/wizardsardine/liana/blob/master/doc/signing_devices.md"
+        }
+      ]
     },
     "seedsigner": {
       "value": "NO",
@@ -757,7 +778,13 @@
     "specter-diy": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Signing devices",
+          "url": "https://github.com/wizardsardine/liana/blob/master/doc/signing_devices.md"
+        }
+      ]
     },
     "tapsigner": {
       "value": "NO",
