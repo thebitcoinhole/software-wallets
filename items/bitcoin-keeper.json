@@ -730,6 +730,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "trezor-safe-3": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "ledger-nano-s-plus": {
       "value": "YES",
       "supported": true,

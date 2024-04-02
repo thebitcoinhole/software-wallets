@@ -819,6 +819,11 @@
       "supported": true,
       "flag": "neutral"
     },
+    "trezor-safe-3": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
     "ledger-nano-s-plus": {
       "value": "Watch-only",
       "supported": true,
