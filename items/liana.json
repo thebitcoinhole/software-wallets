@@ -713,9 +713,15 @@
       ]
     },
     "coldcard-q": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Signing devices",
+          "url": "https://github.com/wizardsardine/liana/blob/master/doc/signing_devices.md"
+        }
+      ]
     },
     "bitbox02-btconly": {
       "value": "YES",
