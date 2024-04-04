@@ -93,6 +93,9 @@ axios
 
     if (!ignoreVersion(itemId, latestVersion)) {
 
+        // Bitcoin Core
+        latestVersion = latestVersion.replace(/^Bitcoin Core /, '');
+
         // My Cytadel (Version 1.5 (Blazing Venus) Latest)
         latestVersion = latestVersion.replace(/^Version (\d+(\.\d+)+) \(.*\)$/, '$1');
 
