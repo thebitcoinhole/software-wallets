@@ -15,6 +15,14 @@ jobs:
       github-repo: aqua-wallet
       platforms: android,ios
       latestRelease: true
+  bitcoin-core:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: bitcoin-core
+      github-org: bitcoin
+      github-repo: bitcoin
+      platforms: windows,macos,linux
+      latestRelease: true
   bitcoin-keeper:
     uses: ./.github/workflows/check-release-template.yml
     with:
