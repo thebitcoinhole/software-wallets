@@ -454,9 +454,15 @@
   },
   "web-support": {
     "web-supported": {
-      "value": "NO",
+      "value": "SOON",
       "supported": false,
-      "flag": "negative"
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Liana Lite",
+          "url": "https://lianalite.com/"
+        }
+      ]
     },
     "web-release-notes": {
       "value": "-",
