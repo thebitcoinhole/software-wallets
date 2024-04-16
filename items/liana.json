@@ -256,9 +256,9 @@
       "flag": "positive"
     },
     "child-pays-for-parent": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "privacy": {
