@@ -324,19 +324,9 @@
       "flag": "positive"
     },
     "coinjoin": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Whirlpool",
-          "url": "https://samouraiwallet.com/whirlpool"
-        },
-        {
-          "title": "Introducing Whirlpool Surge Cycles",
-          "url": "https://medium.com/samourai-wallet/introducing-whirlpool-surge-cycles-b5b484a1670f"
-        }
-      ]
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "hide-sensitive-data": {
       "value": "NO",
@@ -425,15 +415,9 @@
       "flag": "positive"
     },
     "android-googleplay-support": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=com.samourai.wallet"
-        }
-      ]
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "android-apk-support": {
       "value": "YES",

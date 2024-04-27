@@ -371,7 +371,7 @@
       "links": [
         {
           "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=io.hexawallet.bitcoinkeeper"
+          "url": "https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet"
         }
       ]
     },
@@ -445,7 +445,13 @@
     "ios-supported": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/phoenix-wallet/id1544097028"
+        }
+      ]
     },
     "ios-latest-version": {
       "value": "v2.2.2"

@@ -287,9 +287,9 @@
       "flag": "positive"
     },
     "coinjoin": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "hide-sensitive-data": {
       "value": "NO",
