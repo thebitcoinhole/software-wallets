@@ -179,10 +179,7 @@
     "passphrase-support": {
       "value": "YES",
       "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Available when connecting a hardware wallet. Not available for software wallets."
-      ]
+      "flag": "positive"
     },
     "master-key-fingerprint": {
       "value": "NO",
