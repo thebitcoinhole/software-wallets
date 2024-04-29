@@ -223,3 +223,11 @@ jobs:
       github-repo: WalletWasabi
       platforms: windows,macos,linux
       latestRelease: true
+  zeus:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: zeus
+      github-org: ZeusLN
+      github-repo: zeus
+      platforms: android,ios
+      latestRelease: true
