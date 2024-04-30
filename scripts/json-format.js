@@ -7,7 +7,6 @@ function formatJsonFile(filePath) {
     const parsedJson = JSON.parse(fileContent);
     const formattedJson = JSON.stringify(parsedJson, null, 2);
     fs.writeFileSync(filePath, formattedJson);
-    console.log(`Formatted JSON file '${filePath}'`);
   } catch (error) {
     console.error(`Error in JSON file '${filePath}':`, error.message);
   }
