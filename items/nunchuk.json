@@ -352,11 +352,11 @@
       "flag": "negative"
     },
     "timelocks": {
-      "value": "YES",
-      "supported": true,
-      "flag": "neutral",
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
       "texts": [
-        "Involves a trusted server for delivering timelocks instead of the bitcoin native timelocks."
+        "Nunchuk use their servers for delivering timelocks instead of the bitcoin native timelocks."
       ]
     },
     "encrypted-storage": {
