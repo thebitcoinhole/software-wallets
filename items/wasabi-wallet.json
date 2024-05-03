@@ -302,21 +302,13 @@
       "flag": "positive"
     },
     "coinjoin": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
       "links": [
         {
-          "title": "WabiSabi",
-          "url": "https://github.com/zkSNACKs/WabiSabi/"
-        },
-        {
-          "title": "Coinjoin",
-          "url": "https://docs.wasabiwallet.io/using-wasabi/CoinJoin.html"
-        },
-        {
-          "title": "zkSNACKs' Blacklisting Update",
-          "url": "https://blog.wasabiwallet.io/zksnacks-blacklisting-update/"
+          "title": "ZkSnacks is discontinuing its coinjoin coordinator service 1st of june",
+          "url": "https://blog.wasabiwallet.io/zksnacks-is-discontinuing-its-coinjoin-coordination-service-1st-of-june/"
         }
       ]
     },
