@@ -10,6 +10,10 @@ on:
         required: false
         default: true
         type: boolean
+      changelog-url:
+        default: "null"
+        required: false
+        type: string
       github-org:
         default: "null"
         required: false
