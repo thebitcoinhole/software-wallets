@@ -264,7 +264,7 @@ function checkRelease(itemId, latestVersion, latestReleaseDate) {
         }
 
         try {
-            const wallet = JSON.parse(data);
+            const item = JSON.parse(data);
 
             // TODO For Bluewallet, some versions are not for all the platforms. Inspect the assets to see which platform to update
 
