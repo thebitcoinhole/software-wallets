@@ -6,6 +6,10 @@ on:
       item-id:
         required: true
         type: string
+      twitter-enabled:
+        required: false
+        default: true
+        type: boolean
       github-org:
         required: true
         type: string
@@ -27,7 +31,11 @@ on:
         required: false
         default: false
         type: boolean
-      allReleasesMatch:
+      allReleasesInclude:
+        default: "null"
+        required: false
+        type: string
+      allReleasesExclude:
         default: "null"
         required: false
         type: string
@@ -37,11 +45,13 @@ on:
         type: string
 
 jobs:
-  check-release:
+  fetch-release:
     runs-on: ubuntu-latest
     env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+    outputs:
+      releaseVersion: ${{ steps.fetch-release-step.outputs.releaseVersion }}
+      releaseDate: ${{ steps.fetch-release-step.outputs.releaseDate }}
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -55,14 +65,65 @@ jobs:
       run: npm install
       working-directory: scripts
 
-    - name: Run script
+    - name: Fetch release
+      id: fetch-release-step
       working-directory: scripts
       run: |
-        node github-release.js ${{ inputs.item-id }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.platforms }} ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesMatch }} ${{ inputs.assetsMatch }}         
+        OUTPUT=$(node fetch-latest-release.js ${{ inputs.item-id }} ${{ inputs.platforms }} ${{ inputs.changelog-url }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesInclude }} ${{ inputs.allReleasesExclude }} ${{ inputs.assetsMatch }})
+        printf "%s\n" "$OUTPUT"
+        while IFS= read -r line; do
+            if [[ $line == releaseVersion=* ]]; then
+                echo "$line" >> "$GITHUB_OUTPUT"
+            elif [[ $line == releaseDate=* ]]; then
+                echo "$line" >> "$GITHUB_OUTPUT"
+            fi
+        done <<< "$OUTPUT"
+  commit-release:
+    runs-on: ubuntu-latest
+    if: needs.fetch-release.outputs.releaseVersion != ''
+    needs: fetch-release
+    outputs:
+      releaseVersion: ${{ steps.fetch-variables-step.outputs.releaseVersion }}
+      pullRequestOperation: ${{ steps.send-pr-outputs.outputs.pullRequestOperation }}
+    env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+
+    - name: Install dependencies
+      run: npm install
+      working-directory: scripts
+
+    - name: Fetch variables
+      id: fetch-variables-step
+      working-directory: scripts
+      run: |
         CHANGELOG_URL=$(node changelog-url.js ${{ inputs.item-id }} ${{ inputs.platforms }})
         echo "CHANGELOG_URL=${CHANGELOG_URL}" >> "$GITHUB_ENV"
+
+        echo "releaseVersion=${{ needs.fetch-release.outputs.releaseVersion }}" >> "$GITHUB_OUTPUT"
+
+        MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} "${{ needs.fetch-release.outputs.releaseDate }}")
+        echo ""
+        echo "Message to tweet:"
+        echo "-------------------"
+        echo "$MESSAGE"
+        echo "-------------------"
+
+    - name: Update Release
+      working-directory: scripts
+      run: |
+        node update-release.js ${{ inputs.item-id }} ${{ inputs.platforms }} ${{ needs.fetch-release.outputs.releaseVersion }} "${{ needs.fetch-release.outputs.releaseDate }}"
+
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v6.0.2
+      id: create-pull-request
       with:
         title: "New ${{ inputs.item-id }} (${{ inputs.platforms }}) release"
         commit-message: "New ${{ inputs.item-id }} (${{ inputs.platforms }}) release"
@@ -70,4 +131,39 @@ jobs:
         add-paths: "items/*.json"
         reviewers: "${{ env.ASSIGNEE }}"
         body: ${{ env.CHANGELOG_URL }}
+
+    - name: Send PR outputs
+      id: send-pr-outputs
+      run: echo "pullRequestOperation=${{ steps.create-pull-request.outputs.pull-request-operation }}" >> "$GITHUB_OUTPUT"
+  tweet-release:
+    runs-on: ubuntu-latest
+    if: needs.fetch-release.outputs.releaseVersion != '' && inputs.twitter-enabled == true && needs.commit-release.outputs.pullRequestOperation == 'created'
+    environment: ${{ inputs.item-id }}
+    needs: commit-release
+    env:
+      TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+      TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+      TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+      TWITTER_API_KEY_SECRET: ${{ secrets.TWITTER_API_KEY_SECRET }}
+      TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+      TWITTER_DRY_RUN_ENABLED: "true"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        run: |
+          python3 -m venv venv
+          source venv/bin/activate
+
+      - name: Install Dependencies
+        working-directory: scripts
+        run: pip install -r requirements.txt
+
+      - name: Tweet Release
+        working-directory: scripts
+        run: |
+          MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.commit-release.outputs.releaseVersion }})
+          python3 twitter.py "${MESSAGE}"
+
 

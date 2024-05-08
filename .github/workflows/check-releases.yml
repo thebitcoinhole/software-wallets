@@ -59,7 +59,7 @@ jobs:
       allReleases: true
       assetsMatch: "dmg"
   electrum:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: electrum
       changelog-url: https://raw.githubusercontent.com/spesmilo/electrum/master/RELEASE-NOTES
@@ -121,7 +121,7 @@ jobs:
       platforms: start-os
       latestRelease: true
   muun:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: muun
       changelog-url: https://raw.githubusercontent.com/muun/apollo/master/android/CHANGELOG.md
@@ -206,7 +206,7 @@ jobs:
       github-repo: stack_wallet
       platforms: android,ios,windows,macos,linux
       allReleases: true
-      allReleasesMatch: "Stack Wallet"
+      allReleasesInclude: "Stack Wallet"
   ten-ten-one:
     uses: ./.github/workflows/check-release-template.yml
     with:
