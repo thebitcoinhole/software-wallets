@@ -11,10 +11,12 @@ on:
         default: true
         type: boolean
       github-org:
-        required: true
+        default: "null"
+        required: false
         type: string
       github-repo:
-        required: true
+        default: "null"
+        required: false
         type: string
       platforms:
         required: true
