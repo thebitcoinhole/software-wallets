@@ -113,7 +113,7 @@ axios
                     break;
                 }
             }
-        } else if (itemId == "bitcoin-core") {
+        } else if (itemId == "electrum") {
             // # Release 4.4.6 (August 18, 2023) (security update)
             // Find the first line starting with "#"
             const regex = /^# Release ([\d.]+) \(([^)]+)\)/;
@@ -269,6 +269,7 @@ function checkRelease(itemId, latestVersion, latestReleaseDate) {
             // TODO For Bluewallet, some versions are not for all the platforms. Inspect the assets to see which platform to update
 
             platforms.split(',').forEach(platform => {
+                console.log(platform + ":")
                 var currentVersion = item[`${platform}-support`][`${platform}-latest-version`].value
                 console.log("Current version found: " + currentVersion)
                 console.log("Latest version found: " + latestVersion)
