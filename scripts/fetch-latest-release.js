@@ -3,11 +3,11 @@ const fs = require('fs');
 const axios = require('axios');
 
 const itemId = process.argv[2];
-const changelogUrl = process.argv[3];
-const owner = process.argv[4];
-const repo = process.argv[5];
-const apiKey = process.argv[6];
-const platforms = process.argv[7];
+const platforms = process.argv[3];
+const changelogUrl = process.argv[4];
+const owner = process.argv[5];
+const repo = process.argv[6];
+const apiKey = process.argv[7];
 const tag = process.argv[8];
 const latestRelease = process.argv[9];
 const allReleases = process.argv[10];
