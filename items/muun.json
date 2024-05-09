@@ -421,10 +421,10 @@
       ]
     },
     "ios-latest-version": {
-      "value": "?"
+      "value": "v2.7.14"
     },
     "ios-latest-release-date": {
-      "value": "?"
+      "value": "May 9, 2024"
     },
     "ios-release-notes": {
       "value": "YES",
