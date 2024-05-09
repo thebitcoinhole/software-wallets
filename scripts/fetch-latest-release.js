@@ -7,17 +7,18 @@ const platforms = process.argv[3];
 const changelogUrl = process.argv[4];
 const owner = process.argv[5];
 const repo = process.argv[6];
-const apiKey = process.argv[7];
-const tag = process.argv[8];
-const latestRelease = process.argv[9];
-const allReleases = process.argv[10];
-const allReleasesInclude = process.argv[11];
-const allReleasesExclude = process.argv[12];
-const assetsMatch = process.argv[13];
+const tag = process.argv[7];
+const latestRelease = process.argv[8];
+const allReleases = process.argv[9];
+const allReleasesInclude = process.argv[10];
+const allReleasesExclude = process.argv[11];
+const assetsMatch = process.argv[12];
+
+const githubApiKey = process.env.GITHUB_TOKEN
 
 var headers = {
     Accept: 'application/vnd.github.v3+json',
-    Authorization: `Bearer ${apiKey}`,
+    Authorization: `Bearer ${githubApiKey}`,
   };
 var apiUrl 
 if (tag == "true") {
@@ -94,9 +95,19 @@ axios
     } else if (tag == "true") {
         console.log("Using tags API")
         const tags = response.data;
-        latestTag = tags[0];
-        latestVersion = latestTag.name.trim()
-        console.log("Tag name: " + latestVersion)
+
+        console.log("Tags found:")
+        for (const tag of tags) {
+            console.log("- " + tag.name)
+            if (latestVersion == undefined && !tag.name.trim().includes("$(MARKETING_VERSION)")) {
+                latestVersion = tag.name.trim()
+            }
+        }
+
+        // 2.7.14-1035
+        if (itemId == "muun") {
+            latestVersion = latestVersion.split("-")[0]
+        }
         latestReleaseDate = today()
     } else if (changelogUrl != "null") {
         var body = response.data

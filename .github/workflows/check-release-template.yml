@@ -75,7 +75,7 @@ jobs:
       id: fetch-release-step
       working-directory: scripts
       run: |
-        OUTPUT=$(node fetch-latest-release.js ${{ inputs.item-id }} ${{ inputs.platforms }} ${{ inputs.changelog-url }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesInclude }} ${{ inputs.allReleasesExclude }} ${{ inputs.assetsMatch }})
+        OUTPUT=$(node fetch-latest-release.js ${{ inputs.item-id }} ${{ inputs.platforms }} ${{ inputs.changelog-url }} ${{ inputs.github-org }} ${{ inputs.github-repo }} ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesInclude }} ${{ inputs.allReleasesExclude }} ${{ inputs.assetsMatch }})
         printf "%s\n" "$OUTPUT"
         while IFS= read -r line; do
             if [[ $line == releaseVersion=* ]]; then

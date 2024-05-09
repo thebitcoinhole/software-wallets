@@ -420,21 +420,16 @@
       "flag": "negative"
     },
     "android-apk-support": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Download Android APK",
-          "url": "https://samouraiwallet.com/download/wallet"
-        }
-      ]
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "android-latest-version": {
-      "value": "?"
+      "value": "v0.99.98ii"
     },
     "android-latest-release-date": {
-      "value": "?"
+      "value": "Mar 29, 2024",
+      "flag": "positive"
     },
     "android-release-notes": {
       "value": "YES",

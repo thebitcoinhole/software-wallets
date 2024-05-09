@@ -120,12 +120,20 @@ jobs:
       github-repo: mutiny-startos
       platforms: start-os
       latestRelease: true
-  muun:
+  muun-android:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: muun
       changelog-url: https://raw.githubusercontent.com/muun/apollo/master/android/CHANGELOG.md
       platforms: android
+  muun-ios:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: muun
+      github-org: muun
+      github-repo: falcon
+      tag: true
+      platforms: ios
   my-citadel-desktop:
     uses: ./.github/workflows/check-release-template.yml
     with:
