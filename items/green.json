@@ -265,12 +265,12 @@
     }
   },
   "addresses": {
-    "view-address-qr": {
+    "view-address-text": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
     },
-    "view-address-text": {
+    "view-address-qr": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
