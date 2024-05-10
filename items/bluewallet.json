@@ -258,6 +258,33 @@
       ]
     }
   },
+  "addresses": {
+    "view-address-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "view-address-text": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "multiple-addresses-generation": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "verify-address-text": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "verify-address-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
