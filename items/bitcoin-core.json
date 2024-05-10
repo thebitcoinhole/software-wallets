@@ -256,7 +256,7 @@
       "supported": true,
       "flag": "positive"
     },
-    "multiple-addresses-generation": {
+    "display-multiple-addresses": {
       "value": "YES",
       "supported": true,
       "flag": "positive"

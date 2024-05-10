@@ -259,7 +259,7 @@
       "supported": true,
       "flag": "positive"
     },
-    "multiple-addresses-generation": {
+    "display-multiple-addresses": {
       "value": "?",
       "supported": false
     },
