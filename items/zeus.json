@@ -355,9 +355,9 @@
       "flag": "positive"
     },
     "batch-transactions": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "SOON",
+      "supported": true,
+      "flag": "neutral"
     },
     "miniscript": {
       "value": "NO",
@@ -738,9 +738,9 @@
       "flag": "negative"
     },
     "coldcard-q": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "SOON",
+      "supported": true,
+      "flag": "neutral"
     },
     "bitbox02-btconly": {
       "value": "NO",
@@ -753,9 +753,9 @@
       "flag": "negative"
     },
     "passport-batch-2": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "SOON",
+      "supported": true,
+      "flag": "neutral"
     },
     "trezor-model-one": {
       "value": "NO",
@@ -783,9 +783,9 @@
       "flag": "negative"
     },
     "seedsigner": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "SOON",
+      "supported": true,
+      "flag": "neutral"
     },
     "specter-diy": {
       "value": "NO",
