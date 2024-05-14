@@ -115,7 +115,7 @@ jobs:
 
         echo "releaseVersion=${{ needs.fetch-release.outputs.releaseVersion }}" >> "$GITHUB_OUTPUT"
 
-        MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} "${{ needs.fetch-release.outputs.releaseVersion }}")
+        MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ inputs.platforms }} "${{ needs.fetch-release.outputs.releaseVersion }}")
         echo ""
         echo "Message to tweet:"
         echo "-------------------"
@@ -169,7 +169,7 @@ jobs:
       - name: Tweet Release
         working-directory: scripts
         run: |
-          MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.commit-release.outputs.releaseVersion }})
+          MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ inputs.platforms }} ${{ needs.commit-release.outputs.releaseVersion }})
           python3 twitter.py "${MESSAGE}"
 
 

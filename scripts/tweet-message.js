@@ -1,7 +1,8 @@
 const fs = require('fs');
 
 const itemId = process.argv[2];
-const releaseVersion = process.argv[3];
+const platforms = process.argv[3];
+const releaseVersion = process.argv[4];
 
 if (releaseVersion == undefined || releaseVersion == "") {
     console.error('Missing releaseVersion');
@@ -19,4 +20,4 @@ if (jsonData["full-name"] != undefined) {
     fullName = jsonData.name
 }
 
-console.log(`${fullName} ${releaseVersion} released.\n\nVisit our website for more information.\nhttps://thebitcoinhole.com/software-wallets/${itemId}`)
+console.log(`${fullName} (${platforms}) ${releaseVersion} released.\n\nVisit our website for more information.\nhttps://thebitcoinhole.com/software-wallets/${itemId}`)
