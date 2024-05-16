@@ -372,6 +372,11 @@
         }
       ]
     },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "transaction-labeling": {
       "value": "NO",
       "supported": false,

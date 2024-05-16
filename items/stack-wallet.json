@@ -356,6 +356,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "frost": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "transaction-labeling": {
       "value": "YES",
       "supported": true,
