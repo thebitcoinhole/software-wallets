@@ -381,6 +381,11 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "other-features": {

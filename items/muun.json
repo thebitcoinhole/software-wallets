@@ -348,6 +348,59 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "multi-sig": {
+      "value": "Non Standard",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Muun's Multi-Signature Model",
+          "url": "https://blog.muun.com/muuns-multisig-model/"
+        }
+      ]
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "transaction-labeling": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "batch-transactions": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "timelocks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "encrypted-storage": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "dark-mode": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "android-support": {
@@ -696,59 +749,6 @@
     "start-os-reproducible-builds": {
       "value": "-",
       "supported": false
-    },
-    "paynyms": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    }
-  },
-  "other-features": {
-    "multi-sig": {
-      "value": "Non Standard",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Muun's Multi-Signature Model",
-          "url": "https://blog.muun.com/muuns-multisig-model/"
-        }
-      ]
-    },
-    "frost": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "transaction-labeling": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "batch-transactions": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "miniscript": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "timelocks": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "encrypted-storage": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "dark-mode": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
     }
   },
   "hardware-wallets-support": {

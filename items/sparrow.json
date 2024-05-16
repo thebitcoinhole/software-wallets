@@ -336,6 +336,11 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "other-features": {
