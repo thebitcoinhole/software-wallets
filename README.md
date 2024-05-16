@@ -90,12 +90,12 @@ All the features supported:
 | Company | company | Discord | discord |
 | Communities | communities | Telegram | telegram |
 | Communities | communities | Reddit | reddit |
+| Networks | networks | Bitcoin-only | bitcoin-only |
 | Networks | networks | Bitcoin Mainnet | btc-mainnet |
 | Networks | networks | Bitcoin Testnet | btc-testnet |
 | Networks | networks | Bitcoin Regtest | btc-regtest |
 | Networks | networks | Bitcoin signet | btc-signet |
 | Networks | networks | Lightning Network | lightning-network |
-| Networks | networks | Liquid | liquid |
 | Currency | currency | Fiat Denominations | fiat |
 | Currency | currency | Bitcoin Unit (BTC) | btc |
 | Currency | currency | Bitcoin Unit (SAT) | sats |
@@ -120,11 +120,18 @@ All the features supported:
 | Private Keys | private-keys | 24 Words BIP39 Seed Creation | create-24-words |
 | Private Keys | private-keys | 12 Words BIP39 Seed Import | import-12-words |
 | Private Keys | private-keys | 24 Words BIP39 Seed Import | import-24-words |
+| Private Keys | private-keys | Seed Phrase Autocomplete | seed-phrase-autocomplete |
+| Private Keys | private-keys | In-App Keyboard | inapp-keyboard |
 | Private Keys | private-keys | SeedQR | seed-qr |
 | Address Format | address-format | Legacy (P2PKH) | legacy |
 | Address Format | address-format | Nested Segwit (P2SH) | nested-segwit |
 | Address Format | address-format | Native Segwit (P2WPKH) | native-segwit |
 | Address Format | address-format | Taproot (P2TR) | taproot |
+| Receive Addresses | addresses | View Address as Text | view-address-text |
+| Receive Addresses | addresses | View Address as QR | view-address-qr |
+| Receive Addresses | addresses | Display Multiple Addresses | display-multiple-addresses |
+| Receive Addresses | addresses | Verify Address from Text | verify-address-text |
+| Receive Addresses | addresses | Verify Address from QR | verify-address-qr |
 | Fees | fees | Fee Control | fee-control |
 | Fees | fees | Replace-by-fee (RBF) | replace-by-fee |
 | Fees | fees | Child-pays-for-parent (CPFP) | child-pays-for-parent |
@@ -135,13 +142,34 @@ All the features supported:
 | Privacy | privacy | Hide Sensitive Data | hide-sensitive-data |
 | Privacy | privacy | Stealth Mode | stealth-mode |
 | Privacy | privacy | Built-in secure communication | built-in-secure-communication |
+| Privacy | privacy | PayNyms | paynyms |
+| Privacy | privacy | Silent Payments | silent-payments |
 | Other Features | other-features | Multi-sig (PSBTs) | multi-sig |
+| Other Features | other-features | Frost | frost |
 | Other Features | other-features | Transaction Labeling | transaction-labeling |
 | Other Features | other-features | Batch Transactions | batch-transactions |
 | Other Features | other-features | Miniscript | miniscript |
 | Other Features | other-features | Timelocks | timelocks |
 | Other Features | other-features | Encrypted Storage | encrypted-storage |
 | Other Features | other-features | Dark Mode | dark-mode |
+| Android Support | android-support | Supported | android-supported |
+| Android Support | android-support | Google Play | android-googleplay-support |
+| Android Support | android-support | Direct APK Download | android-apk-support |
+| Android Support | android-support | Latest Version | android-latest-version |
+| Android Support | android-support | Latest Release Date | android-latest-release-date |
+| Android Support | android-support | Release Notes | android-release-notes |
+| Android Support | android-support | Source-available | android-source-available |
+| Android Support | android-support | Open Source | android-open-source |
+| Android Support | android-support | License | android-license |
+| Android Support | android-support | Reproducible Builds | android-reproducible-builds |
+| iOS Support | ios-support | Supported | ios-supported |
+| iOS Support | ios-support | Latest Version | ios-latest-version |
+| iOS Support | ios-support | Latest Release Date | ios-latest-release-date |
+| iOS Support | ios-support | Release Notes | ios-release-notes |
+| iOS Support | ios-support | Source-available | ios-source-available |
+| iOS Support | ios-support | Open Source | ios-open-source |
+| iOS Support | ios-support | License | ios-license |
+| iOS Support | ios-support | Reproducible Builds | ios-reproducible-builds |
 | Web Support | web-support | Supported | web-supported |
 | Web Support | web-support | Release Notes | web-release-notes |
 | Web Support | web-support | Source-available | web-source-available |
@@ -172,22 +200,6 @@ All the features supported:
 | Windows Support | windows-support | Open Source | windows-open-source |
 | Windows Support | windows-support | License | windows-license |
 | Windows Support | windows-support | Reproducible Builds | windows-reproducible-builds |
-| Android Support | android-support | Supported | android-supported |
-| Android Support | android-support | Latest Version | android-latest-version |
-| Android Support | android-support | Latest Release Date | android-latest-release-date |
-| Android Support | android-support | Release Notes | android-release-notes |
-| Android Support | android-support | Source-available | android-source-available |
-| Android Support | android-support | Open Source | android-open-source |
-| Android Support | android-support | License | android-license |
-| Android Support | android-support | Reproducible Builds | android-reproducible-builds |
-| iOS Support | ios-support | Supported | ios-supported |
-| iOS Support | ios-support | Latest Version | ios-latest-version |
-| iOS Support | ios-support | Latest Release Date | ios-latest-release-date |
-| iOS Support | ios-support | Release Notes | ios-release-notes |
-| iOS Support | ios-support | Source-available | ios-source-available |
-| iOS Support | ios-support | Open Source | ios-open-source |
-| iOS Support | ios-support | License | ios-license |
-| iOS Support | ios-support | Reproducible Builds | ios-reproducible-builds |
 | Umbrel OS Support | umbrel-os-support | Supported | umbrel-os-supported |
 | Umbrel OS Support | umbrel-os-support | Latest Version | umbrel-os-latest-version |
 | Umbrel OS Support | umbrel-os-support | Latest Release Date | umbrel-os-latest-release-date |
@@ -205,12 +217,14 @@ All the features supported:
 | Start OS Support | start-os-support | License | start-os-license |
 | Start OS Support | start-os-support | Reproducible Builds | start-os-reproducible-builds |
 | Hardware Wallets Support | hardware-wallets-support | Jade | jade |
-| Hardware Wallets Support | hardware-wallets-support | Coldcard MK4 | coldcard-mk4 |
+| Hardware Wallets Support | hardware-wallets-support | Coldcard Mk4 | coldcard-mk4 |
+| Hardware Wallets Support | hardware-wallets-support | Coldcard Q | coldcard-q |
 | Hardware Wallets Support | hardware-wallets-support | BitBox02 | bitbox02-btconly |
 | Hardware Wallets Support | hardware-wallets-support | Keystone 3 Pro | keystone-3-pro |
 | Hardware Wallets Support | hardware-wallets-support | Passport Batch 2 | passport-batch-2 |
 | Hardware Wallets Support | hardware-wallets-support | Trezor Model One | trezor-model-one |
 | Hardware Wallets Support | hardware-wallets-support | Trezor Model T | trezor-model-t |
+| Hardware Wallets Support | hardware-wallets-support | Trezor Safe 3 | trezor-safe-3 |
 | Hardware Wallets Support | hardware-wallets-support | Ledger Nano S Plus | ledger-nano-s-plus |
 | Hardware Wallets Support | hardware-wallets-support | Ledger Nano X | ledger-nano-x |
 | Hardware Wallets Support | hardware-wallets-support | SeedSigner | seedsigner |
