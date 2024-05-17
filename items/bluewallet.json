@@ -356,9 +356,15 @@
       ]
     },
     "silent-payments": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "SOON",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "SilentPayments",
+          "url": "https://github.com/BlueWallet/SilentPayments"
+        }
+      ]
     }
   },
   "other-features": {
