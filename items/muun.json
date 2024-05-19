@@ -426,10 +426,10 @@
       "flag": "negative"
     },
     "android-latest-version": {
-      "value": "v51.9"
+      "value": "v51.11"
     },
     "android-latest-release-date": {
-      "value": "Apr 30, 2024"
+      "value": "2024-05-18"
     },
     "android-release-notes": {
       "value": "YES",
