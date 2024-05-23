@@ -184,8 +184,8 @@ axios
         // Mutiny
         latestVersion = latestVersion.replace(/^Mutiny Wallet /, '');
 
-        // Nunchuk: android.1.9.46: Release: Update version to 1.9.46 v232
-        latestVersion = latestVersion.replace(/^android\.(\d+(\.\d+)+): Release: Update version to .*$/, '$1');        
+        // Nunchuk: android.1.9.46
+        latestVersion = latestVersion.replace(/^android./, '');
 
         // Phoenix
         latestVersion = latestVersion.replace(/^Phoenix Android /, '');
