@@ -15,6 +15,7 @@ jobs:
       github-repo: aqua-wallet
       platforms: android,ios
       latestRelease: true
+      social-enabled: true
   bitcoin-core:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -23,6 +24,7 @@ jobs:
       github-repo: bitcoin
       platforms: windows,macos,linux
       latestRelease: true
+      social-enabled: true
   bitcoin-keeper:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -31,6 +33,7 @@ jobs:
       github-repo: bitcoin-keeper
       platforms: android,ios
       latestRelease: true
+      social-enabled: true
   blueWallet-android:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -40,6 +43,7 @@ jobs:
       platforms: android
       allReleases: true
       assetsMatch: "apk"
+      social-enabled: true
   blueWallet-ios:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -49,6 +53,7 @@ jobs:
       platforms: ios
       allReleases: true
       assetsMatch: "ipa"
+      social-enabled: true
   blueWallet-macos:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -58,12 +63,14 @@ jobs:
       platforms: macos
       allReleases: true
       assetsMatch: "dmg"
+      social-enabled: true
   electrum:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: electrum
       changelog-url: https://raw.githubusercontent.com/spesmilo/electrum/master/RELEASE-NOTES
       platforms: windows,macos,linux,android
+      social-enabled: true
   envoy:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -72,6 +79,7 @@ jobs:
       github-repo: envoy
       platforms: android,ios
       latestRelease: true
+      social-enabled: true
   green-desktop:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -80,6 +88,7 @@ jobs:
       github-repo: green_qt
       platforms: windows,macos,linux
       latestRelease: true
+      social-enabled: true
   green-android:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -88,6 +97,7 @@ jobs:
       github-repo: green_android
       platforms: android
       latestRelease: true
+      social-enabled: true
   green-ios:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -96,6 +106,7 @@ jobs:
       github-repo: green_ios
       platforms: ios
       latestRelease: true
+      social-enabled: true
   liana:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -104,6 +115,7 @@ jobs:
       github-repo: liana
       platforms: windows,macos,linux
       latestRelease: true
+      social-enabled: true
   mutiny-mobile:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -126,6 +138,7 @@ jobs:
       item-id: muun
       changelog-url: https://raw.githubusercontent.com/muun/apollo/master/android/CHANGELOG.md
       platforms: android
+      social-enabled: true
   muun-ios:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -134,6 +147,7 @@ jobs:
       github-repo: falcon
       tag: true
       platforms: ios
+      social-enabled: true
   my-citadel-desktop:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -142,6 +156,7 @@ jobs:
       github-repo: mycitadel-desktop
       platforms: windows,macos,linux
       latestRelease: true
+      social-enabled: true
   my-citadel-ios:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -150,6 +165,7 @@ jobs:
       github-repo: mycitadel-apple
       platforms: ios
       latestRelease: true
+      social-enabled: true
   nunchuk-android:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -158,6 +174,7 @@ jobs:
       github-repo: nunchuk-android
       platforms: android
       latestRelease: true
+      social-enabled: true
   nunchuk-desktop:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -166,6 +183,7 @@ jobs:
       github-repo: nunchuk-desktop
       platforms: windows,macos,linux
       latestRelease: true
+      social-enabled: true
   phoenix:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -174,6 +192,7 @@ jobs:
       github-repo: phoenix
       platforms: android,ios
       latestRelease: true
+      social-enabled: true
   simple-bitcoin-wallet:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -182,6 +201,7 @@ jobs:
       github-repo: wallet
       platforms: android
       latestRelease: true
+      social-enabled: true
   sparrow:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -190,6 +210,7 @@ jobs:
       github-repo: sparrow
       platforms: windows,macos,linux
       latestRelease: true
+      social-enabled: true
   specter:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -198,6 +219,7 @@ jobs:
       github-repo: specter-desktop
       platforms: windows,macos,linux,umbrel-os
       latestRelease: true
+      social-enabled: true
   specter-start-os:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -215,6 +237,7 @@ jobs:
       platforms: android,ios,windows,macos,linux
       allReleases: true
       allReleasesInclude: "Stack Wallet"
+      social-enabled: true
   ten-ten-one:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -223,6 +246,7 @@ jobs:
       github-repo: 10101
       platforms: android,ios
       latestRelease: true
+      social-enabled: true
   wasabi:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -231,6 +255,7 @@ jobs:
       github-repo: WalletWasabi
       platforms: windows,macos,linux
       latestRelease: true
+      social-enabled: true
   zeus:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -239,3 +264,4 @@ jobs:
       github-repo: zeus
       platforms: android,ios
       latestRelease: true
+      social-enabled: true
