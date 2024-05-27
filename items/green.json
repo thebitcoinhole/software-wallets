@@ -947,6 +947,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "krux": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
     "tapsigner": {
       "value": "NO",
       "supported": false,

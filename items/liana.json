@@ -840,6 +840,11 @@
         }
       ]
     },
+    "krux": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "tapsigner": {
       "value": "NO",
       "supported": false,

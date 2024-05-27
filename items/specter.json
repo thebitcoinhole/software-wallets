@@ -824,6 +824,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "krux": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "tapsigner": {
       "value": "NO",
       "supported": false,
