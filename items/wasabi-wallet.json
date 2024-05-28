@@ -133,6 +133,11 @@
           "url": "https://blog.wasabiwallet.io/coming-soon-qr-code-implementation/"
         }
       ]
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "app-lock": {

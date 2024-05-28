@@ -127,6 +127,11 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "app-lock": {

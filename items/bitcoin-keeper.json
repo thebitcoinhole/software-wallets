@@ -84,23 +84,6 @@
       "flag": "negative"
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "nfc": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "qr-scanner": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    }
-  },
   "currency": {
     "fiat": {
       "value": "Many",
@@ -119,6 +102,28 @@
     },
     "exchange-rate-provider": {
       "value": "?"
+    }
+  },
+  "connectivity": {
+    "usb-data": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nfc": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "qr-scanner": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "app-lock": {
