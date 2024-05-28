@@ -763,9 +763,9 @@
       "flag": "negative"
     },
     "passport-batch-2": {
-      "value": "SOON",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive"
     },
     "trezor-model-one": {
       "value": "NO",

@@ -33,8 +33,8 @@
       "url": "https://youtube.com/c/WasabiWallet"
     },
     "github": {
-      "value": "zkSNACKs",
-      "url": "https://github.com/zkSNACKs"
+      "value": "WalletWasabi",
+      "url": "https://github.com/WalletWasabi"
     },
     "slack": {
       "value": "-"
@@ -539,7 +539,7 @@
       "links": [
         {
           "title": "Release Notes",
-          "url": "https://github.com/zkSNACKs/WalletWasabi/releases"
+          "url": "https://github.com/WalletWasabi/WalletWasabi/releases"
         }
       ]
     },
@@ -550,7 +550,7 @@
       "links": [
         {
           "title": "Source Code",
-          "url": "https://github.com/zkSNACKs/WalletWasabi"
+          "url": "https://github.com/WalletWasabi/WalletWasabi"
         }
       ]
     },
@@ -565,7 +565,7 @@
       "links": [
         {
           "title": "License",
-          "url": "https://github.com/zkSNACKs/WalletWasabi/blob/master/LICENSE.md"
+          "url": "https://github.com/WalletWasabi/WalletWasabi/blob/master/LICENSE.md"
         }
       ]
     },
@@ -576,7 +576,7 @@
       "links": [
         {
           "title": "Guide for deterministic builds",
-          "url": "https://github.com/zkSNACKs/WalletWasabi/blob/master/WalletWasabi.Documentation/Guides/DeterministicBuildGuide.md"
+          "url": "https://github.com/WalletWasabi/WalletWasabi/blob/master/WalletWasabi.Documentation/Guides/DeterministicBuildGuide.md"
         }
       ]
     }
@@ -600,7 +600,7 @@
       "links": [
         {
           "title": "Release Notes",
-          "url": "https://github.com/zkSNACKs/WalletWasabi/releases"
+          "url": "https://github.com/WalletWasabi/WalletWasabi/releases"
         }
       ]
     },
@@ -611,7 +611,7 @@
       "links": [
         {
           "title": "Source Code",
-          "url": "https://github.com/zkSNACKs/WalletWasabi"
+          "url": "https://github.com/WalletWasabi/WalletWasabi"
         }
       ]
     },
@@ -626,7 +626,7 @@
       "links": [
         {
           "title": "License",
-          "url": "https://github.com/zkSNACKs/WalletWasabi/blob/master/LICENSE.md"
+          "url": "https://github.com/WalletWasabi/WalletWasabi/blob/master/LICENSE.md"
         }
       ]
     },
@@ -637,7 +637,7 @@
       "links": [
         {
           "title": "Guide for deterministic builds",
-          "url": "https://github.com/zkSNACKs/WalletWasabi/blob/master/WalletWasabi.Documentation/Guides/DeterministicBuildGuide.md"
+          "url": "https://github.com/WalletWasabi/WalletWasabi/blob/master/WalletWasabi.Documentation/Guides/DeterministicBuildGuide.md"
         }
       ]
     }
@@ -661,7 +661,7 @@
       "links": [
         {
           "title": "Release Notes",
-          "url": "https://github.com/zkSNACKs/WalletWasabi/releases"
+          "url": "https://github.com/WalletWasabi/WalletWasabi/releases"
         }
       ]
     },
@@ -672,7 +672,7 @@
       "links": [
         {
           "title": "Source Code",
-          "url": "https://github.com/zkSNACKs/WalletWasabi"
+          "url": "https://github.com/WalletWasabi/WalletWasabi"
         }
       ]
     },
@@ -687,7 +687,7 @@
       "links": [
         {
           "title": "License",
-          "url": "https://github.com/zkSNACKs/WalletWasabi/blob/master/LICENSE.md"
+          "url": "https://github.com/WalletWasabi/WalletWasabi/blob/master/LICENSE.md"
         }
       ]
     },
@@ -698,7 +698,7 @@
       "links": [
         {
           "title": "Guide for deterministic builds",
-          "url": "https://github.com/zkSNACKs/WalletWasabi/blob/master/WalletWasabi.Documentation/Guides/DeterministicBuildGuide.md"
+          "url": "https://github.com/WalletWasabi/WalletWasabi/blob/master/WalletWasabi.Documentation/Guides/DeterministicBuildGuide.md"
         }
       ]
     }
