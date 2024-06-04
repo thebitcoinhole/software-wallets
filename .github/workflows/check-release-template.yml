@@ -128,7 +128,7 @@ jobs:
         node update-release.js ${{ inputs.item-id }} ${{ inputs.platforms }} ${{ needs.fetch-release.outputs.releaseVersion }} "${{ needs.fetch-release.outputs.releaseDate }}"
 
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v6.0.2
+      uses: peter-evans/create-pull-request@v6.0.5
       id: create-pull-request
       with:
         title: "New ${{ inputs.item-id }} (${{ inputs.platforms }}) release"
