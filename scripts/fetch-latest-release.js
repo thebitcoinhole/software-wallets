@@ -253,6 +253,11 @@ function ignoreVersion(itemId, latestVersion) {
         return true
     }
 
+    // Stack Wallet v2.1.0 BETA
+    if (latestVersion.toLowerCase().includes("beta")) {
+        return true
+    }
+
     // Ignore if it ends with "-rc", "-rc1", "-rc2", etc.
     pattern = /-rc\d*$/;
     if (pattern.test(latestVersion)) {
