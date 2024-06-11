@@ -185,9 +185,19 @@
       "flag": "negative"
     },
     "master-key-fingerprint": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "backup-output-descriptor": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "restore-output-descriptor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "backup-recovery-seedphrase": {
       "value": "YES",

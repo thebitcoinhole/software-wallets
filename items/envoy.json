@@ -197,6 +197,16 @@
       "supported": false,
       "flag": "negative"
     },
+    "backup-output-descriptor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "restore-output-descriptor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "backup-recovery-seedphrase": {
       "value": "YES",
       "supported": true,

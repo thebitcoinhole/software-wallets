@@ -187,6 +187,22 @@
       "supported": true,
       "flag": "positive"
     },
+    "backup-output-descriptor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Introducing wallet descriptors: Unlocking interoperability for the bitcoin ecosystem",
+          "url": "https://blog.casa.io/introducing-wallet-descriptors/"
+        }
+      ]
+    },
+    "restore-output-descriptor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "backup-recovery-seedphrase": {
       "value": "NO",
       "supported": false,
