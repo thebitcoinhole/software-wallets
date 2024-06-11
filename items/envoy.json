@@ -350,28 +350,6 @@
         }
       ]
     },
-    "custom-node": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Connecting Envoy To Your Own Bitcoin Node",
-          "url": "https://www.youtube.com/watch?v=kKWAaVaGsN4"
-        }
-      ]
-    },
-    "tor": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Envoy and Tor",
-          "url": "https://docs.foundationdevices.com/envoy/tor"
-        }
-      ]
-    },
     "coinjoin": {
       "value": "NO",
       "supported": false,
@@ -401,6 +379,55 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    }
+  },
+  "node-integration": {
+    "own-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Connecting Envoy To Your Own Bitcoin Node",
+          "url": "https://www.youtube.com/watch?v=kKWAaVaGsN4"
+        }
+      ]
+    },
+    "local-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-core": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "fulcrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "dojo-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Envoy and Tor",
+          "url": "https://docs.foundationdevices.com/envoy/tor"
+        }
+      ]
     }
   },
   "other-features": {

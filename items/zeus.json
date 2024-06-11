@@ -322,16 +322,6 @@
       "supported": true,
       "flag": "positive"
     },
-    "custom-node": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "tor": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
     "coinjoin": {
       "value": "NO",
       "supported": false,
@@ -358,6 +348,43 @@
       "flag": "negative"
     },
     "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "node-integration": {
+    "own-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "local-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-core": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dojo-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

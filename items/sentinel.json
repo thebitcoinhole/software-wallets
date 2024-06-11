@@ -316,22 +316,6 @@
       "supported": true,
       "flag": "positive"
     },
-    "custom-node": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "How to Connect to Your Own Dojo",
-          "url": "https://www.youtube.com/watch?v=WVt6oMExTQY"
-        }
-      ]
-    },
-    "tor": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
     "coinjoin": {
       "value": "NO",
       "supported": false,
@@ -361,6 +345,49 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    }
+  },
+  "node-integration": {
+    "own-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How to Connect to Your Own Dojo",
+          "url": "https://www.youtube.com/watch?v=WVt6oMExTQY"
+        }
+      ]
+    },
+    "local-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-core": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dojo-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "other-features": {

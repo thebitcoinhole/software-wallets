@@ -310,22 +310,6 @@
       "supported": true,
       "flag": "positive"
     },
-    "custom-node": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "tor": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Tor support on Bitcoin",
-          "url": "https://github.com/bitcoin/bitcoin/blob/master/doc/tor.md"
-        }
-      ]
-    },
     "coinjoin": {
       "value": "NO",
       "supported": false,
@@ -355,6 +339,49 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    }
+  },
+  "node-integration": {
+    "own-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "local-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dojo-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Tor support on Bitcoin",
+          "url": "https://github.com/bitcoin/bitcoin/blob/master/doc/tor.md"
+        }
+      ]
     }
   },
   "other-features": {

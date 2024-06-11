@@ -330,16 +330,6 @@
         }
       ]
     },
-    "custom-node": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "tor": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
     "coinjoin": {
       "value": "NO",
       "supported": false,
@@ -369,6 +359,49 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    }
+  },
+  "node-integration": {
+    "own-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Nunchuk Connection Guide",
+          "url": "https://github.com/nunchuk-io/resources/tree/main/docs/connection-guide"
+        }
+      ]
+    },
+    "local-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-core": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "fulcrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "dojo-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "other-features": {

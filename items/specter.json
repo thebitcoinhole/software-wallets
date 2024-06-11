@@ -308,16 +308,6 @@
       "supported": true,
       "flag": "positive"
     },
-    "custom-node": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "tor": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
     "coinjoin": {
       "value": "NO",
       "supported": false,
@@ -347,6 +337,49 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    }
+  },
+  "node-integration": {
+    "own-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Connect to your node",
+          "url": "https://docs.specter.solutions/desktop/connect-your-node/"
+        }
+      ]
+    },
+    "local-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "fulcrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "dojo-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "other-features": {
