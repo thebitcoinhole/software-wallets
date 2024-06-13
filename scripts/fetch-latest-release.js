@@ -16,6 +16,11 @@ const assetsMatch = process.argv[12];
 
 const githubApiKey = process.env.GITHUB_TOKEN
 
+const months = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+  ];
+
 var headers = {
     Accept: 'application/vnd.github.v3+json',
     Authorization: `Bearer ${githubApiKey}`,
@@ -121,7 +126,7 @@ axios
                 const match = line.match(regex);
                 if (match) {
                     latestVersion = match[1];
-                    latestReleaseDate = formatDate(match[2]);
+                    latestReleaseDate = formatYYYYMMDD(match[2]);
                     break;
                 }
             }
@@ -253,7 +258,7 @@ function isValidVersion(str) {
 }
 
 function isValidDate(str) {
-    const regex = /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) \d{2}, \d{4}$/;
+    const regex = /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) [1-9]|[1-2][0-9]|3[01], \d{4}$/;
     return regex.test(str);
 }
 
@@ -331,14 +336,7 @@ function checkRelease(itemId, latestVersion, latestReleaseDate) {
     });
 }
 
-
 function formatDate(inputDate) {
-    // Define months for formatting
-    const months = [
-      "January", "February", "March", "April", "May", "June",
-      "July", "August", "September", "October", "November", "December"
-    ];
-  
     // Split the input date string into parts
     const parts = inputDate.match(/(\d+)\w+\s(\w+)\s(\d+)/);
   
@@ -360,15 +358,22 @@ function formatDate(inputDate) {
     return inputDate;
 }
 
-function formatDate2(date) {
-        
-    const dateObject = new Date(`${date}T00:00:00Z`);
-    
-    // Format the date as "MMM DD, YYYY"
-    return dateObject.toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        timeZone: 'UTC'
-    });    
+function formatYYYYMMDD(inputDate) {
+    // Split the input date string into parts
+    const parts = inputDate.match(/(\d{4})-(\d{2})-(\d{2})/);
+
+    if (parts && parts.length === 4) {
+        const year = parseInt(parts[1]);
+        const monthIndex = months.indexOf(parts[2]);
+        const day = parseInt(parts[3]);
+
+        // Create a JavaScript Date object
+        const date = new Date(year, monthIndex, day);
+
+        // Format the date in the desired output format (e.g., "December 22, 2023")
+        return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
+    }
+
+    // Return the original input if parsing fails
+    return inputDate;
 }
