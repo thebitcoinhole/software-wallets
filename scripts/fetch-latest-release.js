@@ -16,10 +16,14 @@ const assetsMatch = process.argv[12];
 
 const githubApiKey = process.env.GITHUB_TOKEN
 
-const months = [
+const longMonths = [
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
   ];
+
+const shortMonths = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+];
 
 var headers = {
     Accept: 'application/vnd.github.v3+json',
@@ -125,6 +129,7 @@ axios
             for (const line of lines) {
                 const match = line.match(regex);
                 if (match) {
+                    console.log("Matched line: " + line)
                     latestVersion = match[1];
                     latestReleaseDate = formatYYYYMMDD(match[2]);
                     break;
@@ -137,34 +142,15 @@ axios
             for (const line of lines) {
                 const match = line.match(regex);
                 if (match) {
+                    console.log("Matched line: " + line)
                     latestVersion = match[1];
-                    latestReleaseDate = formatDate(match[2]);
+                    latestReleaseDate = formatMonthDDYYYY(match[2]);
                     break;
                 }
             }
         } else {
-            // Find the first line starting with "##"
-            const regex = /^## \[([\d.]+)\] \(([^)]+)\)/;
-            for (const line of lines) {
-                const match = line.match(regex);
-                if (match) {
-                    latestVersion = match[1];
-                    latestReleaseDate = formatDate(match[2]);
-                    break;
-                }
-            }
-
-            if (latestVersion == undefined || latestReleaseDate == undefined) {
-                const regex = /^## ([\d.]+) \[([^)]+)\]/;
-                for (const line of lines) {
-                    const match = line.match(regex);
-                    if (match) {
-                        latestVersion = match[1];
-                        latestReleaseDate = formatDate(match[2]);
-                        break;
-                    }
-                }
-            }
+            console.error("Date parser not found")
+            process.exit(1);
         }
         
         if (latestVersion == undefined) {
@@ -336,42 +322,42 @@ function checkRelease(itemId, latestVersion, latestReleaseDate) {
     });
 }
 
-function formatDate(inputDate) {
+// Input format: March 14, 2024
+function formatMonthDDYYYY(inputDate) {
     // Split the input date string into parts
-    const parts = inputDate.match(/(\d+)\w+\s(\w+)\s(\d+)/);
-  
+    const parts = inputDate.match(/^(\w+)\s(\d{1,2}),\s(\d{4})$/);
+
     if (parts && parts.length === 4) {
-      const day = parseInt(parts[1]);
-      const monthIndex = months.indexOf(parts[2]);
-      const year = parseInt(parts[3]);
-  
-      if (monthIndex !== -1) {
+        const year = parseInt(parts[3]);
+        const monthIndex = longMonths.indexOf(parts[1]);
+        const day = parseInt(parts[2]);
+
         // Create a JavaScript Date object
         const date = new Date(year, monthIndex, day);
-  
-        // Format the date in the desired output format (e.g., "Jul 27, 2023")
-        return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
-      }
+
+        // Format the date in the desired output format (e.g., "Dec 22, 2023")
+        return `${shortMonths[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
     }
-  
+
     // Return the original input if parsing fails
     return inputDate;
 }
 
+// Input format: 2023-12-22
 function formatYYYYMMDD(inputDate) {
     // Split the input date string into parts
     const parts = inputDate.match(/(\d{4})-(\d{2})-(\d{2})/);
 
     if (parts && parts.length === 4) {
         const year = parseInt(parts[1]);
-        const monthIndex = months.indexOf(parts[2]);
+        const monthIndex = parseInt(parts[2]) - 1; // JavaScript Date months are 0-based
         const day = parseInt(parts[3]);
 
         // Create a JavaScript Date object
         const date = new Date(year, monthIndex, day);
 
-        // Format the date in the desired output format (e.g., "December 22, 2023")
-        return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
+        // Format the date in the desired output format (e.g., "Dec 22, 2023")
+        return `${shortMonths[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
     }
 
     // Return the original input if parsing fails
