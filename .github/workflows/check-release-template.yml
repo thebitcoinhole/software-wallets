@@ -143,7 +143,7 @@ jobs:
       run: echo "pullRequestOperation=${{ steps.create-pull-request.outputs.pull-request-operation }}" >> "$GITHUB_OUTPUT"
   tweet-release:
     runs-on: ubuntu-latest
-    if: needs.commit-release.outputs.releaseVersion != '' && inputs.social-enabled == true && needs.commit-release.outputs.pullRequestOperation == 'created'
+    if: needs.commit-release.outputs.releaseVersion != '' && vars.TWITTER_ENABLED == true && inputs.social-enabled == true && needs.commit-release.outputs.pullRequestOperation == 'created'
     environment: ${{ inputs.item-id }}
     needs: commit-release
     env:
@@ -173,7 +173,7 @@ jobs:
           python3 twitter.py "${MESSAGE}"
   nostr-release:
     runs-on: ubuntu-latest
-    if: needs.commit-release.outputs.releaseVersion != '' && inputs.social-enabled == true && needs.commit-release.outputs.pullRequestOperation == 'created'
+    if: needs.commit-release.outputs.releaseVersion != '' && vars.NOSTR_ENABLED == true && inputs.social-enabled == true && needs.commit-release.outputs.pullRequestOperation == 'created'
     environment: ${{ inputs.item-id }}
     needs: commit-release
     steps:
