@@ -123,11 +123,6 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
     }
   },
   "app-lock": {
@@ -302,6 +297,23 @@
       "flag": "negative"
     }
   },
+  "signing": {
+    "multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -436,16 +448,6 @@
     }
   },
   "other-features": {
-    "multi-sig": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "frost": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "transaction-labeling": {
       "value": "YES",
       "supported": true,

@@ -119,11 +119,6 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
     }
   },
   "app-lock": {
@@ -295,6 +290,29 @@
       "flag": "negative"
     }
   },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Multisig Demo using Tap Signer + Ledger + Seedsigner + Coldcard",
+          "url": "https://www.youtube.com/watch?v=uhpLbFfMEZU"
+        }
+      ]
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -387,22 +405,6 @@
     }
   },
   "other-features": {
-    "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Multisig Demo using Tap Signer + Ledger + Seedsigner + Coldcard",
-          "url": "https://www.youtube.com/watch?v=uhpLbFfMEZU"
-        }
-      ]
-    },
-    "frost": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "transaction-labeling": {
       "value": "?",
       "supported": false

@@ -127,11 +127,6 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
     }
   },
   "app-lock": {
@@ -300,6 +295,37 @@
       "flag": "positive"
     }
   },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Multisig Vault",
+          "url": "https://bluewallet.io/multisig-wallet/"
+        },
+        {
+          "title": "Introducing v6 with Multisig",
+          "url": "https://bluewallet.io/introducing-v6-with-multisig/"
+        },
+        {
+          "title": "How to create a Multisig wallet Vault between 2 BlueWallet apps",
+          "url": "https://www.youtube.com/watch?v=UszgwtbkNmg"
+        }
+      ]
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -410,30 +436,6 @@
     }
   },
   "other-features": {
-    "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Multisig Vault",
-          "url": "https://bluewallet.io/multisig-wallet/"
-        },
-        {
-          "title": "Introducing v6 with Multisig",
-          "url": "https://bluewallet.io/introducing-v6-with-multisig/"
-        },
-        {
-          "title": "How to create a Multisig wallet Vault between 2 BlueWallet apps",
-          "url": "https://www.youtube.com/watch?v=UszgwtbkNmg"
-        }
-      ]
-    },
-    "frost": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "transaction-labeling": {
       "value": "YES",
       "supported": true,

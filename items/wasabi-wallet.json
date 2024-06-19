@@ -133,11 +133,6 @@
           "url": "https://blog.wasabiwallet.io/coming-soon-qr-code-implementation/"
         }
       ]
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
     }
   },
   "app-lock": {
@@ -310,6 +305,29 @@
       "flag": "negative"
     }
   },
+  "signing": {
+    "multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Can I generate a multi signature script?",
+          "url": "https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#can-i-generate-a-multi-signature-script"
+        }
+      ]
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -408,22 +426,6 @@
     }
   },
   "other-features": {
-    "multi-sig": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Can I generate a multi signature script?",
-          "url": "https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#can-i-generate-a-multi-signature-script"
-        }
-      ]
-    },
-    "frost": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "transaction-labeling": {
       "value": "NO",
       "supported": false,

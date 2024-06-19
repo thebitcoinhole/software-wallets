@@ -119,11 +119,6 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    },
-    "bbqr": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
     }
   },
   "app-lock": {
@@ -289,6 +284,29 @@
       "flag": "negative"
     }
   },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "A new Multisig Standard and Nunchuk 1.0",
+          "url": "https://nunchuk.io/blog/a-new-multisig-standard-and-nunchuk-10-pVDPJ4bAAg5v1bALEMzYXh"
+        }
+      ]
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -405,22 +423,6 @@
     }
   },
   "other-features": {
-    "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "A new Multisig Standard and Nunchuk 1.0",
-          "url": "https://nunchuk.io/blog/a-new-multisig-standard-and-nunchuk-10-pVDPJ4bAAg5v1bALEMzYXh"
-        }
-      ]
-    },
-    "frost": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "transaction-labeling": {
       "value": "YES",
       "supported": true,
