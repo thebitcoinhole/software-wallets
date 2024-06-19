@@ -179,8 +179,15 @@ axios
         latestVersion = latestVersion.replace(/^android./, '');
 
         // Phoenix
-        latestVersion = latestVersion.replace(/^Phoenix Android /, '');
-        latestVersion = latestVersion.replace(/^Phoenix Android\/iOS /, '');
+        if (itemId = "phoenix") {
+            const match = str.match(/Android (\d+\.\d+\.\d+)/);
+            if (match) {
+                latestVersion = match[1]
+            } else {
+                latestVersion = latestVersion.replace(/^Phoenix Android /, '');
+                latestVersion = latestVersion.replace(/^Phoenix Android\/iOS /, '');
+            }
+        }
 
         // Specter
         latestVersion = latestVersion.replace(/^Specter /, '');
