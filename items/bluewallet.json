@@ -320,6 +320,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "bbqr": {
       "value": "NO",
       "supported": false,

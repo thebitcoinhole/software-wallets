@@ -308,6 +308,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "bbqr": {
       "value": "NO",
       "supported": false,
