@@ -180,7 +180,7 @@ axios
 
         // Phoenix
         if (itemId = "phoenix") {
-            const match = str.match(/Android (\d+\.\d+\.\d+)/);
+            const match = latestVersion.match(/Android (\d+\.\d+\.\d+)/);
             if (match) {
                 latestVersion = match[1]
             } else {
