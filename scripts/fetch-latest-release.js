@@ -179,7 +179,7 @@ axios
         latestVersion = latestVersion.replace(/^android./, '');
 
         // Phoenix
-        if (itemId = "phoenix") {
+        if (itemId == "phoenix") {
             const match = latestVersion.match(/Android (\d+\.\d+\.\d+)/);
             if (match) {
                 latestVersion = match[1]
