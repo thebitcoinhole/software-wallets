@@ -104,23 +104,6 @@
       "value": "?"
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "nfc": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "qr-scanner": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    }
-  },
   "app-lock": {
     "pin-lock": {
       "value": "YES",
@@ -300,6 +283,21 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "usb-data": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nfc": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "ur-2-animated-qrs": {
       "value": "YES",

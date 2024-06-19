@@ -105,23 +105,6 @@
       "value": "Zeus | Yadio"
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "nfc": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "qr-scanner": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    }
-  },
   "app-lock": {
     "pin-lock": {
       "value": "YES",
@@ -305,15 +288,30 @@
       "supported": false,
       "flag": "negative"
     },
-    "ur-2-animated-qrs": {
+    "usb-data": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
     },
+    "nfc": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "bbqr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "fees": {

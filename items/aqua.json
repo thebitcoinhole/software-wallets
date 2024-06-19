@@ -103,23 +103,6 @@
       "value": "?"
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "nfc": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "qr-scanner": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    }
-  },
   "app-lock": {
     "pin-lock": {
       "value": "NO",
@@ -296,6 +279,21 @@
       "flag": "negative"
     },
     "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "usb-data": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

@@ -112,29 +112,6 @@
       "value": "?"
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "nfc": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "qr-scanner": {
-      "value": "Partially supported",
-      "supported": true,
-      "flag": "neutral",
-      "links": [
-        {
-          "title": "Coming Soon: QR Code Implementation",
-          "url": "https://blog.wasabiwallet.io/coming-soon-qr-code-implementation/"
-        }
-      ]
-    }
-  },
   "app-lock": {
     "pin-lock": {
       "value": "YES",
@@ -318,6 +295,21 @@
       ]
     },
     "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "usb-data": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
