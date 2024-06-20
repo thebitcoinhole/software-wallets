@@ -76,9 +76,9 @@
       "flag": "negative"
     },
     "btc-signet": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "lightning-network": {
       "value": "NO",
