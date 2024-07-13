@@ -472,10 +472,10 @@
       ]
     },
     "android-latest-version": {
-      "value": "v2.1.1"
+      "value": "v2.1.2"
     },
     "android-latest-release-date": {
-      "value": "Jun 29, 2024"
+      "value": "Jul 10, 2024"
     },
     "android-release-notes": {
       "value": "YES",
@@ -539,10 +539,10 @@
       ]
     },
     "ios-latest-version": {
-      "value": "v2.1.1"
+      "value": "v2.1.2"
     },
     "ios-latest-release-date": {
-      "value": "Jun 29, 2024"
+      "value": "Jul 10, 2024"
     },
     "ios-release-notes": {
       "value": "YES",
@@ -627,10 +627,10 @@
       "flag": "positive"
     },
     "macos-latest-version": {
-      "value": "v2.1.1"
+      "value": "v2.1.2"
     },
     "macos-latest-release-date": {
-      "value": "Jun 29, 2024"
+      "value": "Jul 10, 2024"
     },
     "macos-release-notes": {
       "value": "YES",
@@ -682,10 +682,10 @@
       "flag": "positive"
     },
     "linux-latest-version": {
-      "value": "v2.1.1"
+      "value": "v2.1.2"
     },
     "linux-latest-release-date": {
-      "value": "Jun 29, 2024"
+      "value": "Jul 10, 2024"
     },
     "linux-release-notes": {
       "value": "YES",
@@ -737,10 +737,10 @@
       "flag": "positive"
     },
     "windows-latest-version": {
-      "value": "v2.1.1"
+      "value": "v2.1.2"
     },
     "windows-latest-release-date": {
-      "value": "Jun 29, 2024"
+      "value": "Jul 10, 2024"
     },
     "windows-release-notes": {
       "value": "YES",
