@@ -787,9 +787,9 @@
   },
   "hardware-wallets-support": {
     "jade": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "coldcard-mk4": {
       "value": "YES",
