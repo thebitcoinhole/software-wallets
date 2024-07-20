@@ -610,40 +610,62 @@
   },
   "macos-support": {
     "macos-supported": {
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "macos-latest-version": {
+      "value": "v1.2.10"
+    },
+    "macos-latest-release-date": {
+      "value": "Jul 15, 2024"
+    },
+    "macos-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/bithyve/bitcoin-keeper/releases"
+        }
+      ]
+    },
+    "macos-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/bithyve/bitcoin-keeper"
+        }
+      ]
+    },
+    "macos-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/bithyve/bitcoin-keeper/blob/sprint/LICENSE"
+        }
+      ]
+    },
+    "macos-reproducible-builds": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "macos-latest-version": {
-      "value": "-"
-    },
-    "macos-latest-release-date": {
-      "value": "-"
-    },
-    "macos-release-notes": {
-      "value": "-",
-      "supported": false
-    },
-    "macos-source-available": {
-      "value": "-",
-      "supported": false
-    },
-    "macos-open-source": {
-      "value": "-",
-      "supported": false
-    },
-    "macos-license": {
-      "value": "-",
-      "supported": false
-    },
-    "macos-reproducible-builds": {
-      "value": "-",
-      "supported": false
     }
   },
   "linux-support": {
     "linux-supported": {
-      "value": "NO",
+      "value": "SOON",
       "supported": false,
       "flag": "negative"
     },
@@ -676,7 +698,7 @@
   },
   "windows-support": {
     "windows-supported": {
-      "value": "NO",
+      "value": "SOON",
       "supported": false,
       "flag": "negative"
     },
