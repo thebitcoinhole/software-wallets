@@ -175,6 +175,9 @@ axios
         // Mutiny
         latestVersion = latestVersion.replace(/^Mutiny Wallet /, '');
 
+        // Zeuz: v0.8.5-hotfix
+        latestVersion = latestVersion.replace(/-hotfix$/, '');
+
         // Nunchuk: android.1.9.46
         latestVersion = latestVersion.replace(/^android./, '');
 
