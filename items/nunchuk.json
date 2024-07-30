@@ -458,6 +458,17 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "wallet-rollover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Introducing automated wallet rollover with advanced coin control",
+          "url": "https://nunchuk.io/blog/wallet-rollover"
+        }
+      ]
     }
   },
   "android-support": {

@@ -487,6 +487,11 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "wallet-rollover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "android-support": {
