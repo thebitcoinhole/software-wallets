@@ -199,7 +199,7 @@ jobs:
       item-id: proton-wallet
       github-org: ProtonWallet
       github-repo: flutter-app
-      platforms: web,android
+      platforms: android
       tag: true
       social-enabled: true
   simple-bitcoin-wallet:
