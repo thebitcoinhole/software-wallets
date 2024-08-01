@@ -193,6 +193,15 @@ jobs:
       platforms: android,ios
       latestRelease: true
       social-enabled: true
+  proton-wallet:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: proton-wallet
+      github-org: ProtonWallet
+      github-repo: flutter-app
+      platforms: web,android
+      latestRelease: true
+      social-enabled: true
   simple-bitcoin-wallet:
     uses: ./.github/workflows/check-release-template.yml
     with:
