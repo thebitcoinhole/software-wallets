@@ -449,10 +449,10 @@
       "flag": "negative"
     },
     "android-latest-version": {
-      "value": "?"
+      "value": "v1.0.0"
     },
     "android-latest-release-date": {
-      "value": "?"
+      "value": "Aug 1, 2024"
     },
     "android-release-notes": {
       "value": "NO",
