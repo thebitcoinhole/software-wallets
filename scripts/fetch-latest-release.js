@@ -179,7 +179,7 @@ axios
         latestVersion = latestVersion.replace(/-hotfix$/, '');
 
         // Proton Wallet: v1.0.0+58
-        latestVersion = latestVersion.replace(/\+d.$/, '');
+        latestVersion = latestVersion.replace(/\+\d+$/, '');
 
         // Nunchuk: android.1.9.46
         latestVersion = latestVersion.replace(/^android./, '');
