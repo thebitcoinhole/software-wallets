@@ -200,7 +200,7 @@ jobs:
       github-org: ProtonWallet
       github-repo: flutter-app
       platforms: web,android
-      latestRelease: true
+      tag: true
       social-enabled: true
   simple-bitcoin-wallet:
     uses: ./.github/workflows/check-release-template.yml
