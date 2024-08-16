@@ -316,9 +316,9 @@
       "flag": "positive"
     },
     "replace-by-fee": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "child-pays-for-parent": {
       "value": "NO",
