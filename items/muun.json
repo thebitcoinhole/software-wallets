@@ -849,6 +849,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "trezor-safe-5": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "ledger-nano-s-plus": {
       "value": "NO",
       "supported": false,
