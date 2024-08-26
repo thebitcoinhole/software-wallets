@@ -523,10 +523,10 @@
       ]
     },
     "android-latest-version": {
-      "value": "v1.7.0"
+      "value": "v1.8.2"
     },
     "android-latest-release-date": {
-      "value": "Jun 19, 2024"
+      "value": "Aug 26, 2024"
     },
     "android-release-notes": {
       "value": "YES",
@@ -590,10 +590,10 @@
       ]
     },
     "ios-latest-version": {
-      "value": "v1.7.0"
+      "value": "v1.8.2"
     },
     "ios-latest-release-date": {
-      "value": "Jun 19, 2024"
+      "value": "Aug 26, 2024"
     },
     "ios-release-notes": {
       "value": "YES",
