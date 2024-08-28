@@ -390,9 +390,9 @@
       ]
     },
     "silent-payments": {
-      "value": "Partially",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
+      "flag": "positive",
       "links": [
         {
           "title": "SilentPayments",

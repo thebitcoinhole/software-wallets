@@ -27,7 +27,7 @@
     },
     "nostr": {
       "value": "zeus",
-      "url": "https://primal.net/zeus"
+      "url": "https://primal.net/p/npub1xnf02f60r9v0e5kty33a404dm79zr7z2eepyrk5gsq3m7pwvsz2sazlpr5"
     },
     "youtube": {
       "value": "-"
@@ -800,9 +800,9 @@
       "flag": "negative"
     },
     "coldcard-q": {
-      "value": "SOON",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive"
     },
     "bitbox02-btconly": {
       "value": "NO",
@@ -810,9 +810,9 @@
       "flag": "negative"
     },
     "keystone-3-pro": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "passport-batch-2": {
       "value": "YES",
@@ -850,9 +850,9 @@
       "flag": "negative"
     },
     "seedsigner": {
-      "value": "SOON",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive"
     },
     "specter-diy": {
       "value": "NO",
@@ -860,9 +860,9 @@
       "flag": "negative"
     },
     "krux": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "tapsigner": {
       "value": "NO",
