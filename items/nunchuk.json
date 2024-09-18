@@ -543,9 +543,9 @@
       ]
     },
     "android-reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
       "links": [
         {
           "title": "Wallet Scrutiny",
@@ -560,6 +560,10 @@
       "supported": true,
       "flag": "positive",
       "links": [
+        {
+          "title": "Nunchuk Android now supports reproducible builds",
+          "url": "https://nunchuk.io/blog/reproducible-builds"
+        },
         {
           "title": "Download from Apple Store",
           "url": "https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073"
