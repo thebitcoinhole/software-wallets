@@ -241,12 +241,9 @@
       "flag": "positive"
     },
     "taproot": {
-      "value": "Partially",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Send only"
-      ],
+      "flag": "positive",
       "links": [
         {
           "title": "Does Wasabi support Taproot?",
