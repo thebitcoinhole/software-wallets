@@ -372,9 +372,9 @@
       "flag": "positive"
     },
     "electrum-server": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "fulcrum-server": {
       "value": "NO",
