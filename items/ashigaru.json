@@ -1,35 +1,34 @@
 {
-  "id": "samourai",
-  "name": "Samourai",
+  "id": "ashigaru",
+  "name": "Ashigaru",
   "basic-information": {
     "year": {
-      "value": "2016"
+      "value": "2024"
     }
   },
   "company": {
     "brand": {
-      "value": "Streetside Development"
+      "value": "Ashigaru Open Source Project"
     },
     "headquarters": {
-      "value": "United Kingdom"
+      "value": "-"
     },
     "website": {
-      "value": "-"
+      "value": "Website",
+      "url": "https://ashigaru.rs/"
     },
     "blog": {
       "value": "Blog",
-      "url": "https://medium.com/@SamouraiWallet"
+      "url": "https://ashigaru.rs/news/"
     },
     "twitter": {
-      "value": "@samouraiwallet",
-      "url": "https://x.com/samouraiwallet"
+      "value": "-"
     },
     "nostr": {
       "value": "-"
     },
     "youtube": {
-      "value": "@Samouraiwallet",
-      "url": "https://www.youtube.com/@Samouraiwallet"
+      "value": "-"
     },
     "github": {
       "value": "-"
@@ -43,12 +42,10 @@
   },
   "communities": {
     "telegram": {
-      "value": "Samourai Wallet",
-      "url": "https://t.me/SamouraiWallet"
+      "value": "-"
     },
     "reddit": {
-      "value": "Samourai",
-      "url": "https://www.reddit.com/r/Samourai/"
+      "value": "-"
     }
   },
   "networks": {
@@ -65,10 +62,7 @@
     "btc-testnet": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "texts": [
-        "You need to sideload the APK to see the testnet option. Installing from Google Play doesn't show the option to use testnet"
-      ]
+      "flag": "positive"
     },
     "btc-regtest": {
       "value": "NO",
@@ -478,21 +472,33 @@
       "flag": "negative"
     },
     "android-latest-version": {
-      "value": "v0.99.98ii"
+      "value": "v1.0.0"
     },
     "android-latest-release-date": {
-      "value": "Mar 29, 2024",
+      "value": "Sep 20, 2024",
       "flag": "positive"
     },
     "android-release-notes": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes (TOR)",
+          "url": "http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Mobile/releases"
+        }
+      ]
     },
     "android-source-available": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code (TOR)",
+          "url": "http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Mobile"
+        }
+      ]
     },
     "android-open-source": {
       "value": "YES",
@@ -501,7 +507,13 @@
     },
     "android-license": {
       "value": "GPLv3",
-      "supported": true
+      "supported": true,
+      "links": [
+        {
+          "title": "License (TOR)",
+          "url": "http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Mobile/src/branch/main/LICENSE"
+        }
+      ]
     },
     "android-reproducible-builds": {
       "value": "YES",
@@ -509,8 +521,8 @@
       "flag": "positive",
       "links": [
         {
-          "title": "Wallet Scrutiny",
-          "url": "https://walletscrutiny.com/android/com.samourai.wallet/"
+          "title": "Reproducible Builds (TOR)",
+          "url": "http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Mobile/src/branch/main/docs/ReproducibleBuilds.md"
         }
       ]
     }
