@@ -333,9 +333,15 @@
       ]
     },
     "coinjoin": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Operational: online collaborative transactions (Cahoots) functionality",
+          "url": "https://ashigaru.rs/news/operational-online-chaoots/"
+        }
+      ]
     },
     "hide-sensitive-data": {
       "value": "NO",
