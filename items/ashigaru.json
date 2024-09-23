@@ -467,9 +467,9 @@
       "flag": "negative"
     },
     "android-apk-support": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "android-latest-version": {
       "value": "v1.0.0"
