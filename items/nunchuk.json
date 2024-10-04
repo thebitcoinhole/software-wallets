@@ -139,6 +139,17 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "dummy-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Introducing Decoy Wallet: Enhance your Bitcoin security with plausible deniability",
+          "url": "https://nunchuk.io/blog/decoy-wallet"
+        }
+      ]
     }
   },
   "private-keys": {

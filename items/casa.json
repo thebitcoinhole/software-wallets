@@ -137,6 +137,11 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "dummy-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "private-keys": {
