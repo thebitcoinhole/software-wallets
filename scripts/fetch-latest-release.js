@@ -188,6 +188,7 @@ axios
         if (itemId == "phoenix") {
             latestVersion = latestVersion.replace(/^Android /, '');
             latestVersion = latestVersion.replace(/^Phoenix Android /, '');
+            latestVersion = latestVersion.replace(/^Phoenix /, '');
             latestVersion = latestVersion.replace(/^Phoenix Android\/iOS /, '');
         }
 
