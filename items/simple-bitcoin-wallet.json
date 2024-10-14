@@ -21,16 +21,14 @@
       "value": "-"
     },
     "twitter": {
-      "value": "@SimpleBtcWallet",
-      "url": "https://x.com/SimpleBtcWallet"
+      "value": "-"
     },
     "nostr": {
       "value": "SBW",
       "url": "https://primal.net/p/npub1chxa2um7gl65ymyaagjrqys39mtzlwnm2drcs6qkqmme7k4edq4qghrjdd"
     },
     "youtube": {
-      "value": "@anton00002",
-      "url": "https://www.youtube.com/channel/UCG0KJvk7p_6fWbkTVJ_hvNw"
+      "value": "-"
     },
     "github": {
       "value": "akumaigorodski",
@@ -346,15 +344,9 @@
   },
   "privacy": {
     "coin-control": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Coin control",
-          "url": "https://www.youtube.com/watch?v=5hZ31x7iik0"
-        }
-      ]
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "coinjoin": {
       "value": "NO",
