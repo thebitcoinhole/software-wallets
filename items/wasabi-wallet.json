@@ -8,10 +8,10 @@
   },
   "company": {
     "brand": {
-      "value": "zksnacks"
+      "value": "-"
     },
     "headquarters": {
-      "value": "Gibraltar"
+      "value": "-"
     },
     "website": {
       "value": "Website",
@@ -104,7 +104,7 @@
       "flag": "positive"
     },
     "sats": {
-      "value": "NO",
+      "value": "YES",
       "supported": true,
       "flag": "positive"
     },
@@ -351,13 +351,17 @@
       "flag": "positive"
     },
     "coinjoin": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
       "links": [
         {
           "title": "ZkSnacks is discontinuing its coinjoin coordinator service 1st of june",
           "url": "https://blog.wasabiwallet.io/zksnacks-is-discontinuing-its-coinjoin-coordination-service-1st-of-june/"
+        },
+        {
+          "title": "Coinjoin docs",
+          "url": "https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#coinjoin"
         }
       ]
     },
@@ -404,14 +408,14 @@
       "flag": "negative"
     },
     "electrum-server": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "fulcrum-server": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "dojo-server": {
       "value": "NO",
@@ -426,9 +430,9 @@
   },
   "other-features": {
     "transaction-labeling": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "batch-transactions": {
       "value": "NO",
@@ -786,9 +790,9 @@
   },
   "start-os-support": {
     "start-os-supported": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "Community Supported",
+      "supported": true,
+      "flag": "neutral"
     },
     "start-os-latest-version": {
       "value": "-"
@@ -797,23 +801,44 @@
       "value": "-"
     },
     "start-os-release-notes": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/remcoros/wasabi-webtop-startos/releases"
+        }
+      ]
     },
     "start-os-source-available": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/remcoros/wasabi-webtop-startos"
+        }
+      ]
     },
     "start-os-open-source": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "start-os-license": {
-      "value": "-",
-      "supported": false
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/remcoros/wasabi-webtop-startos/blob/main/LICENSE"
+        }
+      ]
     },
     "start-os-reproducible-builds": {
-      "value": "-",
+      "value": "?",
       "supported": false
     }
   },
