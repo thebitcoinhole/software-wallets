@@ -169,6 +169,9 @@ axios
         // Bitcoin Core
         latestVersion = latestVersion.replace(/^Bitcoin Core /, '');
 
+        // Bitcoin Keeper
+        latestVersion = latestVersion.replace(/^Keeper Desktop /, '');
+
         // My Cytadel (Version 1.5 (Blazing Venus) Latest)
         latestVersion = latestVersion.replace(/^Version (\d+(\.\d+)+) \(.*\)$/, '$1');
 

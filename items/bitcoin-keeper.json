@@ -637,7 +637,7 @@
       "links": [
         {
           "title": "Release Notes",
-          "url": "https://github.com/bithyve/bitcoin-keeper/releases"
+          "url": "https://github.com/bithyve/keeper-desktop/releases/"
         }
       ]
     },
@@ -648,7 +648,7 @@
       "links": [
         {
           "title": "Source Code",
-          "url": "https://github.com/bithyve/bitcoin-keeper"
+          "url": "https://github.com/bithyve/keeper-desktop"
         }
       ]
     },
@@ -663,7 +663,7 @@
       "links": [
         {
           "title": "License",
-          "url": "https://github.com/bithyve/bitcoin-keeper/blob/sprint/LICENSE"
+          "url": "https://github.com/bithyve/keeper-desktop/blob/main/LICENSE"
         }
       ]
     },
@@ -675,9 +675,9 @@
   },
   "linux-support": {
     "linux-supported": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "negative"
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral"
     },
     "linux-latest-version": {
       "value": "-"
@@ -686,31 +686,53 @@
       "value": "-"
     },
     "linux-release-notes": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/bithyve/keeper-desktop/releases/"
+        }
+      ]
     },
     "linux-source-available": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/bithyve/keeper-desktop"
+        }
+      ]
     },
     "linux-open-source": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "linux-license": {
-      "value": "-",
-      "supported": false
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/bithyve/keeper-desktop/blob/main/LICENSE"
+        }
+      ]
     },
     "linux-reproducible-builds": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "windows-support": {
     "windows-supported": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "negative"
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral"
     },
     "windows-latest-version": {
       "value": "-"
@@ -719,24 +741,46 @@
       "value": "-"
     },
     "windows-release-notes": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/bithyve/keeper-desktop/releases/"
+        }
+      ]
     },
     "windows-source-available": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/bithyve/keeper-desktop"
+        }
+      ]
     },
     "windows-open-source": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "windows-license": {
-      "value": "-",
-      "supported": false
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/bithyve/keeper-desktop/blob/main/LICENSE"
+        }
+      ]
     },
     "windows-reproducible-builds": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "umbrel-os-support": {

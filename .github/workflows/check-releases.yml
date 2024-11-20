@@ -31,7 +31,16 @@ jobs:
       item-id: bitcoin-keeper
       github-org: bithyve
       github-repo: bitcoin-keeper
-      platforms: android,ios,macos
+      platforms: android,ios
+      latestRelease: true
+      social-enabled: true
+  bitcoin-keeper-desktop:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: bitcoin-keeper
+      github-org: bithyve
+      github-repo: keeper-desktop
+      platforms: linux,macos,windows
       latestRelease: true
       social-enabled: true
   blueWallet-android:
