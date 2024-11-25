@@ -256,15 +256,6 @@ jobs:
       allReleases: true
       allReleasesInclude: "Stack Wallet"
       social-enabled: true
-  ten-ten-one:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: ten-ten-one
-      github-org: get10101
-      github-repo: 10101
-      platforms: android,ios
-      latestRelease: true
-      social-enabled: true
   wasabi:
     uses: ./.github/workflows/check-release-template.yml
     with:
