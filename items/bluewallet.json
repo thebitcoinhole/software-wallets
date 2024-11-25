@@ -909,6 +909,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "portal": {
+      "value": "SOON",
+      "supported": true,
+      "flag": "positive"
+    },
     "trezor-model-one": {
       "value": "Watch-only",
       "supported": true,

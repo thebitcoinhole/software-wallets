@@ -969,6 +969,11 @@
       "supported": true,
       "flag": "neutral"
     },
+    "portal": {
+      "value": "SOON",
+      "supported": true,
+      "flag": "positive"
+    },
     "trezor-model-one": {
       "value": "YES",
       "supported": true,

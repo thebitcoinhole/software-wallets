@@ -878,6 +878,11 @@
         }
       ]
     },
+    "portal": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "trezor-model-one": {
       "value": "NO",
       "supported": false,
