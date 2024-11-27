@@ -62,7 +62,7 @@
       "flag": "positive"
     },
     "btc-testnet": {
-      "value": "YES",
+      "value": "Only in Android",
       "supported": true,
       "flag": "neutral",
       "links": [
