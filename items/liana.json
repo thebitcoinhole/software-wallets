@@ -237,9 +237,9 @@
       "flag": "positive"
     },
     "taproot": {
-      "value": "Experimental",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive"
     }
   },
   "addresses": {
