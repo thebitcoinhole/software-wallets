@@ -285,6 +285,33 @@
     }
   },
   "signing": {
+    "usb-data": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nfc": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "multisig": {
     "multi-sig": {
       "value": "YES",
       "supported": true,
@@ -311,31 +338,6 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "usb-data": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "nfc": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "qr": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "ur-2-animated-qrs": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "bbqr": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
     }
   },
   "fees": {

@@ -285,27 +285,6 @@
     }
   },
   "signing": {
-    "multi-sig": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Can I generate a multi signature script?",
-          "url": "https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#can-i-generate-a-multi-signature-script"
-        }
-      ]
-    },
-    "taproot-multi-sig": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "frost": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "usb-data": {
       "value": "YES",
       "supported": true,
@@ -327,6 +306,29 @@
       "flag": "negative"
     },
     "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "multisig": {
+    "multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Can I generate a multi signature script?",
+          "url": "https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#can-i-generate-a-multi-signature-script"
+        }
+      ]
+    },
+    "taproot-multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "frost": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

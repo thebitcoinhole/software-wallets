@@ -277,21 +277,6 @@
     }
   },
   "signing": {
-    "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "taproot-multi-sig": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "frost": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "usb-data": {
       "value": "NO",
       "supported": false,
@@ -313,6 +298,23 @@
       "flag": "negative"
     },
     "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "multisig": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot-multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "frost": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

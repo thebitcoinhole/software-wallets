@@ -280,27 +280,6 @@
     }
   },
   "signing": {
-    "multi-sig": {
-      "value": "Non Standard",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Muun's Multi-Signature Model",
-          "url": "https://blog.muun.com/muuns-multisig-model/"
-        }
-      ]
-    },
-    "taproot-multi-sig": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "frost": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "usb-data": {
       "value": "NO",
       "supported": false,
@@ -322,6 +301,29 @@
       "flag": "negative"
     },
     "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "multisig": {
+    "multi-sig": {
+      "value": "Non Standard",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Muun's Multi-Signature Model",
+          "url": "https://blog.muun.com/muuns-multisig-model/"
+        }
+      ]
+    },
+    "taproot-multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "frost": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

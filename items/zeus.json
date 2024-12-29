@@ -283,21 +283,6 @@
     }
   },
   "signing": {
-    "multi-sig": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "taproot-multi-sig": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "frost": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "usb-data": {
       "value": "NO",
       "supported": false,
@@ -322,6 +307,23 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    }
+  },
+  "multisig": {
+    "multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "fees": {
