@@ -296,6 +296,11 @@
         }
       ]
     },
+    "taproot-multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "frost": {
       "value": "NO",
       "supported": false,

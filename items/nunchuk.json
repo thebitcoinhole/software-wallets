@@ -296,6 +296,17 @@
         }
       ]
     },
+    "taproot-multi-sig": {
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Introducing Taproot Multisig Wallet",
+          "url": "https://nunchuk.io/blog/taproot-multisig"
+        }
+      ]
+    },
     "frost": {
       "value": "NO",
       "supported": false,
