@@ -111,9 +111,15 @@
       "flag": "positive"
     },
     "duress-pin": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Introducing Decoy Wallet: Enhance your Bitcoin security with plausible deniability",
+          "url": "https://nunchuk.io/blog/decoy-wallet"
+        }
+      ]
     },
     "dynamic-keypad": {
       "value": "NO",
@@ -136,9 +142,9 @@
       "flag": "negative"
     },
     "fingerprint-lock": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "dummy-wallet": {
       "value": "YES",
@@ -466,9 +472,9 @@
       "flag": "positive"
     },
     "dark-mode": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "wallet-rollover": {
       "value": "YES",
