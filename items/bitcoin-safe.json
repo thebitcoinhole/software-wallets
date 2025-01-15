@@ -553,7 +553,7 @@
     "macos-supported": {
       "value": "YES",
       "supported": true,
-      "flag": "positive" 
+      "flag": "positive"
     },
     "macos-latest-version": {
       "value": "1.0.0"
@@ -841,27 +841,27 @@
     "trezor-safe-3": {
       "value": "YES",
       "supported": true,
-      "flag": "positive" 
+      "flag": "positive"
     },
     "trezor-safe-5": {
       "value": "YES",
       "supported": true,
-      "flag": "positive" 
+      "flag": "positive"
     },
     "ledger-nano-s-plus": {
       "value": "YES",
       "supported": true,
-      "flag": "positive" 
+      "flag": "positive"
     },
     "ledger-nano-x": {
       "value": "YES",
       "supported": true,
-      "flag": "positive" 
+      "flag": "positive"
     },
     "seedsigner": {
       "value": "YES",
       "supported": true,
-      "flag": "positive" 
+      "flag": "positive"
     },
     "specter-diy": {
       "value": "YES",
