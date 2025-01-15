@@ -551,18 +551,15 @@
   },
   "macos-support": {
     "macos-supported": {
-      "value": "Partially",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Install via python -m pip"
-      ]
+      "flag": "positive" 
     },
     "macos-latest-version": {
-      "value": "1.0.0b4"
+      "value": "1.0.0"
     },
     "macos-latest-release-date": {
-      "value": "Nov 12, 2024"
+      "value": "Jan 15, 2025"
     },
     "macos-release-notes": {
       "value": "YES",
@@ -614,10 +611,10 @@
       "flag": "positive"
     },
     "linux-latest-version": {
-      "value": "1.0.0b4"
+      "value": "1.0.0"
     },
     "linux-latest-release-date": {
-      "value": "Nov 12, 2024"
+      "value": "Jan 15, 2025"
     },
     "linux-release-notes": {
       "value": "YES",
@@ -675,10 +672,10 @@
       "flag": "positive"
     },
     "windows-latest-version": {
-      "value": "1.0.0b4"
+      "value": "1.0.0"
     },
     "windows-latest-release-date": {
-      "value": "Nov 12, 2024"
+      "value": "Jan 15, 2025"
     },
     "windows-release-notes": {
       "value": "YES",
@@ -811,20 +808,14 @@
       "flag": "positive"
     },
     "keystone-3-pro": {
-      "value": "Partially",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Basic functionality should work due to the UR standard"
-      ]
+      "flag": "positive"
     },
     "passport-batch-2": {
-      "value": "Partially",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Basic functionality should work due to the UR standard"
-      ]
+      "flag": "positive"
     },
     "portal": {
       "value": "NO",
@@ -848,44 +839,29 @@
       ]
     },
     "trezor-safe-3": {
-      "value": "Partially",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Untested, but compatible according to HWI"
-      ]
+      "flag": "positive" 
     },
     "trezor-safe-5": {
-      "value": "Partially",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Untested, but compatible according to HWI"
-      ]
+      "flag": "positive" 
     },
     "ledger-nano-s-plus": {
-      "value": "Partially",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Untested, but compatible according to HWI"
-      ]
+      "flag": "positive" 
     },
     "ledger-nano-x": {
-      "value": "Partially",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Untested, but compatible according to HWI"
-      ]
+      "flag": "positive" 
     },
     "seedsigner": {
-      "value": "Partially",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Basic functionality should work due to the BBQR/UR standard"
-      ]
+      "flag": "positive" 
     },
     "specter-diy": {
       "value": "YES",
