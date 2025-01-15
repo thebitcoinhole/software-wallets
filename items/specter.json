@@ -554,10 +554,10 @@
       "flag": "positive"
     },
     "macos-latest-version": {
-      "value": "v2.0.5"
+      "value": "v2.1.1"
     },
     "macos-latest-release-date": {
-      "value": "May 30, 2024"
+      "value": "Jan 3, 2025"
     },
     "macos-release-notes": {
       "value": "YES",
@@ -609,10 +609,10 @@
       "flag": "positive"
     },
     "linux-latest-version": {
-      "value": "v2.0.5"
+      "value": "v2.1.1"
     },
     "linux-latest-release-date": {
-      "value": "May 30, 2024"
+      "value": "Jan 3, 2025"
     },
     "linux-release-notes": {
       "value": "YES",
@@ -664,10 +664,10 @@
       "flag": "positive"
     },
     "windows-latest-version": {
-      "value": "v2.0.5"
+      "value": "v2.1.1"
     },
     "windows-latest-release-date": {
-      "value": "May 30, 2024"
+      "value": "Jan 3, 2025"
     },
     "windows-release-notes": {
       "value": "YES",
@@ -725,10 +725,10 @@
       ]
     },
     "umbrel-os-latest-version": {
-      "value": "v2.0.5"
+      "value": "v2.1.1"
     },
     "umbrel-os-latest-release-date": {
-      "value": "May 30, 2024"
+      "value": "Jan 3, 2025"
     },
     "umbrel-os-release-notes": {
       "value": "YES",
