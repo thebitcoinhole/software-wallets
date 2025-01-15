@@ -43,6 +43,15 @@ jobs:
       platforms: linux,macos,windows
       latestRelease: true
       social-enabled: true
+  bitcoin-safektop:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: bitcoin-safe
+      github-org: andreasgriffin
+      github-repo: bitcoin-safe
+      platforms: linux,macos,windows
+      latestRelease: true
+      social-enabled: true
   blueWallet-android:
     uses: ./.github/workflows/check-release-template.yml
     with:
