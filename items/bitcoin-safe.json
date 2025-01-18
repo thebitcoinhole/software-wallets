@@ -445,9 +445,9 @@
       "flag": "positive"
     },
     "dark-mode": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "wallet-rollover": {
       "value": "NO",
