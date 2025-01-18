@@ -393,9 +393,9 @@
       "flag": "negative"
     },
     "silent-payments": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "Send Only",
+      "supported": true,
+      "flag": "neutral"
     }
   },
   "node-integration": {
