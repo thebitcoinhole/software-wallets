@@ -356,9 +356,9 @@
       ]
     },
     "hide-sensitive-data": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "stealth-mode": {
       "value": "YES",
@@ -490,10 +490,10 @@
       "flag": "positive"
     },
     "android-latest-version": {
-      "value": "v1.0.0"
+      "value": "v1.1.0"
     },
     "android-latest-release-date": {
-      "value": "Sep 20, 2024",
+      "value": "Dec 12, 2024",
       "flag": "positive"
     },
     "android-release-notes": {
