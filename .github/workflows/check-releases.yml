@@ -134,22 +134,6 @@ jobs:
       platforms: windows,macos,linux
       latestRelease: true
       social-enabled: true
-  mutiny-mobile:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: mutiny
-      github-org: MutinyWallet
-      github-repo: mutiny-web
-      platforms: android,ios
-      latestRelease: true
-  mutiny-start-os:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: mutiny
-      github-org: benthecarman
-      github-repo: mutiny-startos
-      platforms: start-os
-      latestRelease: true
   muun-android:
     uses: ./.github/workflows/check-release-template.yml
     with:

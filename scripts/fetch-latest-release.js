@@ -175,9 +175,6 @@ axios
         // My Cytadel (Version 1.5 (Blazing Venus) Latest)
         latestVersion = latestVersion.replace(/^Version (\d+(\.\d+)+) \(.*\)$/, '$1');
 
-        // Mutiny
-        latestVersion = latestVersion.replace(/^Mutiny Wallet /, '');
-
         // Zeuz: v0.8.5-hotfix
         latestVersion = latestVersion.replace(/-hotfix$/, '');
 
