@@ -709,10 +709,10 @@
       ]
     },
     "macos-latest-version": {
-      "value": "v2.0.17"
+      "value": "v2.0.20"
     },
     "macos-latest-release-date": {
-      "value": "Jan 13, 2025"
+      "value": "Feb 4, 2025"
     },
     "macos-release-notes": {
       "value": "YES",
@@ -770,10 +770,10 @@
       ]
     },
     "linux-latest-version": {
-      "value": "v2.0.17"
+      "value": "v2.0.20"
     },
     "linux-latest-release-date": {
-      "value": "Jan 13, 2025"
+      "value": "Feb 4, 2025"
     },
     "linux-release-notes": {
       "value": "YES",
@@ -831,10 +831,10 @@
       ]
     },
     "windows-latest-version": {
-      "value": "v2.0.17"
+      "value": "v2.0.20"
     },
     "windows-latest-release-date": {
-      "value": "Jan 13, 2025"
+      "value": "Feb 4, 2025"
     },
     "windows-release-notes": {
       "value": "YES",
