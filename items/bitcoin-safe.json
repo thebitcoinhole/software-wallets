@@ -413,9 +413,9 @@
       "flag": "negative"
     },
     "tor": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "other-features": {
