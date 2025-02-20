@@ -6,42 +6,7 @@
       "value": "2019"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Casa"
-    },
-    "headquarters": {
-      "value": "USA"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://casa.io/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://blog.keys.casa/"
-    },
-    "twitter": {
-      "value": "@CasaHODL",
-      "url": "https://x.com/CasaHODL"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "@CasaOfficial",
-      "url": "https://www.youtube.com/@CasaOfficial"
-    },
-    "github": {
-      "value": "-"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "casa",
   "communities": {
     "telegram": {
       "value": "-"

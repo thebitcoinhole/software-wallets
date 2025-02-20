@@ -6,44 +6,7 @@
       "value": "2022"
     }
   },
-  "company": {
-    "brand": {
-      "value": "BitHyve"
-    },
-    "headquarters": {
-      "value": "United Kingdom"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://bitcoinkeeper.app/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://medium.com/bitbees"
-    },
-    "twitter": {
-      "value": "@bitcoinKeeper_",
-      "url": "https://x.com/bitcoinKeeper_"
-    },
-    "nostr": {
-      "value": "Bitcoin Keeper",
-      "url": "https://primal.net/p/npub1mlzukkwhuhl3y7wd6kw20fz6s99l8d0uqtj4sskhvaaud8rwcuuszt2t6p"
-    },
-    "youtube": {
-      "value": "@bithyve3330",
-      "url": "https://www.youtube.com/@bithyve3330"
-    },
-    "github": {
-      "value": "bithyve",
-      "url": "https://github.com/bithyve"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "bit-hyve",
   "communities": {
     "telegram": {
       "value": "Bitcoin Keeper",

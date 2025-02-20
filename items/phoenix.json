@@ -6,41 +6,7 @@
       "value": "2019"
     }
   },
-  "company": {
-    "brand": {
-      "value": "ACINQ"
-    },
-    "headquarters": {
-      "value": "France"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://phoenix.acinq.co/"
-    },
-    "blog": {
-      "value": "-"
-    },
-    "twitter": {
-      "value": "@PhoenixWallet",
-      "url": "https://x.com/PhoenixWallet"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "ACINQ",
-      "url": "https://github.com/ACINQ"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "acinq",
   "communities": {
     "telegram": {
       "value": "Phoenix Wallet",

@@ -6,44 +6,7 @@
       "value": "2019"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Blockstream"
-    },
-    "headquarters": {
-      "value": "Canada"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://blockstream.com/green/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://blog.blockstream.com/blockstream-green/"
-    },
-    "twitter": {
-      "value": "@BlksGreenWallet",
-      "url": "https://x.com/BlksGreenWallet"
-    },
-    "nostr": {
-      "value": "Blockstream",
-      "url": "https://primal.net/p/npub1jg552aulj07skd6e7y2hu0vl5g8nl5jvfw8jhn6jpjk0vjd0waksvl6n8n"
-    },
-    "youtube": {
-      "value": "@Blockstream",
-      "url": "https://www.youtube.com/@Blockstream"
-    },
-    "github": {
-      "value": "Blockstream",
-      "url": "https://github.com/Blockstream"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "blockstream",
   "communities": {
     "telegram": {
       "value": "Blockstream Green Community",

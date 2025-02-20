@@ -6,44 +6,7 @@
       "value": "2018"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Wasabi Wallet"
-    },
-    "headquarters": {
-      "value": "-"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://wasabiwallet.io/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://blog.wasabiwallet.io/"
-    },
-    "twitter": {
-      "value": "@wasabiwallet",
-      "url": "https://x.com/wasabiwallet"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "@WasabiWallet",
-      "url": "https://youtube.com/c/WasabiWallet"
-    },
-    "github": {
-      "value": "WalletWasabi",
-      "url": "https://github.com/WalletWasabi"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "Wasabi Wallet",
-      "url": "https://discord.gg/nm7YHEZnJs"
-    }
-  },
+  "company": "wasabi-wallet",
   "communities": {
     "telegram": {
       "value": "WasabiWallet",

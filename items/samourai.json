@@ -6,41 +6,7 @@
       "value": "2016"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Streetside Development"
-    },
-    "headquarters": {
-      "value": "United Kingdom"
-    },
-    "website": {
-      "value": "-"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://medium.com/@SamouraiWallet"
-    },
-    "twitter": {
-      "value": "@samouraiwallet",
-      "url": "https://x.com/samouraiwallet"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "@Samouraiwallet",
-      "url": "https://www.youtube.com/@Samouraiwallet"
-    },
-    "github": {
-      "value": "-"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "streetside-development",
   "communities": {
     "telegram": {
       "value": "Samourai Wallet",

@@ -6,42 +6,7 @@
       "value": "2018"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Muun"
-    },
-    "headquarters": {
-      "value": "USA"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://muun.com/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://blog.muun.com/"
-    },
-    "twitter": {
-      "value": "@muunwallet",
-      "url": "https://x.com/muunwallet"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "muun",
-      "url": "https://github.com/muun"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "muun",
   "communities": {
     "telegram": {
       "value": "-"

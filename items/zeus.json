@@ -6,44 +6,7 @@
       "value": "2019"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Atlas 21"
-    },
-    "headquarters": {
-      "value": "-"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://zeusln.com/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://blog.zeusln.com/"
-    },
-    "twitter": {
-      "value": "@ZeusLN",
-      "url": "https://x.com/ZeusLN"
-    },
-    "nostr": {
-      "value": "zeus",
-      "url": "https://primal.net/p/npub1xnf02f60r9v0e5kty33a404dm79zr7z2eepyrk5gsq3m7pwvsz2sazlpr5"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "ZeusLN",
-      "url": "https://github.com/ZeusLN"
-    },
-    "slack": {
-      "value": "Zeus",
-      "url": "https://zeusln.slack.com/join/shared_invite/zt-qw205nqa-o4VJJC0zPI7HiSfToZGoVw#/"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "atlas-21",
   "communities": {
     "telegram": {
       "value": "Zeus",

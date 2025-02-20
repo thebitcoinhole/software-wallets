@@ -6,41 +6,7 @@
       "value": "2024"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Proton"
-    },
-    "headquarters": {
-      "value": "Switzerland"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://proton.me/wallet"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://proton.me/blog"
-    },
-    "twitter": {
-      "value": "@ProtonWallet",
-      "url": "https://x.com/ProtonWallet"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "-"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "proton",
   "communities": {
     "telegram": {
       "value": "-"

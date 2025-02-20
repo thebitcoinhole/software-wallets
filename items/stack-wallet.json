@@ -6,44 +6,7 @@
       "value": "2022"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Cypher Stack"
-    },
-    "headquarters": {
-      "value": "?"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://stackwallet.com/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://stackwallet.com/blog/index.html"
-    },
-    "twitter": {
-      "value": "@stack_wallet",
-      "url": "https://x.com/stack_wallet"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "@stackwallet",
-      "url": "https://www.youtube.com/@stackwallet"
-    },
-    "github": {
-      "value": "cypherstack",
-      "url": "https://github.com/cypherstack"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "Stack Wallet",
-      "url": "https://discord.gg/mRPZuXx3At"
-    }
-  },
+  "company": "cypher-stack",
   "communities": {
     "telegram": {
       "value": "stackwallet",

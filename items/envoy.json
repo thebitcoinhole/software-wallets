@@ -6,44 +6,7 @@
       "value": "2022"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Foundation Devices"
-    },
-    "headquarters": {
-      "value": "USA"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://foundation.xyz/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://foundation.xyz/blog/"
-    },
-    "twitter": {
-      "value": "@FOUNDATIONdvcs",
-      "url": "https://x.com/FOUNDATIONdvcs"
-    },
-    "nostr": {
-      "value": "FOUNDATIONdvcs",
-      "url": "https://primal.net/p/npub1s0vtkgej33n7ec4d7ycxmwt78up8hpfa30d0yfksrshq7t82mchqynpq6j"
-    },
-    "youtube": {
-      "value": "@foundationdevices",
-      "url": "https://www.youtube.com/@foundationdevices"
-    },
-    "github": {
-      "value": "Foundation-Devices",
-      "url": "https://github.com/Foundation-Devices"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "foundation-devices",
   "communities": {
     "telegram": {
       "value": "Foundation Community",

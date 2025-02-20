@@ -6,42 +6,7 @@
       "value": "2020"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Specter Solutions"
-    },
-    "headquarters": {
-      "value": "Liechtenstein"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://specter.solutions/desktop/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://specter.solutions/blog/"
-    },
-    "twitter": {
-      "value": "@SpecterWallet",
-      "url": "https://x.com/SpecterWallet"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "cryptoadvance",
-      "url": "https://github.com/cryptoadvance"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "specter-solutions",
   "networks": {
     "bitcoin-only": {
       "value": "YES",

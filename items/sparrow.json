@@ -6,42 +6,7 @@
       "value": "2020"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Sparrow Wallet"
-    },
-    "headquarters": {
-      "value": "-"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://sparrowwallet.com/"
-    },
-    "blog": {
-      "value": "-"
-    },
-    "twitter": {
-      "value": "@SparrowWallet",
-      "url": "https://x.com/SparrowWallet"
-    },
-    "nostr": {
-      "value": "craigraw",
-      "url": "https://primal.net/p/npub1hea99yd4xt5tjx8jmjvpfz2g5v7nurdqw7ydwst0ww6vw520prnq6fg9v2"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "sparrowwallet",
-      "url": "https://github.com/sparrowwallet"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "sparrow-wallet",
   "networks": {
     "bitcoin-only": {
       "value": "YES",

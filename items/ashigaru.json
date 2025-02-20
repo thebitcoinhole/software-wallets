@@ -6,40 +6,7 @@
       "value": "2024"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Ashigaru Open Source Project"
-    },
-    "headquarters": {
-      "value": "-"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://ashigaru.rs/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://ashigaru.rs/news/"
-    },
-    "twitter": {
-      "value": "-"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "-"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "ashigaru-open-source-project",
   "communities": {
     "telegram": {
       "value": "-"

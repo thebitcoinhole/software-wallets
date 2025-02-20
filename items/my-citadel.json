@@ -6,41 +6,7 @@
       "value": "2021"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Pandora Prime SA"
-    },
-    "headquarters": {
-      "value": "Switzerland"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://mycitadel.io/"
-    },
-    "blog": {
-      "value": "-"
-    },
-    "twitter": {
-      "value": "@mycitadel_io",
-      "url": "https://x.com/mycitadel_io"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "mycitadel",
-      "url": "https://github.com/mycitadel"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "pandora-prime-sa",
   "communities": {
     "telegram": {
       "value": "MyCitadel",

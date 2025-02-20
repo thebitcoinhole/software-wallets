@@ -6,44 +6,7 @@
       "value": "2020"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Nunchuk"
-    },
-    "headquarters": {
-      "value": "USA"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://nunchuk.io/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://nunchuk.io/blog"
-    },
-    "twitter": {
-      "value": "@nunchuk_io",
-      "url": "https://x.com/nunchuk_io"
-    },
-    "nostr": {
-      "value": "nunchuk_io",
-      "url": "https://primal.net/p/npub1cvqlzvmjercdn0ypsmv8f7j9lge6ahsnueh5rparh53wuswftv4q49yjt3"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "nunchuk-io",
-      "url": "https://github.com/nunchuk-io"
-    },
-    "slack": {
-      "value": "Nunchuk.io ",
-      "url": "https://join.slack.com/t/nunchukio/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "nunchuk",
   "communities": {
     "telegram": {
       "value": "-"

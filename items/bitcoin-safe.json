@@ -6,43 +6,7 @@
       "value": "2024"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Bitcoin Safe"
-    },
-    "headquarters": {
-      "value": "-"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://bitcoin-safe.org/"
-    },
-    "blog": {
-      "value": "-"
-    },
-    "twitter": {
-      "value": "@BitcoinSafeOrg",
-      "url": "https://x.com/BitcoinSafeOrg"
-    },
-    "nostr": {
-      "value": "Andreas Griffin",
-      "url": "https://primal.net/p/npub1q67f4d7qdja237us384ryeekxsz88lz5kaawrcynwe4hqsnufr6s27up0e"
-    },
-    "youtube": {
-      "value": "@Bitcoin-SafeOrg",
-      "url": "https://www.youtube.com/@Bitcoin-SafeOrg"
-    },
-    "github": {
-      "value": "andreasgriffin",
-      "url": "https://github.com/andreasgriffin"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "bitcoin-safe",
   "networks": {
     "bitcoin-only": {
       "value": "YES",

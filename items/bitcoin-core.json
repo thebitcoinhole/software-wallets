@@ -6,42 +6,7 @@
       "value": "2009"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Bitcoin Core Project"
-    },
-    "headquarters": {
-      "value": "-"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://bitcoincore.org/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://bitcoincore.org/en/blog/"
-    },
-    "twitter": {
-      "value": "@bitcoincoreorg",
-      "url": "https://x.com/bitcoincoreorg"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "bitcoin",
-      "url": "https://github.com/bitcoin"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "-"
-    }
-  },
+  "company": "bitcoin-core-project",
   "communities": {
     "telegram": {
       "value": "-"
